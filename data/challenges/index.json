@@ -64,7 +64,7 @@
       ],
       "source_urls": [
         "https://www.claymath.org/millennium/hodge-conjecture/",
-        "https://github.com/creelie/hodge-odd-fermat-fourfolds"
+        "https://github.com/anaxia-research/hodge-odd-fermat-fourfolds"
       ]
     },
     {
@@ -80,8 +80,8 @@
       ],
       "source_urls": [
         "https://www.claymath.org/millennium/yang-mills-the-maths-gap/",
-        "https://github.com/creelie/4Y-M",
-        "https://github.com/creelie/YM"
+        "https://github.com/anaxia-research/4Y-M",
+        "https://github.com/anaxia-research/YM"
       ]
     },
     {
@@ -97,7 +97,7 @@
       ],
       "source_urls": [
         "https://www.claymath.org/millennium/riemann-hypothesis/",
-        "https://github.com/creelie/nyman-beurling-approximation"
+        "https://github.com/anaxia-research/nyman-beurling-approximation"
       ]
     },
     {
@@ -112,8 +112,8 @@
         "A bound of 50 or 346 does not establish a bound of 24; matching lower bounds are required for an exact value."
       ],
       "source_urls": [
-        "https://github.com/creelie/seed",
-        "https://github.com/creelie/seed/blob/5e5f514e449324993636a1146df863c7ee4dbcb7/README.md"
+        "https://github.com/anaxia-research/seed",
+        "https://github.com/anaxia-research/seed/blob/5e5f514e449324993636a1146df863c7ee4dbcb7/README.md"
       ]
     },
     {
@@ -145,10 +145,10 @@
       ],
       "source_urls": [
         "https://arxiv.org/abs/2609.25120",
-        "https://github.com/creelie/d4-voronoi-cells",
-        "https://github.com/creelie/Anaxia/blob/main/docs/D4-GRID-PACKINGS.md",
-        "https://github.com/creelie/Anaxia/blob/main/docs/D4-PARTIAL-CONTACTS.md",
-        "https://github.com/creelie/Anaxia/blob/main/docs/D4-RADIAL-SHELL.md"
+        "https://github.com/anaxia-research/d4-voronoi-cells",
+        "https://github.com/anaxia-research/Anaxia/blob/main/docs/D4-GRID-PACKINGS.md",
+        "https://github.com/anaxia-research/Anaxia/blob/main/docs/D4-PARTIAL-CONTACTS.md",
+        "https://github.com/anaxia-research/Anaxia/blob/main/docs/D4-RADIAL-SHELL.md"
       ]
     }
   ]
