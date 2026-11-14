@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "github": {
-    "owners": ["creelie"],
+    "owners": ["anaxia-research"],
     "owner_per_page": 100,
     "owner_max_pages": 5,
     "queries": [

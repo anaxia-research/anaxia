@@ -1,18 +1,18 @@
 <p align="center"><a href="../../README.md">English</a> · <b>हिन्दी</b> · <a href="README.bn.md">বাংলা</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
-![Anaxia — गणितीय खोज और सटीक सत्यापन](../assets/anaxia-hero.png)
+![anaxia — गणितीय खोज और सटीक सत्यापन](../assets/anaxia-hero.png)
 
-# Anaxia — गणितीय खोज, जाँचे जा सकने वाले प्रमाण
+# anaxia — गणितीय खोज, जाँचे जा सकने वाले प्रमाण
 
-Anaxia एक खुला गणितीय शोध कार्यक्षेत्र है। इसमें नई शोध सामग्री की खोज, स्थानीय और क्लाउड मॉडल, प्रस्ताव और आलोचना के क्रमिक चरण, सटीक गणना तथा प्रमाणपत्रों का स्वतंत्र सत्यापन शामिल हैं। यह OpenGluon परियोजना का नया रूप है।
+anaxia एक खुला गणितीय शोध कार्यक्षेत्र है। इसमें नई शोध सामग्री की खोज, स्थानीय और क्लाउड मॉडल, प्रस्ताव और आलोचना के क्रमिक चरण, सटीक गणना तथा प्रमाणपत्रों का स्वतंत्र सत्यापन शामिल हैं। यह OpenGluon परियोजना का नया रूप है।
 
 ## शुरुआत
 
 स्थानीय मुख्य उपकरणों के लिए Python 3.10+ और Git पर्याप्त हैं। इन सटीक गणनाओं के लिए मॉडल या API कुंजी की आवश्यकता नहीं है।
 
 ```sh
-git clone https://github.com/creelie/Anaxia.git
-cd Anaxia
+git clone https://github.com/anaxia-research/anaxia.git
+cd anaxia
 python anaxia.py solve examples/quadratic-sos.json --output data/demo-proof.json
 python anaxia.py verify data/demo-proof.json
 python anaxia.py experiment --tasks config/research-tasks.json --output data/experiments

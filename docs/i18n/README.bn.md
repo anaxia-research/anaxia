@@ -1,18 +1,18 @@
 <p align="center"><a href="../../README.md">English</a> · <a href="README.hi.md">हिन्दी</a> · <b>বাংলা</b> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
-![Anaxia — গাণিতিক অনুসন্ধান ও নির্ভুল যাচাই](../assets/anaxia-hero.png)
+![anaxia — গাণিতিক অনুসন্ধান ও নির্ভুল যাচাই](../assets/anaxia-hero.png)
 
-# Anaxia — গাণিতিক অনুসন্ধান, যাচাইযোগ্য প্রমাণ
+# anaxia — গাণিতিক অনুসন্ধান, যাচাইযোগ্য প্রমাণ
 
-Anaxia একটি উন্মুক্ত গণিত গবেষণা কর্মক্ষেত্র। এতে নতুন গবেষণার সন্ধান, স্থানীয় ও ক্লাউড মডেল, পর্যায়ক্রমিক প্রস্তাব ও সমালোচনা, নির্ভুল গণনা এবং প্রমাণপত্রের স্বাধীন যাচাই একসঙ্গে রয়েছে। এটি OpenGluon প্রকল্পের নতুন রূপ।
+anaxia একটি উন্মুক্ত গণিত গবেষণা কর্মক্ষেত্র। এতে নতুন গবেষণার সন্ধান, স্থানীয় ও ক্লাউড মডেল, পর্যায়ক্রমিক প্রস্তাব ও সমালোচনা, নির্ভুল গণনা এবং প্রমাণপত্রের স্বাধীন যাচাই একসঙ্গে রয়েছে। এটি OpenGluon প্রকল্পের নতুন রূপ।
 
 ## শুরু করুন
 
 স্থানীয় মূল সরঞ্জামের জন্য Python 3.10+ ও Git যথেষ্ট। নিচের নির্ভুল গণনাগুলোর জন্য মডেল বা API কী প্রয়োজন নেই।
 
 ```sh
-git clone https://github.com/creelie/Anaxia.git
-cd Anaxia
+git clone https://github.com/anaxia-research/anaxia.git
+cd anaxia
 python anaxia.py solve examples/quadratic-sos.json --output data/demo-proof.json
 python anaxia.py verify data/demo-proof.json
 python anaxia.py experiment --tasks config/research-tasks.json --output data/experiments

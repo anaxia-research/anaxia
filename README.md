@@ -1,27 +1,27 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/anaxia-hero.png">
-  <img src="docs/assets/anaxia-hero.gif" alt="Anaxia. Mathematical research with local models and exact certificates." width="100%">
+  <img src="docs/assets/anaxia-hero.gif" alt="anaxia. Mathematical research with local models and exact certificates." width="100%">
 </picture>
 
 <p align="center">
   <b>English</b> · <a href="docs/i18n/README.hi.md">हिन्दी</a> · <a href="docs/i18n/README.bn.md">বাংলা</a> · <a href="docs/i18n/README.es.md">Español</a> · <a href="docs/i18n/README.fr.md">Français</a> · <a href="docs/i18n/README.zh-CN.md">简体中文</a>
 </p>
 
-# Anaxia
+# anaxia
 
-Anaxia studies mathematical conjectures using exact arithmetic, reproducible experiments, and optional model proposals. Each result records the statement, its domain, and the evidence a reader can check. The exact tools run on Python's standard library with no model or API key.
+anaxia studies mathematical conjectures using exact arithmetic, reproducible experiments, and optional model proposals. Each result records the statement, its domain, and the evidence a reader can check. The exact tools run on Python's standard library with no model or API key.
 
 [Get started](#get-started) · [Research targets](#research-targets) · [Research radar](#research-radar) · [Model setup](docs/MODELS.md) · [Paper audits](docs/PAPER-AUDIT.md)
 
-[![Workspace checks](https://github.com/creelie/Anaxia/actions/workflows/checks.yml/badge.svg)](https://github.com/creelie/Anaxia/actions/workflows/checks.yml) [![Research radar](https://github.com/creelie/Anaxia/actions/workflows/research-radar.yml/badge.svg)](https://github.com/creelie/Anaxia/actions/workflows/research-radar.yml)
+[![Workspace checks](https://github.com/anaxia-research/anaxia/actions/workflows/checks.yml/badge.svg)](https://github.com/anaxia-research/anaxia/actions/workflows/checks.yml) [![Research radar](https://github.com/anaxia-research/anaxia/actions/workflows/research-radar.yml/badge.svg)](https://github.com/anaxia-research/anaxia/actions/workflows/research-radar.yml)
 
 ## Get started
 
 With Python 3.10 or later, reproduce the proof that $x^4-2x^3+2x^2-2x+1\geq 0$ for every real $x$. The solver checks signs with exact Sturm root counts and saves a report for independent verification. [Saved quartic result](data/experiments/univariate-sturm.json)
 
 ```sh
-git clone https://github.com/creelie/Anaxia.git
-cd Anaxia
+git clone https://github.com/anaxia-research/anaxia.git
+cd anaxia
 python anaxia.py solve examples/univariate-sturm.json --output proof.json
 python anaxia.py verify proof.json
 ```
@@ -60,7 +60,7 @@ The saved test results and the supported task format are documented in the [expe
 | Local changes to the $D_4$ packing | Every off-grid insertion conflicts with at least six lattice centers. The proof also rules out gaining a ball by removing six or fewer. [Vacancy proof](docs/D4-VACANCY.md) |
 | Collatz, Goldbach, Legendre, Erdős–Straus | Finite checks record terminating trajectories, prime pairs, interval primes, and unit-fraction identities in their tested ranges. [Challenge results](data/challenges/README.md) |
 
-See the [continuing campaign](docs/CAMPAIGNS.md) for how new attempts use prior notes and source context. The private [Anaxia Research companion](https://github.com/creelie/Anaxia-Research) contains the Lean and Julia checks and a draft methods manuscript for authorized readers.
+See the [continuing campaign](docs/CAMPAIGNS.md) for how new attempts use prior notes and source context. The private [anaxia Research companion](https://github.com/anaxia-research/anaxia-Research) contains the Lean and Julia checks and a draft methods manuscript for authorized readers.
 
 ## Model-assisted research
 
@@ -113,7 +113,7 @@ The index stores metadata and resumes from its last page. Omit `--set math` to i
 
 ## The source workspace
 
-Anaxia extends the OpenGluon workspace. The Python lab lives in [`anaxia/`](anaxia/), with pinned eBLLM, mathematics, and quantum toolkits available through submodules. [Integrations](docs/INTEGRATIONS.md) · [Quantum toolkit](docs/QUANTUMLIB.md) · [Pinned revisions](toolkit-lock.json)
+anaxia extends the OpenGluon workspace. The Python lab lives in [`anaxia/`](anaxia/), with pinned eBLLM, mathematics, and quantum toolkits available through submodules. [Integrations](docs/INTEGRATIONS.md) · [Quantum toolkit](docs/QUANTUMLIB.md) · [Pinned revisions](toolkit-lock.json)
 
 <details>
 <summary>Initialize the toolkits</summary>
@@ -140,3 +140,7 @@ python -m unittest discover -s tests -v
 Read the [architecture](docs/ANAXIA.md) and [verification notes](docs/VERIFICATION.md) before extending a checker. A [static banner](docs/assets/anaxia-hero.svg) is available alongside the animated version.
 
 Maintained by **Deep Bhattacharjee** under the [MIT license](LICENSE). [Contributors](CONTRIBUTORS.md) · [Third-party notices](THIRD_PARTY.md)
+
+## Contact
+
+[egspl@proton.me](mailto:egspl@proton.me)

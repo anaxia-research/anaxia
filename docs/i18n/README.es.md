@@ -1,18 +1,18 @@
 <p align="center"><a href="../../README.md">English</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.bn.md">বাংলা</a> · <b>Español</b> · <a href="README.fr.md">Français</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
-![Anaxia — Exploración matemática y verificación exacta](../assets/anaxia-hero.png)
+![anaxia — Exploración matemática y verificación exacta](../assets/anaxia-hero.png)
 
-# Anaxia — Explora con ambición. Verifica con exactitud.
+# anaxia — Explora con ambición. Verifica con exactitud.
 
-Anaxia es un entorno abierto de investigación matemática. Combina descubrimiento de publicaciones, modelos locales y en la nube, rondas de propuestas y crítica, cálculo exacto y verificación independiente de certificados. Es la evolución de OpenGluon.
+anaxia es un entorno abierto de investigación matemática. Combina descubrimiento de publicaciones, modelos locales y en la nube, rondas de propuestas y crítica, cálculo exacto y verificación independiente de certificados. Es la evolución de OpenGluon.
 
 ## Primeros pasos
 
 Python 3.10+ y Git bastan para el núcleo local. Estos experimentos exactos no requieren un modelo ni una clave de API.
 
 ```sh
-git clone https://github.com/creelie/Anaxia.git
-cd Anaxia
+git clone https://github.com/anaxia-research/anaxia.git
+cd anaxia
 python anaxia.py solve examples/quadratic-sos.json --output data/demo-proof.json
 python anaxia.py verify data/demo-proof.json
 python anaxia.py experiment --tasks config/research-tasks.json --output data/experiments

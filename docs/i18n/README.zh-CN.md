@@ -1,18 +1,18 @@
 <p align="center"><a href="../../README.md">English</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.bn.md">বাংলা</a> · <a href="README.es.md">Español</a> · <a href="README.fr.md">Français</a> · <b>简体中文</b></p>
 
-![Anaxia — 数学探索与精确验证](../assets/anaxia-hero.png)
+![anaxia — 数学探索与精确验证](../assets/anaxia-hero.png)
 
-# Anaxia — 大胆探索，精确验证
+# anaxia — 大胆探索，精确验证
 
-Anaxia 是一个开放的数学研究工作台，整合研究动态发现、本地与云端模型、提案与批评循环、精确计算，以及证明证书的独立验证。它在原 OpenGluon 项目的基础上发展而来。
+anaxia 是一个开放的数学研究工作台，整合研究动态发现、本地与云端模型、提案与批评循环、精确计算，以及证明证书的独立验证。它在原 OpenGluon 项目的基础上发展而来。
 
 ## 快速开始
 
 本地核心只需 Python 3.10+ 和 Git。以下精确计算不需要模型或 API 密钥。
 
 ```sh
-git clone https://github.com/creelie/Anaxia.git
-cd Anaxia
+git clone https://github.com/anaxia-research/anaxia.git
+cd anaxia
 python anaxia.py solve examples/quadratic-sos.json --output data/demo-proof.json
 python anaxia.py verify data/demo-proof.json
 python anaxia.py experiment --tasks config/research-tasks.json --output data/experiments
