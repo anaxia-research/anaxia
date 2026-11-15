@@ -74,7 +74,7 @@ def research_summary(mission, records):
         group["count"] += 1
         group["model_errors"] += bool(record.get("model_error"))
         text = record.get("finding")
-        limit = 4 if key == "hodge-cycles" else 2
+        limit = 4 if key in {"hodge-cycles", "hodge-blocks", "hodge-spread"} else 2
         if isinstance(text, str) and text not in group["examples"] and len(group["examples"]) < limit:
             group["examples"].append(text[:1200])
     return conclusion, verified, per_route

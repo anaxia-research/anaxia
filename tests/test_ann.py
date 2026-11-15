@@ -8,9 +8,10 @@ from unittest.mock import patch
 from zipfile import ZipFile
 
 from anaxia.ann.core import Runner, Store
-from anaxia.ann.hodge import power_check
+from anaxia.ann.hodge import cm_product_check, divisor_degree_threshold, power_check
 from anaxia.ann.papers import export, research_summary
 from anaxia.ann.spec import normalize
+from anaxia.ann.thermal import verify_thermal_batch
 from anaxia.ann.workers import execute, read_routes
 
 
@@ -159,7 +160,22 @@ class AnnTests(unittest.TestCase):
         self.assertEqual([power_check(n) for n in range(1, 5)],
                          [(1,), (4, 1), (9, 9, 1), (16, 36, 16, 1)])
         mission = normalize({"template_id": "hodge"})
-        finding = execute(mission, {"strategy": "hodge-cycles", "slot": 24, "use_model": False})
+        finding = execute(mission, {"strategy": "hodge-cycles",
+                                    "slot": 3 * len(mission["strategies"]), "use_model": False})
         self.assertEqual(finding["status"], "checked_subresult")
         self.assertIn("(16, 36, 16, 1)", finding["finding"])
+        self.assertEqual(research_summary(mission, [finding])[0], "unresolved")
+
+    def test_mixed_cm_ranks_and_sharp_degree(self):
+        self.assertEqual(cm_product_check(((2, 2), (3, 2), (6, 1))), (9, 26, 26, 9, 1))
+        self.assertEqual([divisor_degree_threshold(d) for d in (-4, -23, -163)], [2, 5, 13])
+        with self.assertRaises(ValueError):
+            cm_product_check(((2, 1), (8, 1)))
+
+    def test_thermal_route_checks_rational_seed_and_sharp_equalities(self):
+        for batch in range(16):
+            verify_thermal_batch(batch)
+        mission = normalize({"template_id": "yang-mills"})
+        finding = execute(mission, {"strategy": "ym-thermal", "slot": 0, "use_model": False})
+        self.assertEqual(finding["status"], "checked_subresult")
         self.assertEqual(research_summary(mission, [finding])[0], "unresolved")

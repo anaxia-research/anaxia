@@ -14,13 +14,14 @@ route("formalization", "Formalization", "verifier", "Specify the theorem and hyp
 route("critique", "Independent critique", "critic", "Identify the first unsupported inference. Test quantifiers, boundary cases, and any interchange of limits.")
 route("reduction", "Structural reduction", "researcher", "Reduce to a precise lemma and prove both directions if claiming equivalence. Name a concrete witness or obstruction.")
 route("literature", "Source comparison", "researcher", "Compare the mission's registered references and optional pinned eBLLM route catalogue. Record assumptions and the exact scope of each result.")
-route("ym-thermal", "Thermal defect", "researcher", "Bound 2 log Z(s,T)-log Z(s,2T) for the same Wilson coupling and every rectangle in the physical window. Track bulk-term cancellation and wrapping errors.")
+route("ym-thermal", "Thermal defect", "researcher", "Convert the same-coupling time-doubling defect into a pressure seed. Check sharp same-box contraction and isolate the missing uniform initial estimate.", "executable on exact finite spectra")
 route("ym-rg", "Renormalization group", "researcher", "Organize the blocked action by scale and bound the time-doubling defect of the remainder. Include large-field sectors and non-divisible box sizes.")
 route("ym-spectrum", "Spectral counting", "researcher", "Separate the neutral and charged sectors. Obtain a physical gap lower bound and uniform control of low-lying multiplicities. An individual correlator cannot count all states.")
 route("ym-os", "Continuum reconstruction", "critic", "Match the Wilson family, couplings, and denominator in the external construction. Check reflection, phase averaging, density of the observable core, and nontriviality.")
 route("hodge-cycles", "Cycle construction", "researcher", "Construct cycles and compute their classes in a fixed rational basis. Recheck the span of divisor products on small powers of the elliptic curve with period i.", "executable on the elliptic-curve example")
 route("hodge-periods", "Periods and monodromy", "researcher", "Use residues, Picard–Fuchs equations or monodromy to isolate candidate classes. Distinguish an exact rational relation from numerical period agreement.")
-route("hodge-spread", "Families and specialization", "critic", "Track a bounded family of cycle representatives using Hilbert polynomials, flatness and specialization. Density alone gives no fixed degree bound.")
+route("hodge-spread", "Families and specialization", "critic", "Check degree growth for the extra CM divisor direction as the order discriminant varies. Isolate the need to bound representatives of a fixed persistent class.", "executable on CM degree bounds")
+route("hodge-blocks", "Mixed CM cycle construction", "researcher", "Separate imaginary quadratic field blocks. Multiply explicit coordinate and same-block divisor classes and check the rational invariant ranks.", "executable on CM products of dimension at most five")
 route("hodge-normal", "Normal functions", "researcher", "Find an admissible normal function with the required singularity. Identify the exact implication to algebraicity and its hypotheses.")
 route("rh-analytic", "Analytic and spectral criteria", "researcher", "Compare an explicit-formula positivity route with a reciprocal approximation route. Retain the full infinite quantifier and every boundary-limit estimate.")
 route("d4-geometry", "Geometric certificates", "researcher", "Split contact and radial-shell cases. Check containment, exact volume and compatibility with unrestricted off-grid configurations.")
@@ -43,12 +44,13 @@ TARGETS = {
         "sources": [
             ["Jaffe and Witten, official problem", "https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf"],
             ["4Y-M proof progress", "https://github.com/anaxia-research/4Y-M/tree/4cfb040e4077a22f743da3a1abd2d23cc5dd277b/research/2026-11-15"],
+            ["Sharp finite-transfer defect bounds", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-DEFECT.md"],
             ["November 2026 construction assessment", "https://alexisdpc.github.io/yang-mills/references/assessment-1-2026-11-10.pdf"]],
     },
     "hodge": {
         "title": "Rational Hodge conjecture",
         "statement": "For every smooth complex projective variety, prove that rational classes of type (p,p) are rational linear combinations of cycle classes of codimension p.",
-        "strategies": ["hodge-cycles", "hodge-periods", "hodge-spread", "hodge-normal"] + BASE,
+        "strategies": ["hodge-cycles", "hodge-blocks", "hodge-periods", "hodge-spread", "hodge-normal"] + BASE,
         "gaps": ["Produce algebraic cycles for a general rational Hodge class in higher codimension.",
                  "Discharge the bounded-family hypothesis in the spreading route or find a replacement.",
                  "Prove class equality and track rational coefficients."],
@@ -57,6 +59,9 @@ TARGETS = {
             ["Brosnan, Pearlstein and Schnell, normal functions", "https://arxiv.org/abs/0903.4903"],
             ["Toric differential forms and periods", "https://arxiv.org/abs/2306.12931"],
             ["Explicit elliptic power calculation", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-HODGE-ELLIPTIC.md"],
+            ["Mixed CM cycles and degree obstruction", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-HODGE-CM-PRODUCTS.md"],
+            ["Imai, On the Hodge groups of some abelian varieties", "https://www.jstage.jst.go.jp/article/kodaimath1949/27/3/27_3_367/_article/-char/en"],
+            ["Rosen and Shnidman, Neron-Severi groups of product abelian surfaces", "https://arxiv.org/abs/1402.2233"],
             ["anaxia degree obstruction", "https://github.com/anaxia-research/anaxia/blob/main/docs/HODGE-DEGREE-OBSTRUCTION.md"]],
     },
     "riemann": {

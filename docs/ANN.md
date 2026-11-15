@@ -21,6 +21,8 @@ python anaxia.py ann run --target hodge --exploration wide --tasks 33 --export d
 
 The default mode uses local exact calculations and produces a record of research obligations. A mission can schedule one task per profile, up to 10,000, with a local pool of up to 64 active workers. Routes are assigned in rotation, so large runs can repeat a method. Wide exploration adds an assumption stress test, quantifier and limit audit, and alternative construction. The two executable demonstrations check exact polynomial nonnegativity and a modular obstruction to an integer solution. PDF compilation is optional and requires `pdflatex`.
 
+The open-problem missions also replay exact partial results. The Yang–Mills thermal route checks a [sharp same-box doubling estimate and pressure-seed conversion](ANN-YANG-MILLS-DEFECT.md). The Hodge routes check [divisor-product ranks for mixed CM elliptic curves and an exact divisor-degree threshold](ANN-HODGE-CM-PRODUCTS.md).
+
 | Target | Routes | Main unresolved obligation |
 | --- | --- | --- |
 | Yang–Mills existence and mass gap | Thermal defect, renormalization group, separate spectral sectors, and continuum reconstruction | Prove the full same-coupling thermal-defect estimate and connect it to a matching nontrivial continuum theory. The built-in spectral calculation rechecks a finite-sampling obstruction for abstract spectra. [Official statement](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf) |

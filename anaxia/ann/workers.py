@@ -5,11 +5,14 @@ from functools import lru_cache
 from pathlib import Path
 
 from .. import lab, number_theory, providers, reasoning
-from .hodge import power_check
+from .hodge import cm_product_check, divisor_degree_threshold, power_check
 from .strategies import STRATEGIES
+from .thermal import DEFECT_SEED, PRESSURE_SEED, verify_thermal_batch
 
 ROOT = Path(__file__).resolve().parents[2]
 ATLAS = ROOT / "engines" / "anaxia" / "src" / "ebllm" / "research" / "data" / "construction-atlas.json"
+CM_EXAMPLES = (((1, 2), (2, 2)), ((2, 2), (3, 2), (6, 1)), ((3, 4),), ((7, 1), (11, 3)))
+CM_DISCRIMINANTS = (-4, -23, -163, -4 * 1_000_003)
 
 
 def formalize(task):
@@ -97,12 +100,29 @@ def execute(mission, agent):
     if strategy["id"] == "ym-spectrum":
         result["finding"], result["scope"] = spectral_example(agent["slot"] % 12 + 1)
         result["status"] = "checked_subresult"
+    if strategy["id"] == "ym-thermal":
+        verify_thermal_batch(agent["slot"] % 16)
+        result.update(status="checked_subresult",
+                      finding=f"Rechecked sharp same-box defect contraction a(2T) <= a(T)^2/(2-a(T)^2). A uniform defect seed V/({DEFECT_SEED} T^3) implies the conditional pressure seed V/({PRESSURE_SEED} T^3).",
+                      scope="Finite transfer operators at fixed coupling. The uniform weak-coupling input remains open.")
     if strategy["id"] == "hodge-cycles":
         power = agent["slot"] // len(mission["strategies"]) % 4 + 1
         ranks = power_check(power)
         result.update(status="checked_subresult",
                       finding=f"On E^{power} with E = C/(Z + iZ), rational divisor products have ranks {ranks} in codimensions 1 through {power}.",
                       scope="Exact exterior algebra for this fixed complex multiplication elliptic curve.")
+    if strategy["id"] == "hodge-blocks":
+        blocks = CM_EXAMPLES[agent["slot"] // len(mission["strategies"]) % len(CM_EXAMPLES)]
+        ranks = cm_product_check(blocks)
+        result.update(status="checked_subresult",
+                      finding=f"Exact divisor-product ranks {ranks} for CM blocks (positive radical, multiplicity) {blocks}.",
+                      scope="Products of CM elliptic curves, separated by distinct imaginary quadratic fields.")
+    if strategy["id"] == "hodge-spread":
+        delta = CM_DISCRIMINANTS[agent["slot"] // len(mission["strategies"]) % len(CM_DISCRIMINANTS)]
+        degree = divisor_degree_threshold(delta)
+        result.update(status="checked_subresult",
+                      finding=f"At CM order discriminant {delta}, the least effective divisor degree seeing the non-real direction on E x E is {degree}.",
+                      scope="Cutoff for spanning all divisor classes on E x E. The extra CM directions need not be persistent across the family.")
     if task and strategy["id"] in {"exact", "exact-sturm", "modular", "counterexample"}:
         report = exact(json.dumps(task, sort_keys=True), 4 + agent["slot"] % 13)
         verification = recheck(task, report)
