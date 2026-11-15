@@ -7,7 +7,9 @@ from pathlib import Path
 from .. import lab, number_theory, providers, reasoning
 from .hodge import cm_product_check, divisor_degree_threshold, power_check
 from .strategies import STRATEGIES
-from .thermal import DEFECT_SEED, PRESSURE_SEED, verify_thermal_batch
+from .thermal import (DEFECT_SEED, PRESSURE_SEED, free_oscillator_obstruction,
+                      verify_block_trace, verify_rational_spectra, verify_seam_clusters,
+                      verify_seam_endpoints, verify_thermal_batch)
 
 ROOT = Path(__file__).resolve().parents[2]
 ATLAS = ROOT / "engines" / "anaxia" / "src" / "ebllm" / "research" / "data" / "construction-atlas.json"
@@ -105,6 +107,33 @@ def execute(mission, agent):
         result.update(status="checked_subresult",
                       finding=f"Rechecked sharp same-box defect contraction a(2T) <= a(T)^2/(2-a(T)^2). A uniform defect seed V/({DEFECT_SEED} T^3) implies the conditional pressure seed V/({PRESSURE_SEED} T^3).",
                       scope="Finite transfer operators at fixed coupling. The uniform weak-coupling input remains open.")
+    if strategy["id"] == "ym-seams":
+        verify_seam_endpoints(agent["slot"] % 32)
+        result.update(status="checked_subresult",
+                      finding="An exact finite transfer calculation checks two equal and two opposite permutation endpoints. The Wilson identity reduces the defect to the integrated connected response across two separated seams.",
+                      scope="The replay checks rational endpoint algebra. The cutoff-uniform Wilson covariance estimate remains open.")
+    if strategy["id"] == "ym-gaussian":
+        lower, seed = free_oscillator_obstruction()
+        result.update(status="checked_subresult",
+                      finding=f"An even-parity massless oscillator at spatial side 2T has a thermal defect above {lower}, whereas the required seed is {seed}.",
+                      scope="Exact bound in a Gaussian control model. This tests importing ultraviolet estimates into a thermal-integral argument.")
+    if strategy["id"] == "ym-seam-clusters":
+        verify_seam_clusters(agent["slot"] % 32)
+        result.update(status="checked_subresult",
+                      finding="An exact ring replay isolates one winding activity. On the doubled Wilson graph, Möbius activities that depend on only one seam cancel from the mixed difference.",
+                      scope="Connectivity and cancellation are exact. Uniform Wilson cluster summability and the terminal remainder still need bounds.")
+    if strategy["id"] == "ym-block-entropy":
+        verify_block_trace(agent["slot"] % 32)
+        result.update(status="checked_subresult",
+                      finding="The exact transfer trace equals one plus the two-layer chi-square divergence. A conditional chain with tilted block histories replays that trace.",
+                      scope="Abstract positive transfer operators. Uniform conditional block decorrelation remains an input for the Wilson family.")
+    if strategy["id"] == "ym-spectrum-exhaustive":
+        denominator = 4 + agent["slot"] % 32
+        searched, qualifying, equalities = verify_rational_spectra(denominator)
+        result.update(status="checked_subresult",
+                      finding=f"Denominator {denominator}: exhausted {searched} spectra, with {qualifying} in the small-defect range and {equalities} attaining the bound.",
+                      scope="Up to four positive excited weights on one rational grid. This is a finite transfer-bound check.",
+                      searched=searched, qualifying=qualifying, equalities=equalities)
     if strategy["id"] == "hodge-cycles":
         power = agent["slot"] // len(mission["strategies"]) % 4 + 1
         ranks = power_check(power)
@@ -138,6 +167,12 @@ def execute(mission, agent):
         request = {"statement": mission["statement"], "original_task": task,
                    "public_research_method": strategy["method"], "open_gaps": mission["gaps"],
                    "replicate": agent["slot"], "references": mission["sources"]}
+        if mission.get("brief"):
+            request["research_brief"] = mission["brief"]
+            request["expected_output"] = (
+                "Give one concrete estimate and its derivation. State the first unproved premise and its scale "
+                "dependence explicitly. Distinguish the assigned route from any earlier worker notes."
+            )
         if result.get("finding"):
             request["existing_evidence"] = result["finding"]
         if agent.get("prior_findings"):

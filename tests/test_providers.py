@@ -106,6 +106,15 @@ class MultiProviderTests(unittest.TestCase):
             self.assertNotIn('hidden', json.dumps(result))
             self.assertNotIn('tools', payload)
 
+    def test_authenticated_loopback_only_uses_the_dedicated_key(self):
+        captured = []
+        reply = {'choices': [{'message': {'content': 'A finite calculation.'}}]}
+        with patch.dict('os.environ', {'ANAXIA_LOCAL_MODEL_API_KEY': 'local-only',
+                                       'OPENAI_COMPATIBLE_API_KEY': 'remote-only'}):
+            propose({}, 'local-model', provider='openai-compatible', api_key='also-remote',
+                    opener=self.reply(reply, captured))
+        self.assertEqual(captured[0].headers['Authorization'], 'Bearer local-only')
+
     def test_http_nonloopback_private_hosts_and_official_redirects_are_rejected(self):
         for provider, url in (('ollama', 'http://192.168.1.1:11434'),
                               ('openai-compatible', 'http://example.com/v1'),

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "mission": {
+    "title": "Exhaustive rational transfer spectra",
+    "statement": "Construct nontrivial quantum Yang\u2013Mills theory on R\u2074 for every compact simple gauge group and prove a strictly positive mass gap.",
+    "task": null,
+    "template_id": "yang-mills",
+    "brief": "Enumerate every multiset of up to four positive excited weights on each denominator grid 4 through 35 and test the sharp time-doubling inequality exactly.",
+    "author": "Deep Bhattacharjee",
+    "agent_count": 32,
+    "concurrency": 8,
+    "max_tasks": 32,
+    "mode": "local",
+    "max_model_calls": 0,
+    "exploration": "focused",
+    "strategies": [
+      "ym-spectrum-exhaustive"
+    ],
+    "sources": [
+      [
+        "Jaffe and Witten, official problem",
+        "https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf"
+      ],
+      [
+        "4Y-M proof progress",
+        "https://github.com/anaxia-research/4Y-M/tree/4cfb040e4077a22f743da3a1abd2d23cc5dd277b/research/2026-11-15"
+      ],
+      [
+        "Sharp finite-transfer defect bounds",
+        "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-DEFECT.md"
+      ],
+      [
+        "Wilson replica-seam identity",
+        "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-REPLICA-SEAMS.md"
+      ],
+      [
+        "Wilson cluster and conditional entropy constructions",
+        "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-CONSTRUCTIONS.md"
+      ],
+      [
+        "November 2026 construction assessment",
+        "https://alexisdpc.github.io/yang-mills/references/assessment-1-2026-11-10.pdf"
+      ]
+    ],
+    "gaps": [
+      "Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window.",
+      "Bound the separated-seam connected response after summing spatial sites, uniformly along the tuned Wilson cutoff family.",
+      "Match the continuum construction and finite-cutoff transfer estimates on one family.",
+      "Control neutral states and all required gauge groups."
+    ],
+    "id": "e151e1a645b445128d90ed13502fabe8",
+    "status": "completed",
+    "created_at": 1794733405.3691218,
+    "model_calls_reserved": 0
+  },
+  "conclusion": "unresolved",
+  "checked_reports": [],
+  "strategy_summaries": {
+    "ym-spectrum-exhaustive": {
+      "count": 32,
+      "examples": [
+        "Denominator 4: exhausted 34 spectra, with 3 in the small-defect range and 3 attaining the bound.",
+        "Denominator 5: exhausted 69 spectra, with 5 in the small-defect range and 4 attaining the bound."
+      ],
+      "model_notes": [],
+      "model_errors": 0,
+      "replay_counts": {
+        "searched": 575704,
+        "qualifying": 4176,
+        "equalities": 592
+      }
+    }
+  },
+  "recorded_jobs": 32
+}

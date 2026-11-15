@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "mission": {
+    "title": "Yang\u2013Mills existence and mass gap",
+    "statement": "Construct nontrivial quantum Yang\u2013Mills theory on R\u2074 for every compact simple gauge group and prove a strictly positive mass gap.",
+    "task": null,
+    "template_id": "yang-mills",
+    "author": "Deep Bhattacharjee",
+    "agent_count": 10000,
+    "concurrency": 24,
+    "max_tasks": 10000,
+    "mode": "local",
+    "max_model_calls": 0,
+    "exploration": "wide",
+    "strategies": [
+      "ym-thermal",
+      "ym-seams",
+      "ym-rg",
+      "ym-spectrum",
+      "ym-gaussian",
+      "ym-os",
+      "reduction",
+      "critique",
+      "formalization",
+      "literature",
+      "assumption-audit",
+      "limit-audit",
+      "construction"
+    ],
+    "sources": [
+      [
+        "Jaffe and Witten, official problem",
+        "https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf"
+      ],
+      [
+        "4Y-M proof progress",
+        "https://github.com/anaxia-research/4Y-M/tree/4cfb040e4077a22f743da3a1abd2d23cc5dd277b/research/2026-11-15"
+      ],
+      [
+        "Sharp finite-transfer defect bounds",
+        "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-DEFECT.md"
+      ],
+      [
+        "Wilson replica-seam identity",
+        "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-REPLICA-SEAMS.md"
+      ],
+      [
+        "November 2026 construction assessment",
+        "https://alexisdpc.github.io/yang-mills/references/assessment-1-2026-11-10.pdf"
+      ]
+    ],
+    "gaps": [
+      "Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window.",
+      "Bound the separated-seam connected response after summing spatial sites, uniformly along the tuned Wilson cutoff family.",
+      "Match the continuum construction and finite-cutoff transfer estimates on one family.",
+      "Control neutral states and all required gauge groups."
+    ],
+    "id": "07793f218d5043c8a010b490dd671968",
+    "status": "completed",
+    "created_at": 1794732155.8029115,
+    "model_calls_reserved": 0
+  },
+  "conclusion": "unresolved",
+  "checked_reports": [],
+  "strategy_summaries": {
+    "ym-thermal": {
+      "count": 770,
+      "examples": [
+        "Rechecked sharp same-box defect contraction a(2T) <= a(T)^2/(2-a(T)^2). A uniform defect seed V/(13510000 T^3) implies the conditional pressure seed V/(26880000 T^3)."
+      ],
+      "model_errors": 0
+    },
+    "ym-seams": {
+      "count": 770,
+      "examples": [
+        "An exact finite transfer calculation checks two equal and two opposite permutation endpoints. The Wilson identity reduces the defect to the integrated connected response across two separated seams."
+      ],
+      "model_errors": 0
+    },
+    "ym-rg": {
+      "count": 770,
+      "examples": [
+        "Match the continuum construction and finite-cutoff transfer estimates on one family.",
+        "Control neutral states and all required gauge groups."
+      ],
+      "model_errors": 0
+    },
+    "ym-spectrum": {
+      "count": 769,
+      "examples": [
+        "Rechecked 5 exact moment equalities for abstract gapped and gapless spectra.",
+        "Rechecked 6 exact moment equalities for abstract gapped and gapless spectra."
+      ],
+      "model_errors": 0
+    },
+    "ym-gaussian": {
+      "count": 769,
+      "examples": [
+        "An even-parity massless oscillator at spatial side 2T has a thermal defect above 2/2187, whereas the required seed is 1/1688750."
+      ],
+      "model_errors": 0
+    },
+    "ym-os": {
+      "count": 769,
+      "examples": [
+        "Bound the separated-seam connected response after summing spatial sites, uniformly along the tuned Wilson cutoff family.",
+        "Match the continuum construction and finite-cutoff transfer estimates on one family."
+      ],
+      "model_errors": 0
+    },
+    "reduction": {
+      "count": 769,
+      "examples": [
+        "Match the continuum construction and finite-cutoff transfer estimates on one family.",
+        "Control neutral states and all required gauge groups."
+      ],
+      "model_errors": 0
+    },
+    "critique": {
+      "count": 769,
+      "examples": [
+        "Control neutral states and all required gauge groups.",
+        "Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window."
+      ],
+      "model_errors": 0
+    },
+    "formalization": {
+      "count": 769,
+      "examples": [
+        "Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window.",
+        "Bound the separated-seam connected response after summing spatial sites, uniformly along the tuned Wilson cutoff family."
+      ],
+      "model_errors": 0
+    },
+    "literature": {
+      "count": 769,
+      "examples": [
+        "Sources available in the mission record."
+      ],
+      "model_errors": 0
+    },
+    "assumption-audit": {
+      "count": 769,
+      "examples": [
+        "Match the continuum construction and finite-cutoff transfer estimates on one family.",
+        "Control neutral states and all required gauge groups."
+      ],
+      "model_errors": 0
+    },
+    "limit-audit": {
+      "count": 769,
+      "examples": [
+        "Control neutral states and all required gauge groups.",
+        "Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window."
+      ],
+      "model_errors": 0
+    },
+    "construction": {
+      "count": 769,
+      "examples": [
+        "Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window.",
+        "Bound the separated-seam connected response after summing spatial sites, uniformly along the tuned Wilson cutoff family."
+      ],
+      "model_errors": 0
+    }
+  },
+  "recorded_jobs": 10000
+}

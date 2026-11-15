@@ -15,6 +15,11 @@ route("critique", "Independent critique", "critic", "Identify the first unsuppor
 route("reduction", "Structural reduction", "researcher", "Reduce to a precise lemma and prove both directions if claiming equivalence. Name a concrete witness or obstruction.")
 route("literature", "Source comparison", "researcher", "Compare the mission's registered references and optional pinned eBLLM route catalogue. Record assumptions and the exact scope of each result.")
 route("ym-thermal", "Thermal defect", "researcher", "Convert the same-coupling time-doubling defect into a pressure seed. Check sharp same-box contraction and isolate the missing uniform initial estimate.", "executable on exact finite spectra")
+route("ym-seams", "Replica seam response", "researcher", "Express the Wilson defect as the connected response to two changes of temporal matching. Check permutation endpoints and seek a uniform response bound across the rectangular window.", "executable at the algebraic endpoints")
+route("ym-gaussian", "Massless thermal control", "critic", "Compare the pressure seed with a zero-mode-free Gaussian control. Check whether the target can follow from short-distance Gaussian behavior alone.", "executable rational obstruction")
+route("ym-seam-clusters", "Seam cluster construction", "researcher", "Expand one doubled Wilson graph by connected Möbius activities, retain only terms depending on both cuts, and control the sum of the terminal and large-field contributions.", "executable on rational winding controls")
+route("ym-block-entropy", "Conditional block entropy", "researcher", "Bound the transfer heat trace by a product of conditional chi-square increments. Control rare prefixes under the tilted path measure at the physical block scale.", "executable on exact transfer examples")
+route("ym-spectrum-exhaustive", "Exhaustive transfer spectra", "verifier", "Enumerate finite positive transfer spectra on a rational grid. Test the sharp defect contraction by integer cross-multiplication.", "executable on bounded rational grids")
 route("ym-rg", "Renormalization group", "researcher", "Organize the blocked action by scale and bound the time-doubling defect of the remainder. Include large-field sectors and non-divisible box sizes.")
 route("ym-spectrum", "Spectral counting", "researcher", "Separate the neutral and charged sectors. Obtain a physical gap lower bound and uniform control of low-lying multiplicities. An individual correlator cannot count all states.")
 route("ym-os", "Continuum reconstruction", "critic", "Match the Wilson family, couplings, and denominator in the external construction. Check reflection, phase averaging, density of the observable core, and nontriviality.")
@@ -37,14 +42,18 @@ TARGETS = {
     "yang-mills": {
         "title": "Yang–Mills existence and mass gap",
         "statement": "Construct nontrivial quantum Yang–Mills theory on R⁴ for every compact simple gauge group and prove a strictly positive mass gap.",
-        "strategies": ["ym-thermal", "ym-rg", "ym-spectrum", "ym-os"] + BASE,
+        "strategies": ["ym-thermal", "ym-seams", "ym-rg", "ym-spectrum", "ym-gaussian", "ym-os",
+                       "ym-seam-clusters", "ym-block-entropy", "ym-spectrum-exhaustive"] + BASE,
         "gaps": ["Prove the same-coupling weak-coupling thermal-defect bound on the full rectangular window.",
+                 "Bound the separated-seam connected response after summing spatial sites, uniformly along the tuned Wilson cutoff family.",
                  "Match the continuum construction and finite-cutoff transfer estimates on one family.",
                  "Control neutral states and all required gauge groups."],
         "sources": [
             ["Jaffe and Witten, official problem", "https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf"],
             ["4Y-M proof progress", "https://github.com/anaxia-research/4Y-M/tree/4cfb040e4077a22f743da3a1abd2d23cc5dd277b/research/2026-11-15"],
             ["Sharp finite-transfer defect bounds", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-DEFECT.md"],
+            ["Wilson replica-seam identity", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-REPLICA-SEAMS.md"],
+            ["Wilson cluster and conditional entropy constructions", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-YANG-MILLS-CONSTRUCTIONS.md"],
             ["November 2026 construction assessment", "https://alexisdpc.github.io/yang-mills/references/assessment-1-2026-11-10.pdf"]],
     },
     "hodge": {
@@ -62,6 +71,7 @@ TARGETS = {
             ["Mixed CM cycles and degree obstruction", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-HODGE-CM-PRODUCTS.md"],
             ["Imai, On the Hodge groups of some abelian varieties", "https://www.jstage.jst.go.jp/article/kodaimath1949/27/3/27_3_367/_article/-char/en"],
             ["Rosen and Shnidman, Neron-Severi groups of product abelian surfaces", "https://arxiv.org/abs/1402.2233"],
+            ["Explicit F2 and F3-prime constructions", "https://github.com/anaxia-research/anaxia/blob/main/docs/ANN-HODGE-F2-F3-CONSTRUCTIONS.md"],
             ["anaxia degree obstruction", "https://github.com/anaxia-research/anaxia/blob/main/docs/HODGE-DEGREE-OBSTRUCTION.md"]],
     },
     "riemann": {

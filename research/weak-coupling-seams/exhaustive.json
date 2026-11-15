@@ -1,0 +1,1 @@
+{"template_id":"yang-mills","title":"Exhaustive rational transfer spectra","brief":"Enumerate every multiset of up to four positive excited weights on each denominator grid 4 through 35 and test the sharp time-doubling inequality exactly.","agent_count":32,"max_tasks":32,"concurrency":8,"strategy_ids":["ym-spectrum-exhaustive"]}

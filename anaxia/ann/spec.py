@@ -27,7 +27,7 @@ def normalize(spec):
         raise ValueError("Mission must be a JSON object")
     allowed = {"template_id", "title", "statement", "task", "author", "agent_count",
                "max_tasks", "concurrency", "mode", "modelconfig", "max_model_calls",
-               "strategy_ids", "exploration"}
+               "strategy_ids", "exploration", "brief"}
     if set(spec) - allowed:
         raise ValueError("Mission contains unsupported fields")
     if len(json.dumps(spec, allow_nan=False)) > 40_000:
@@ -43,6 +43,9 @@ def normalize(spec):
     if target != "custom" and spec.get("statement") and spec["statement"] != defaults["statement"]:
         raise ValueError("Use a custom mission to change a template statement")
     statement = label(defaults.get("statement") or spec.get("statement"), "Statement", 6000)
+    brief = spec.get("brief", "")
+    if brief != "":
+        brief = label(brief, "Research brief", 3000)
     count = integer(spec.get("agent_count", 64), "Agent profiles", 1, MAX_AGENTS)
     concurrent = integer(spec.get("concurrency", 8), "Concurrency", 1, MAX_CONCURRENCY)
     tasks = integer(spec.get("max_tasks", min(count, 32)), "Scheduled tasks", 1, count)
@@ -78,7 +81,7 @@ def normalize(spec):
             raise ValueError("Model mode requires a model-call budget between one and the scheduled tasks")
     else:
         settings, calls = {}, 0
-    return dict(title=title, statement=statement, task=task, template_id=target,
+    return dict(title=title, statement=statement, task=task, template_id=target, brief=brief,
                 author=label(spec.get("author", "Deep Bhattacharjee"), "Author", 120),
                 agent_count=count, concurrency=min(concurrent, tasks), max_tasks=tasks,
                 mode=mode, modelconfig=settings, max_model_calls=calls, exploration=explore,

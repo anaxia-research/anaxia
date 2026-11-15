@@ -70,10 +70,19 @@ def research_summary(mission, records):
         key = record.get("strategy")
         if not isinstance(key, str) or key not in STRATEGIES:
             continue
-        group = per_route.setdefault(key, {"count": 0, "examples": [], "model_errors": 0})
+        group = per_route.setdefault(key, {"count": 0, "examples": [], "model_notes": [], "model_errors": 0})
         group["count"] += 1
         group["model_errors"] += bool(record.get("model_error"))
         text = record.get("finding")
+        proposal = record.get("proposal")
+        if record.get("status") == "unverified_proposal":
+            proposal, text = text, None
+        if isinstance(proposal, str) and proposal[:2000] not in group["model_notes"] and len(group["model_notes"]) < 2:
+            group["model_notes"].append(proposal[:2000])
+        for metric in ("searched", "qualifying", "equalities"):
+            if metric in record:
+                counts = group.setdefault("replay_counts", {})
+                counts[metric] = counts.get(metric, 0) + record[metric]
         limit = 4 if key in {"hodge-cycles", "hodge-blocks", "hodge-spread"} else 2
         if isinstance(text, str) and text not in group["examples"] and len(group["examples"]) < limit:
             group["examples"].append(text[:1200])
@@ -104,6 +113,8 @@ def export(mission, records, directory, *, pdf=False):
         ("Evidence and scope", [f"Run status is {mission['status']}. The evidence conclusion is {conclusion}.",
                                 f"The run recorded {len(records):,} worker outcomes."]),
     ]
+    if mission.get("brief"):
+        sections[0][1].append(mission["brief"])
     if mission.get("task"):
         sections[1][1].append("Exact claim checked: " + polynomial_text(mission["task"]))
     if errors := sum(route["model_errors"] for route in per_route.values()):
@@ -121,9 +132,12 @@ def export(mission, records, directory, *, pdf=False):
         strategy = STRATEGIES[key]
         route_notes.append("[[" + key + "]]")
         sections.append((strategy["name"], [strategy["method"], f"Recorded attempts: {stats['count']}."]
-                         + (["Public worker notes for review."] + stats["examples"] if stats["examples"] else [])))
+                         + stats["examples"]
+                         + (["Model proposals awaiting review."] + stats["model_notes"] if stats["model_notes"] else [])))
         note = [f"# {markdown(strategy['name'])}", "", "[[mission]]", "",
                 markdown(strategy["method"]), "", *map(markdown, stats["examples"])]
+        if stats["model_notes"]:
+            note.extend(["", "## Unverified model proposals", *map(markdown, stats["model_notes"])])
         (path / f"{key}.md").write_text("\n".join(note) + "\n", encoding="utf-8")
     sources = [f"{name}. {url}" for name, url in mission["sources"]]
     if sources:

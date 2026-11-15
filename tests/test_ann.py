@@ -11,7 +11,8 @@ from anaxia.ann.core import Runner, Store
 from anaxia.ann.hodge import cm_product_check, divisor_degree_threshold, power_check
 from anaxia.ann.papers import export, research_summary
 from anaxia.ann.spec import normalize
-from anaxia.ann.thermal import verify_thermal_batch
+from anaxia.ann.thermal import (free_oscillator_obstruction, verify_block_trace, verify_seam_clusters,
+                                verify_seam_endpoints, verify_thermal_batch)
 from anaxia.ann.workers import execute, read_routes
 
 
@@ -179,3 +180,45 @@ class AnnTests(unittest.TestCase):
         finding = execute(mission, {"strategy": "ym-thermal", "slot": 0, "use_model": False})
         self.assertEqual(finding["status"], "checked_subresult")
         self.assertEqual(research_summary(mission, [finding])[0], "unresolved")
+
+    def test_replica_endpoints_and_massless_control(self):
+        for batch in range(32):
+            verify_seam_endpoints(batch)
+        control, seed = free_oscillator_obstruction()
+        self.assertGreater(control, 1000 * seed)
+        mission = normalize({"template_id": "yang-mills", "exploration": "wide"})
+        for strategy in ("ym-seams", "ym-gaussian"):
+            finding = execute(mission, {"strategy": strategy, "slot": 0, "use_model": False})
+            self.assertEqual(finding["status"], "checked_subresult")
+            self.assertEqual(research_summary(mission, [finding])[0], "unresolved")
+
+    def test_construction_replays(self):
+        for batch in (0, 5, 31):
+            verify_block_trace(batch)
+            verify_seam_clusters(batch)
+
+    def test_focus_keeps_the_target_and_reaches_model(self):
+        mission = normalize({"template_id": "yang-mills", "brief": "Control the large-field terminal remainder.",
+                             "mode": "model", "max_model_calls": 1, "modelconfig": {"model": "stub"}})
+        self.assertIn("compact simple gauge group", mission["statement"])
+        with patch("anaxia.ann.workers.providers.propose", return_value={"proposal": "A proposed method."}) as call:
+            finding = execute(mission, {"strategy": "ym-seam-clusters", "slot": 0, "use_model": True})
+        self.assertEqual(call.call_args.args[0]["research_brief"], mission["brief"])
+        self.assertEqual(research_summary(mission, [finding])[0], "unresolved")
+
+    def test_model_context_research_and_critique(self):
+        mission = self.store.create(normalize({"template_id": "yang-mills", "agent_count": 3, "max_tasks": 3,
+                                               "strategy_ids": ["ym-rg", "ym-seams", "critique"], "concurrency": 1,
+                                               "mode": "model", "max_model_calls": 3,
+                                               "modelconfig": {"model": "stub"}}))
+        contexts = {}
+
+        def worker(_, claim):
+            route = claim["strategy"]
+            contexts[route] = claim["prior_findings"]
+            return {"strategy": route, "finding": route}
+
+        self.store.control(mission["id"], "start")
+        Runner(self.store, worker).run(mission["id"])
+        self.assertEqual(contexts["ym-seams"], [])
+        self.assertEqual(contexts["critique"], ["ym-seams", "ym-rg"])

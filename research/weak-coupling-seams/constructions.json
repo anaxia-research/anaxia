@@ -1,0 +1,1 @@
+{"template_id":"yang-mills","title":"Weak-coupling construction attempts","agent_count":192,"max_tasks":192,"concurrency":8,"strategy_ids":["ym-seam-clusters","ym-block-entropy","ym-seams","ym-thermal","ym-gaussian","critique"]}

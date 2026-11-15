@@ -333,6 +333,7 @@ $("mission-form").onsubmit = async event => {
   const button = event.currentTarget.querySelector('button[type="submit"]');
   const f = new FormData(event.currentTarget);
   const body = {template_id:f.get("template_id"), exploration:f.get("exploration"), mode:f.get("mode")};
+  if (f.get("brief").trim()) body.brief=f.get("brief").trim();
   for (const key of ["agent_count","concurrency","max_tasks"]) body[key]=Number(f.get(key));
   button.disabled=true;
   try {

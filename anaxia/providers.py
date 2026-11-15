@@ -139,11 +139,14 @@ def _public_text(value):
 def _headers(provider, local, api_key):
     headers = {'Content-Type': 'application/json', 'User-Agent': 'Anaxia-research/0.2'}
     if local:
-        return headers
-    key_name = KEYS.get(provider)
-    key = api_key if api_key is not None else os.environ.get(key_name, '') if key_name else ''
-    if not key and provider in {'anthropic', 'openai', 'kimi'}:
-        raise ValueError(f'Set {key_name} to enable this optional cloud provider')
+        # Provider keys may be present for cloud use. Only a separately
+        # configured local credential can leave the process on loopback.
+        key = os.environ.get('ANAXIA_LOCAL_MODEL_API_KEY', '') if provider == 'openai-compatible' else ''
+    else:
+        key_name = KEYS.get(provider)
+        key = api_key if api_key is not None else os.environ.get(key_name, '') if key_name else ''
+        if not key and provider in {'anthropic', 'openai', 'kimi'}:
+            raise ValueError(f'Set {key_name} to enable this optional cloud provider')
     if key:
         if (not isinstance(key, str) or len(key) > 4096 or not key.isascii()
                 or any(ord(c) < 33 or ord(c) == 127 for c in key)):

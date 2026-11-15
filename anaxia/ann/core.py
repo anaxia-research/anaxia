@@ -9,6 +9,8 @@ from pathlib import Path
 from threading import Lock, Thread
 from uuid import uuid4
 
+from .strategies import STRATEGIES
+
 MAX_AGENTS = 10_000
 MAX_CONCURRENCY = 64
 LEASE_SECONDS = 180
@@ -152,13 +154,15 @@ class Store:
             return dict(slot=slot, id=f"{mid}:{slot}", token=token,
                         strategy=mission["strategies"][slot % len(mission["strategies"])], use_model=use_model)
 
-    def recent_findings(self, mid):
+    def recent_findings(self, mid, strategy=None):
         with self.connect() as db:
             rows = db.execute("""SELECT result FROM jobs WHERE mission=? AND status='completed'
-                                 ORDER BY slot DESC LIMIT 12""", (mid,))
+                                 ORDER BY slot DESC LIMIT 32""", (mid,))
             findings = []
             for row in rows:
                 result = json.loads(row["result"])
+                if strategy is not None and result.get("strategy") != strategy:
+                    continue
                 text = result.get("proposal") or result.get("finding")
                 if isinstance(text, str) and text[:700] not in findings:
                     findings.append(text[:700])
@@ -264,7 +268,9 @@ class Runner:
                     if not claim:
                         break
                     if claim["use_model"]:
-                        claim["prior_findings"] = self.store.recent_findings(mid)
+                        strategy = claim["strategy"]
+                        feedback_scope = None if STRATEGIES[strategy]["role"] == "critic" else strategy
+                        claim["prior_findings"] = self.store.recent_findings(mid, feedback_scope)
                     future = pool.submit(self.worker, mission, claim)
                     futures[future] = claim
                 if not futures:

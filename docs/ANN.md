@@ -23,6 +23,10 @@ The default mode uses local exact calculations and produces a record of research
 
 The open-problem missions also replay exact partial results. The Yang–Mills thermal route checks a [sharp same-box doubling estimate and pressure-seed conversion](ANN-YANG-MILLS-DEFECT.md). The Hodge routes check [divisor-product ranks for mixed CM elliptic curves and an exact divisor-degree threshold](ANN-HODGE-CM-PRODUCTS.md).
 
+The weak-coupling Yang–Mills mission checks the transfer algebra underlying the [two-seam Wilson identity](ANN-YANG-MILLS-REPLICA-SEAMS.md) and a massless Gaussian control. The [illustrated research note](../research/weak-coupling-seams/main.pdf) gives the exact reduction to a cutoff-uniform covariance bound.
+
+Two additional Yang–Mills routes replay [the connected-activity and conditional block entropy constructions](ANN-YANG-MILLS-CONSTRUCTIONS.md). The Hodge programme includes [explicit F2 and F3′ constructions for elliptic products and split hypersurfaces](ANN-HODGE-F2-F3-CONSTRUCTIONS.md).
+
 | Target | Routes | Main unresolved obligation |
 | --- | --- | --- |
 | Yang–Mills existence and mass gap | Thermal defect, renormalization group, separate spectral sectors, and continuum reconstruction | Prove the full same-coupling thermal-defect estimate and connect it to a matching nontrivial continuum theory. The built-in spectral calculation rechecks a finite-sampling obstruction for abstract spectra. [Official statement](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf) |
@@ -49,6 +53,15 @@ Choose model-assisted mode in the app or use `ann run --spec mission.json` with 
 ```
 
 The existing provider adapters support Ollama, a loopback OpenAI-compatible server such as llama.cpp, and opt-in official Claude, OpenAI, or Kimi endpoints. Set credentials outside the mission file. Official cloud calls send the mission statement and bounded public evidence notes to the selected provider. Model workers can receive a short selection of completed worker notes for review. A reservation is charged to the mission budget before the worker runs. Exact checks may finish before a reserved call is needed. [Provider setup](MODELS.md)
+
+Use the optional research focus field, or `brief` in a JSON mission, to give workers a targeted estimate while preserving the registered problem statement. Researchers receive earlier notes from their own route. Critics can compare notes across routes. An authenticated loopback-compatible server can use `ANAXIA_LOCAL_MODEL_API_KEY` from the local environment. Paper bundles label model proposals awaiting review alongside the route's exact findings.
+
+Reproduce the additional local campaigns from the repository root.
+
+```sh
+python anaxia.py ann run --spec research/weak-coupling-seams/constructions.json
+python anaxia.py ann run --spec research/weak-coupling-seams/exhaustive.json
+```
 
 For an original problem, use `"template_id": "custom"` and set `statement`. Include a `task` in [the exact task format](EXACT-CERTIFICATES.md) to request executable verification. The paper identifies the formal task even if a broader research question was entered. Unchecked model text carries no proof authority. The Lean route records formalization obligations. The verification code checks supported certificates against the original task again during export.
 
