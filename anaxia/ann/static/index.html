@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ann · anaxia research</title>
+<link rel="stylesheet" href="/style.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<header class="mast">
+  <a class="brand" href="/" aria-label="ann home"><span class="mark" aria-hidden="true">a</span><span><strong>ann</strong><small>anaxia research</small></span></a>
+  <nav aria-label="Workspace views"><button id="graph-tab" aria-pressed="true">Mission graph</button><button id="library-tab" aria-pressed="false">Methods &amp; sources</button></nav>
+  <div class="mast-actions"><span id="connection" class="connection" role="status">Connecting</span><button id="new" class="primary">+ New mission</button></div>
+</header>
+<div id="notice" role="alert" hidden></div>
+<main>
+  <section id="library" aria-label="Methods and sources" hidden></section>
+  <div id="workbench" class="workbench">
+    <aside class="sidebar" aria-label="Research missions">
+      <div class="eyebrow">WORKSPACE</div><h2>Missions</h2>
+      <div id="missions" class="missions"></div>
+      <div class="sidefoot"><div class="eyebrow">RUN PROFILE</div><strong>Local workspace</strong><p>Up to 10,000 agent profiles. Choose the task and model budgets for each mission.</p></div>
+    </aside>
+    <section class="workspace" aria-label="Mission overview">
+      <div class="heading"><div class="eyebrow">RESEARCH WORKBENCH</div><h1 id="title">Conjecture missions</h1><p id="statement">Start a mission to assign research routes and track its evidence.</p></div>
+      <div class="metrics">
+        <div><span>Agent profiles</span><strong id="registered">—</strong></div>
+        <div><span>Active workers</span><strong id="active">—</strong></div>
+        <div><span>Finished tasks</span><strong id="completed">—</strong></div>
+        <div><span>Model reservations</span><strong id="calls">—</strong></div>
+      </div>
+      <div class="graphbox">
+        <div class="graphbar"><div><strong>Research graph</strong><small id="graph-count">Waiting for a mission</small></div><div class="zoom"><button id="zoom-out" title="Zoom out" aria-label="Zoom out">−</button><button id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button><button id="fit" title="Reset view" aria-label="Reset view">⌖</button></div></div>
+        <div class="stage">
+          <canvas id="graph" tabindex="0" aria-label="Graph of the mission, research routes and agent profiles. Use arrow keys to pan and plus or minus to zoom."></canvas>
+          <div id="blank" class="blank"><strong>No mission selected</strong><p>Create a mission or select one from the workspace.</p><button id="new-empty" class="primary">Create mission</button></div>
+        </div>
+        <div class="legend"><span><i class="running"></i> Running</span><span><i class="completed"></i> Finished</span><span><i class="failed"></i> Failed</span><span><i class="queued"></i> Queued</span><span><i class="dormant"></i> Dormant</span><div class="pages"><button id="prev" aria-label="Previous agent page">←</button><button id="next" aria-label="Next agent page">→</button></div></div>
+      </div>
+      <section class="activity"><h2>Activity</h2><ol id="activity"></ol></section>
+    </section>
+    <aside class="inspector" aria-label="Mission inspector">
+      <div class="eyebrow">INSPECTOR</div><h2 id="inspect-title">Mission details</h2>
+      <span class="status" id="state">Idle</span>
+      <div class="actions"><button id="start" class="primary" disabled>Start</button><button id="pause" disabled>Pause</button><button id="cancel" disabled>Cancel</button></div>
+      <section id="selection" aria-live="polite"></section>
+      <section class="gaps"><h3>Proof obligations</h3><ul id="gaps"><li>Select a mission to view its proof obligations.</li></ul></section>
+      <section class="export"><h3>Paper &amp; evidence</h3><label class="checkbox"><input type="checkbox" id="export-pdf"> Compile PDF</label><button id="export" disabled>Assemble paper bundle</button><div id="downloads" aria-live="polite"></div></section>
+    </aside>
+  </div>
+</main>
+<dialog id="composer">
+<form id="mission-form">
+  <div class="dialog-title"><div><div class="eyebrow">NEW RESEARCH RUN</div><h2>Create a mission</h2></div><button type="button" id="close" aria-label="Close">×</button></div>
+  <label>Research target<select name="template_id" id="target"></select></label>
+  <div id="custom" hidden><label>Title<input name="title" maxlength="180"></label><label>Conjecture<textarea name="statement" maxlength="6000" rows="4"></textarea></label><label>Formal task JSON (optional)<textarea name="task" rows="3" maxlength="36000" placeholder="Use the anaxia polynomial or modular task schema"></textarea></label></div>
+  <div class="formgrid"><label>Agent profiles<input type="number" name="agent_count" value="64" min="1" max="10000" required></label><label>Scheduled tasks<input type="number" name="max_tasks" value="32" min="1" max="10000" required></label><label>Concurrent workers<input type="number" name="concurrency" value="8" min="1" max="64" required></label></div>
+  <div class="formgrid two"><label>Exploration<select name="exploration"><option value="wide">Wide exploration</option><option value="focused">Focused</option></select></label><label>Engine<select name="mode" id="mode"><option value="local">Local exact tools and route notes</option><option value="model">Model proposals + verification</option></select></label></div>
+  <div id="model-fields" hidden><div class="formgrid two"><label>Provider<select name="provider"><option>ollama</option><option>openai-compatible</option><option>anthropic</option><option>openai</option><option>kimi</option></select></label><label>Model ID<input name="model" maxlength="160"></label></div><label>Loopback server URL (optional)<input name="base_url"></label><div class="formgrid two"><label>Model-call budget<input type="number" name="max_model_calls" value="8" min="1" max="10000"></label><label>Output token limit<input type="number" name="max_tokens" value="512" min="1" max="8192"></label></div><p class="form-note">Cloud providers receive the submitted statement and route context. Credentials come from your environment.</p></div>
+  <p id="form-error" role="alert"></p>
+  <div class="dialog-actions"><button type="submit" class="primary">Create mission</button></div>
+</form>
+</dialog>
+</body>
+</html>

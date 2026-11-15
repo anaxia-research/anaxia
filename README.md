@@ -11,7 +11,7 @@
 
 anaxia studies mathematical conjectures using exact arithmetic, reproducible experiments, and optional model proposals. Each result records the statement, its domain, and the evidence a reader can check. The exact tools run on Python's standard library with no model or API key.
 
-[Get started](#get-started) · [Research targets](#research-targets) · [Research radar](#research-radar) · [Model setup](docs/MODELS.md) · [Paper audits](docs/PAPER-AUDIT.md)
+[Get started](#get-started) · [ann workbench](#ann-research-workbench) · [Research targets](#research-targets) · [Research radar](#research-radar) · [Model setup](docs/MODELS.md) · [Paper audits](docs/PAPER-AUDIT.md)
 
 [![Workspace checks](https://github.com/anaxia-research/anaxia/actions/workflows/checks.yml/badge.svg)](https://github.com/anaxia-research/anaxia/actions/workflows/checks.yml) [![Research radar](https://github.com/anaxia-research/anaxia/actions/workflows/research-radar.yml/badge.svg)](https://github.com/anaxia-research/anaxia/actions/workflows/research-radar.yml)
 
@@ -46,6 +46,17 @@ python anaxia.py diophantine modular-proof.json --verify
 The saved test results and the supported task format are documented in the [experiment digest](data/experiments/README.md) and [architecture guide](docs/ANAXIA.md).
 
 </details>
+
+## ann research workbench
+
+Run a local research mission, follow its graph as work completes, and export a paper draft with its evidence and an Obsidian vault. A mission supports up to 10,000 agent profiles with configurable task, concurrency, and model budgets. Built-in missions cover Yang–Mills, Hodge, the Riemann hypothesis, and four-dimensional sphere packing.
+
+```sh
+python anaxia.py ann run --target polynomial-demo --export data/local/ann-exports
+python anaxia.py ann serve
+```
+
+Open [the local workbench](http://127.0.0.1:8765/) after starting the server. [Mission setup, imported repositories, and evidence rules](docs/ANN.md)
 
 ## Research targets
 

@@ -35,6 +35,7 @@ jobs:
           python3 anaxia.py diophantine /tmp/anaxia-modular.json --verify
           python3 anaxia.py challenge run --profile quick --output /tmp/anaxia-challenges
           python3 anaxia.py audit examples/audit/synthetic-claims.json --output /tmp/anaxia-audits
+          python3 anaxia.py ann --db /tmp/anaxia-ann.sqlite3 run --target modular-demo --agents 8 --tasks 8 --export /tmp/anaxia-ann-paper
       - name: Replay exact calculations for the research notes
         run: |
           python3 scripts/audit_d4_radial_reduction.py
