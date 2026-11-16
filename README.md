@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-16T02:58:52\+00:00**
+**Public metadata capture · 2026\-11\-16T11:57:49\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 495 | 114 | 80 | 16 | 12 | 10 |
+| 496 | 115 | 80 | 16 | 12 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [Holomorphic vector fields and rationality](https://arxiv.org/abs/1911.04717v4) — reported open candidate; review required.
-- [On configurations that are nearly generalised polygons](https://arxiv.org/abs/2611.17855v1) — reported open candidate; review required.
-- [Splitting Number at Singular Cardinals](https://arxiv.org/abs/2611.15620v2) — reported open candidate; review required.
+- [Automorphism groups of solvable groups of finite abelian ranks](https://arxiv.org/abs/2506.07991v3) — reported open candidate; review required.
+- [Color Refinement Distinguishes Connected Rooted Outerplanar Graphs](https://arxiv.org/abs/2611.18391v1) — reported open candidate; review required.
+- [Quadratic APN Functions of $\\mathbb\{F\}\_2^\{10\}$ with a Self\-Equivalence of Prime Order](https://arxiv.org/abs/2611.18358v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
