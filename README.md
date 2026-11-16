@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-15T23:06:18\+00:00**
+**Public metadata capture · 2026\-11\-16T02:58:52\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 496 | 111 | 80 | 16 | 14 | 10 |
+| 495 | 114 | 80 | 16 | 12 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [$C^\{1,α\}$ Regularity of $W^\{2,2\}$ $Q$\-Valued Maps with Small Laplacian](https://arxiv.org/abs/2611.17317v1) — reported open candidate; review required.
-- [On the maximum of Poissonian log\-correlated fields](https://arxiv.org/abs/2611.17236v1) — reported open candidate; review required.
-- [Large diameter for $\(Δ\+2\)$\-colouring reconfiguration](https://arxiv.org/abs/2611.17022v1) — reported open candidate; review required.
+- [Holomorphic vector fields and rationality](https://arxiv.org/abs/1911.04717v4) — reported open candidate; review required.
+- [On configurations that are nearly generalised polygons](https://arxiv.org/abs/2611.17855v1) — reported open candidate; review required.
+- [Splitting Number at Singular Cardinals](https://arxiv.org/abs/2611.15620v2) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 

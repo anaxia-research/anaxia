@@ -1,10 +1,10 @@
 # Anaxia research radar
 
-**Public metadata capture · 2026\-11\-15T23:06:18\+00:00**
+**Public metadata capture · 2026\-11\-16T02:58:52\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 496 | 111 | 80 | 16 | 14 | 10 |
+| 495 | 114 | 80 | 16 | 12 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -12,9 +12,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [$C^\{1,α\}$ Regularity of $W^\{2,2\}$ $Q$\-Valued Maps with Small Laplacian](https://arxiv.org/abs/2611.17317v1) — reported open candidate; review required.
-- [On the maximum of Poissonian log\-correlated fields](https://arxiv.org/abs/2611.17236v1) — reported open candidate; review required.
-- [Large diameter for $\(Δ\+2\)$\-colouring reconfiguration](https://arxiv.org/abs/2611.17022v1) — reported open candidate; review required.
+- [Holomorphic vector fields and rationality](https://arxiv.org/abs/1911.04717v4) — reported open candidate; review required.
+- [On configurations that are nearly generalised polygons](https://arxiv.org/abs/2611.17855v1) — reported open candidate; review required.
+- [Splitting Number at Singular Cardinals](https://arxiv.org/abs/2611.15620v2) — reported open candidate; review required.
 
 [Full research radar](RESEARCH-RADAR.md) · [Machine-readable snapshot](../data/research-radar.json)
 
@@ -22,20 +22,56 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 | Source | State | Last successful capture | Records | Limited |
 | --- | --- | --- | ---: | --- |
-| github: anaxia\-research | ok | 2026\-11\-15T23:06:18\+00:00 | 213 | False |
-| github: topic:theorem\-proving archived:false | ok | 2026\-11\-15T23:06:18\+00:00 | 100 | True |
-| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-15T23:06:18\+00:00 | 100 | True |
-| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-15T23:06:18\+00:00 | 100 | True |
-| arxiv: cat:math.\* | ok | 2026\-11\-15T23:06:18\+00:00 | 60 | True |
-| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-15T23:06:18\+00:00 | 60 | True |
-| stackexchange: mathoverflow | ok | 2026\-11\-15T23:06:18\+00:00 | 40 | True |
-| stackexchange: math | ok | 2026\-11\-15T23:06:18\+00:00 | 40 | True |
-| blogs: https://terrytao.wordpress.com/feed/ | ok | 2026\-11\-15T23:06:18\+00:00 | 8 | True |
-| blogs: https://gowers.wordpress.com/feed/ | ok | 2026\-11\-15T23:06:18\+00:00 | 8 | True |
+| github: anaxia\-research | ok | 2026\-11\-16T02:58:52\+00:00 | 213 | False |
+| github: topic:theorem\-proving archived:false | ok | 2026\-11\-16T02:58:52\+00:00 | 100 | True |
+| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-16T02:58:52\+00:00 | 100 | True |
+| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-16T02:58:52\+00:00 | 100 | True |
+| arxiv: cat:math.\* | ok | 2026\-11\-16T02:58:52\+00:00 | 60 | True |
+| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-16T02:58:52\+00:00 | 60 | True |
+| stackexchange: mathoverflow | ok | 2026\-11\-16T02:58:52\+00:00 | 40 | True |
+| stackexchange: math | ok | 2026\-11\-16T02:58:52\+00:00 | 40 | True |
+| blogs: https://terrytao.wordpress.com/feed/ | ok | 2026\-11\-16T02:58:52\+00:00 | 8 | True |
+| blogs: https://gowers.wordpress.com/feed/ | ok | 2026\-11\-16T02:58:52\+00:00 | 8 | True |
 
 ## Conjecture review queue
 
 An abstract may discuss a problem already resolved elsewhere or use open-problem language historically. Each entry needs literature review, exact formalization and an independent proof check. The radar never submits papers or executes source code.
+
+### [Holomorphic vector fields and rationality](https://arxiv.org/abs/1911.04717v4)
+
+**Status:** `reported_open_candidate` · **Action:** human review
+
+> We prove Carrell's conjecture that a smooth complex projective variety with a holomorphic vector field having a nonempty finite zero set is rational. The proof uses slices for projective additive group actions and a birational invariant in the dimension\-graded Grothendieck
+
+### [On configurations that are nearly generalised polygons](https://arxiv.org/abs/2611.17855v1)
+
+**Status:** `reported_open_candidate` · **Action:** human review
+
+> f permutations and mutually orthogonal array\-bic squares. These translations provide new computational and structural approaches to Payne's conjecture that regular antipodal planes exist only for $s=2,3$.
+
+### [Splitting Number at Singular Cardinals](https://arxiv.org/abs/2611.15620v2)
+
+**Status:** `reported_open_candidate` · **Action:** human review
+
+> n particular, we show in $\\mathrm\{ZFC\}$ that there are regular cardinals $κ$ such that $\\mathfrak\{s\}\_κ$ is singular, partially answering an open question posed by Fischer and Soukup.
+
+### [Refined random matrix conjectures for zeros of $p$\-adic $L$\-functions](https://arxiv.org/abs/2611.17706v1)
+
+**Status:** `reported_open_candidate` · **Action:** human review
+
+> We make and test the conjecture that for $p$\-adic $L$\-functions associated to quadratic Dirichlet characters and their Teichmüller twists, all local statistics of zeros in the unit disk match those of $p$\-adic random matrix eigenvalues. This generalizes the case of the number
+
+### [Kusner's conjecture on equilateral sets is false](https://arxiv.org/abs/2608.14013v3)
+
+**Status:** `reported_open_candidate` · **Action:** human review
+
+> We disprove Kusner's 1983 conjecture that every equilateral set in $\\ell\_p^n$ with $2&lt;p&lt;\\infty$ has at most $n\+1$ points: there exist $58$ points in $\\mathbb\{R\}^\{56\}$ whose pairwise $\\ell\_5$ distances are all equal, so the maximum equilateral\-set size satisfies $e\(\\ell\_5^\{56\}\)\\ge5
+
+### [A new tautological relation on $\\overline\{\\mathcal\{M\}\}\_\{2,14\}$ in cohomology](https://arxiv.org/abs/2611.17536v1)
+
+**Status:** `reported_open_candidate` · **Action:** human review
+
+> d $\\mathcal\{M\}\_2$. Parallel constructions for other moduli spaces $\\overline\{\\mathcal\{M\}\}\_\{g,n\}$ are discussed in the paper. There are many open questions.
 
 ### [$C^\{1,α\}$ Regularity of $W^\{2,2\}$ $Q$\-Valued Maps with Small Laplacian](https://arxiv.org/abs/2611.17317v1)
 
@@ -73,62 +109,17 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 
 > The support enumerator of a finite preorder counts lattice points of its polytope by support size. We prove Athanasiadis and Chapoton's conjecture that this polynomial is $γ$\-positive. On an $n$\-element preorder, the $j$th $γ$\-coefficient counts points of the preorder polytope with entries in $\\\{0,1,2\\\}$, coordinate sum $n$, and exactly $j$ entries equal to $2$. Oh's correspondence for tr
 
-### [Strict $\\mathcal\{C\}^\\infty$\-triangulation of subanalytic sets in low dimensions](https://arxiv.org/abs/2611.16672v1)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> tion is not always possible within subanalytic geometry, where the class $\{\\mathcal C\}^\\infty$ is equivalent to the class $\{\\mathcal C\}^ω$. We formulate the conjecture that strict $\{\\mathcal C\}^\\infty$\-triangulations of subanalytic sets always exist in the wider o\-minimal structure $\\mathbb\{R\}\_\{\{\\rm an\},\\exp\}$, generated by subanalytic sets and the exponential function. We check the conjecture for all su
-
-### [Perfect weight divisibility of \(fork, co\-fork$\\cup K\_1$\)\-free graphs](https://arxiv.org/abs/2505.04429v2)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> for any positive integer weights on its vertices, using the maximum weight of a clique instead of the clique number. Sivaraman proposed the conjecture that every fork\-free graph is perfectly divisible in a paper by Karthick \{\\em et al.\} \[Electron. J. Comb. 29 \(2022\), P3.19.\]. In the same paper, they proved that every \(\(\\text\{fork\},\\text\{co\-cricket\}\)\)\-free graph is either claw\-free or perfectl
-
-### [Quantitative Accumulation of Invariant Circles Near a Non\-splitting Separatrix](https://arxiv.org/abs/2611.16616v1)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> variant circles when the boundary transition is sufficiently $C^4$\-close to a translation. As an application, we give an answer to Herman's open problem in 1983.
-
-### [Quantitative flocking of Cucker\-Smale flocks under time\-delay and noise](https://arxiv.org/abs/2611.16613v1)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> titative theory for long\-time stochastic flocking under simultaneous delay and multiplicative noise, and we provide a positive answer to an open problem raised by~\[R. Erban, J. Haskovec, Y. Sun, SIAM J. Appl. Math., 76, 1535\-\-1557 \(2016\)\]. We also develop robust analytical tools applicable to delayed stochastic collective dynamics with degenerate communications.
-
-### [Counting Triangulated 3\-Spheres, Nuclei, and Polyhedra](https://arxiv.org/abs/2611.16518v1)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> We exploit two\-dimensional dual polyhedra to study triangulated $3$\-spheres and nuclei. First, we show that the long\-standing open problem of whether the number of triangulated $3$\-spheres is exponentially bounded is equivalent to the corresponding problem for one\-vertex generalized triangulations, and hence also for special spines of the $3$\-ball. This also establishes an eq
-
-### [From almost tight $p$\-group enumeration to $2$\-group domination among finite groups](https://arxiv.org/abs/2610.14509v3)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> s: \\\[ \\log\_p f\(p^m\)\\leq \\frac\{2\}\{27\}m^3\-\\frac\{4\}\{9\}m^2\+O\(m\). \\\] Techniques developed to prove the above lead to progress on some well\-known open questions in group enumeration in affirmative, including: \(1\) 2\-group domination in finite group enumeration \(Pyber, \\emph\{Eur. Congr. Math.\}, 1996\): Let $F\(n\)$ be the number of groups of order $\\leq n$, and $F\_2\(n\)$ be the number of $2$\-groups of o
-
-### [Dissipative solutions for 2D Onsager's conjecture](https://arxiv.org/abs/2506.15396v4)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> n two dimensions, Giri and Radu \[23\] first constructed a nontrivial weak solution in $C^\{\\frac\{1\}\{3\}\-\}\(\\mathbb T^2\\times\[0,T\]\)$ and left an open problem whether it would be possible to construct dissipative solutions \(controllable energy\) below $\\frac\{1\}\{3\}$ threshold. In this paper, we reslove this question and thereby obtain infinitely many strictly dissipative weak solutions in $C^γ\(\\ma
-
-### [On the reduction of GAP Conjecture to certain classes of groups and around](https://arxiv.org/abs/2611.16279v1)
-
-**Status:** `reported_open_candidate` · **Action:** human review
-
-> y amenability, and just\-infiniteness. Additionally, we discuss the GAP type problems for cancellative semigroups. A number of \(old and new\) open problems and few historical remarks is included in the note as well.
-
 ## Recently updated repositories
 
 | Repository | Last update reported by GitHub | License reported by GitHub |
 | --- | --- | --- |
-| [HuggingMath/TheoremOS](https://github.com/HuggingMath/TheoremOS) | 2026\-11\-15T22:48:51Z | NOASSERTION |
+| [fabio\-rovai/open\-ontologies](https://github.com/fabio-rovai/open-ontologies) | 2026\-11\-16T02:49:22Z | MIT |
+| [caojiaolong/spaces\-index](https://github.com/caojiaolong/spaces-index) | 2026\-11\-16T01:32:56Z | NOASSERTION |
+| [bendlang/bend](https://github.com/bendlang/bend) | 2026\-11\-16T01:19:24Z | Apache\-2.0 |
+| [HuggingMath/TheoremOS](https://github.com/HuggingMath/TheoremOS) | 2026\-11\-16T00:57:53Z | NOASSERTION |
+| [szl\-holdings/lean\-rlvr\-proving\-ground](https://github.com/szl-holdings/lean-rlvr-proving-ground) | 2026\-11\-15T23:15:12Z | Apache\-2.0 |
 | [LightLikeProject/lightlike](https://github.com/LightLikeProject/lightlike) | 2026\-11\-15T22:25:46Z | Apache\-2.0 |
 | [speadskater/FitzhughFarnsworth](https://github.com/speadskater/FitzhughFarnsworth) | 2026\-11\-15T22:21:37Z | Apache\-2.0 |
-| [bendlang/bend](https://github.com/bendlang/bend) | 2026\-11\-15T22:14:22Z | Apache\-2.0 |
 | [stuff\-of\-awe/awesome\-lean](https://github.com/stuff-of-awe/awesome-lean) | 2026\-11\-15T22:02:05Z | CC\-BY\-SA\-4.0 |
 | [Nervous\-Machine/DEBRIEF\-math\-zhang240](https://github.com/Nervous-Machine/DEBRIEF-math-zhang240) | 2026\-11\-15T20:45:18Z | Apache\-2.0 |
 | [Nervous\-Machine/DEBRIEF\-math\-primegaps](https://github.com/Nervous-Machine/DEBRIEF-math-primegaps) | 2026\-11\-15T20:45:16Z | Apache\-2.0 |
@@ -157,14 +148,11 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 | [hyperpolymath/autoformal\-fidelity](https://github.com/hyperpolymath/autoformal-fidelity) | 2026\-11\-15T15:34:38Z | MPL\-2.0 |
 | [anaxia\-research/Breakthrough\-problems\-3](https://github.com/anaxia-research/Breakthrough-problems-3) | 2026\-11\-15T14:13:48Z | Apache\-2.0 |
 | [supermaxlol/Lean\-verified\-equilibrium\-existence\-for\-interest\-free\-ownership\-economies](https://github.com/supermaxlol/Lean-verified-equilibrium-existence-for-interest-free-ownership-economies) | 2026\-11\-15T11:41:40Z | MIT |
-| [caojiaolong/spaces\-index](https://github.com/caojiaolong/spaces-index) | 2026\-11\-15T11:21:10Z | NOASSERTION |
-| [fabio\-rovai/open\-ontologies](https://github.com/fabio-rovai/open-ontologies) | 2026\-11\-15T10:52:20Z | MIT |
 | [NousVolition/hug\-sims\-lean\-proofs](https://github.com/NousVolition/hug-sims-lean-proofs) | 2026\-11\-15T09:36:11Z | NOASSERTION |
 | [jasisz/pestka](https://github.com/jasisz/pestka) | 2026\-11\-15T08:29:00Z | unspecified |
 | [computer\-whisperer/shard](https://github.com/computer-whisperer/shard) | 2026\-11\-15T08:27:02Z | unspecified |
 | [docxology/lean\_niche](https://github.com/docxology/lean_niche) | 2026\-11\-15T08:21:51Z | MIT |
 | [h5i\-dev/h5i](https://github.com/h5i-dev/h5i) | 2026\-11\-15T07:56:38Z | Apache\-2.0 |
-| [HenryNdubuaku/maths\-cs\-ai\-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | 2026\-11\-15T06:15:42Z | Apache\-2.0 |
 
 ## Mathematics community questions
 
@@ -172,46 +160,46 @@ Answer flags describe discussion on MathOverflow or Mathematics Stack Exchange. 
 
 | Question | Author | Score | Answered / accepted | Content license |
 | --- | --- | ---: | --- | --- |
-| [How can we find smallest singular value of Jacobian matrix of a system of nonlinear equations without finding the solution?](https://math.stackexchange.com/questions/2506924) | user494522 | 0 | False / none | CC BY\-SA 3.0 |
-| [Generating acyclic cofibrations for the Joyal model structure](https://math.stackexchange.com/questions/1856991) | [tcamps](https://math.stackexchange.com/users/45082) | 9 | True / none | CC BY\-SA 3.0 |
+| [Did Gödel possess a proof of the independence of $\\mathsf\{AC\}$?](https://mathoverflow.net/questions/470344) | [A. Bailleul](https://mathoverflow.net/users/133679) | 14 | True / none | CC BY\-SA 4.0 |
+| [Does there exist a prime perfect number?](https://math.stackexchange.com/questions/5154446) | [Lucien Jaccon](https://math.stackexchange.com/users/1276067) | -4 | False / none | CC BY\-SA 4.0 |
+| [Where to publish a long, AI\-assisted, computer\-verified classification paper?](https://mathoverflow.net/questions/516921) | [chbmath](https://mathoverflow.net/users/602619) | -2 | True / none | CC BY\-SA 4.0 |
+| [Reference request: Non\-commutative harmonic analysis](https://mathoverflow.net/questions/516867) | [TC159](https://mathoverflow.net/users/369234) | 8 | True / 516873 | CC BY\-SA 4.0 |
+| [Venn diagram or matrix box question. Overlapping set problem.](https://math.stackexchange.com/questions/601414) | [Jwan622](https://math.stackexchange.com/users/77211) | 0 | True / none | CC BY\-SA 4.0 |
+| [Understanding the apparent contradiction $1=\\sqrt\{\(\-1\)\(\-1\)\}=i\\cdot i=\-1$ using branches of the complex logarithm](https://math.stackexchange.com/questions/5154432) | [Kie289](https://math.stackexchange.com/users/1764312) | 1 | False / none | CC BY\-SA 4.0 |
+| [Inductive proof of the closed formula for the Fibonacci sequence](https://math.stackexchange.com/questions/484813) | [sandeep](https://math.stackexchange.com/users/93247) | 10 | True / none | CC BY\-SA 4.0 |
 | [Is this method of computing square roots already known?](https://math.stackexchange.com/questions/5154387) | [Pietro De Freitas Grando](https://math.stackexchange.com/users/1786743) | 2 | True / none | CC BY\-SA 4.0 |
+| [Finding rational points on $w^4\+x^4\+y^4\+z^2=u^8$?](https://math.stackexchange.com/questions/5154443) | [Koushik Pramanik](https://math.stackexchange.com/users/1761253) | 1 | False / none | CC BY\-SA 4.0 |
+| [Reference: control theory](https://math.stackexchange.com/questions/2904799) | [nabla](https://math.stackexchange.com/users/118217) | 1 | False / none | CC BY\-SA 4.0 |
+| [Regular expression for Napier's constant $e$](https://math.stackexchange.com/questions/5153306) | [Alma Arjuna](https://math.stackexchange.com/users/754030) | 2 | False / none | CC BY\-SA 4.0 |
+| [Can anyone find rational solutions for $w^8\+x^8\+y^4=z^8$?](https://math.stackexchange.com/questions/5154438) | [Koushik Pramanik](https://math.stackexchange.com/users/1761253) | 0 | True / none | CC BY\-SA 4.0 |
+| [Can every unlink be classified by a neural network of width 3?](https://math.stackexchange.com/questions/5154075) | [user582761](https://math.stackexchange.com/users/1766181) | 6 | False / none | CC BY\-SA 4.0 |
+| [Is this a New biggest named number?](https://math.stackexchange.com/questions/5154440) | [new guy](https://math.stackexchange.com/users/696126) | -10 | False / none | CC BY\-SA 4.0 |
+| [What is the shortest continuous way to rotate $180°$ using circle arcs and their tangents?](https://math.stackexchange.com/questions/5154436) | [Dmitro](https://math.stackexchange.com/users/1306060) | 2 | False / none | CC BY\-SA 4.0 |
+| [The correspondence between Killing fields and isometries when $\(M, g\)$ is either geodesically incomplete or pseudo\-Riemannian](https://math.stackexchange.com/questions/5154439) | [Markus Klyver](https://math.stackexchange.com/users/221503) | 0 | False / none | CC BY\-SA 4.0 |
+| [Conceptual question about applying the uncertainty principle to a solution of finite duration](https://math.stackexchange.com/questions/5151959) | [Joako](https://math.stackexchange.com/users/909869) | 6 | True / none | CC BY\-SA 4.0 |
+| [formulate a power series](https://math.stackexchange.com/questions/568644) | [user97848](https://math.stackexchange.com/users/97848) | 0 | True / none | CC BY\-SA 4.0 |
+| [It is possible to represent the sum of two geometric Brownian paths as another geometric Brownian motion?](https://math.stackexchange.com/questions/4835130) | [Joako](https://math.stackexchange.com/users/909869) | 3 | True / none | CC BY\-SA 4.0 |
+| [How can we find smallest singular value of Jacobian matrix of a system of nonlinear equations without finding the solution?](https://math.stackexchange.com/questions/2506924) | user494522 | 0 | False / none | CC BY\-SA 3.0 |
+| [Generating acyclic cofibrations for the Joyal model structure](https://math.stackexchange.com/questions/1856991) | [tcamps](https://math.stackexchange.com/users/45082) | 11 | True / none | CC BY\-SA 3.0 |
 | [Local Extrema of an Exponential Function and the Monotonicity Property](https://math.stackexchange.com/questions/5102769) | [Θάνος Κ.](https://math.stackexchange.com/users/779028) | 2 | False / none | CC BY\-SA 4.0 |
 | [Why primes $\\neq 2,5$ divide infinitely many repunits? \(cyclic permutation orbits\)](https://math.stackexchange.com/questions/4758) | [yunone](https://math.stackexchange.com/users/1583) | 6 | True / 4760 | CC BY\-SA 4.0 |
 | [Simplifying the bicategorical coproduct of categories of quasi\-coherent sheaves](https://math.stackexchange.com/questions/5154413) | [Jorge A. Mateos](https://math.stackexchange.com/users/1070808) | 0 | False / none | CC BY\-SA 4.0 |
-| [What is the shortest continuos way to rotate $180°$ using circle arcs and their tangents?](https://math.stackexchange.com/questions/5154436) | [Dmitro](https://math.stackexchange.com/users/1306060) | 0 | False / none | CC BY\-SA 4.0 |
 | [Is the category of sets and relations mono\-regular?](https://math.stackexchange.com/questions/5137721) | [Martin Brandenburg](https://math.stackexchange.com/users/1650) | 2 | True / 5137726 | CC BY\-SA 4.0 |
-| [Understanding the apparent contradiction $1=\\sqrt\{\(\-1\)\(\-1\)\}=i\\cdot i=\-1$ using branches of the complex logarithm](https://math.stackexchange.com/questions/5154432) | [Kie289](https://math.stackexchange.com/users/1764312) | 1 | False / none | CC BY\-SA 4.0 |
-| [Can every unlink be classified by a neural network of width 3?](https://math.stackexchange.com/questions/5154075) | [user582761](https://math.stackexchange.com/users/1766181) | 6 | False / none | CC BY\-SA 4.0 |
-| [Parametric solutions for $x^2\+y^2=z^2\+1$](https://math.stackexchange.com/questions/5154411) | [coffeemath](https://math.stackexchange.com/users/483139) | 0 | False / none | CC BY\-SA 4.0 |
-| [Venn diagram or matrix box question. Overlapping set problem.](https://math.stackexchange.com/questions/601414) | [Jwan622](https://math.stackexchange.com/users/77211) | 0 | True / none | CC BY\-SA 4.0 |
+| [Parametric solutions for $x^2\+y^2=z^2\+1$](https://math.stackexchange.com/questions/5154411) | [coffeemath](https://math.stackexchange.com/users/483139) | 0 | True / 5154434 | CC BY\-SA 4.0 |
 | [Need help with his sequences problem involving divisibility](https://math.stackexchange.com/questions/5154424) | [Kavin Vikraman](https://math.stackexchange.com/users/1782040) | -2 | False / none | CC BY\-SA 4.0 |
 | [Is there a simple formula for the surface\-areas of this family of solids of revolution?](https://math.stackexchange.com/questions/5154414) | [Lawton](https://math.stackexchange.com/users/530932) | 1 | True / 5154429 | CC BY\-SA 4.0 |
 | [Biological interpretation of a function $g$ in Fisher\-\-KPP equation](https://mathoverflow.net/questions/516928) | [amine](https://mathoverflow.net/users/156274) | 0 | False / none | CC BY\-SA 4.0 |
-| [In plain Zermelo\-Fraenkel set theory, can $\\omega\_1$ be metrisable?](https://mathoverflow.net/questions/516922) | [Jorgen Harmse](https://mathoverflow.net/users/577254) | 5 | True / none | CC BY\-SA 4.0 |
+| [In plain Zermelo\-Fraenkel set theory, can $\\omega\_1$ be metrisable?](https://mathoverflow.net/questions/516922) | [Jorgen Harmse](https://mathoverflow.net/users/577254) | 7 | True / none | CC BY\-SA 4.0 |
 | [How to find the characteristic form of coupled PDEs?](https://math.stackexchange.com/questions/4891848) | [Gaelthorn](https://math.stackexchange.com/users/1199480) | 1 | True / none | CC BY\-SA 4.0 |
 | [Proof that the cartesian plane is an incidence geometry with only vector definition of a line.](https://math.stackexchange.com/questions/398740) | [Matthew Evers](https://math.stackexchange.com/users/78875) | 0 | False / none | CC BY\-SA 3.0 |
 | [Finding all sets of integer $\(x, y\)$ that satisfy $2x^2\+y^2\+8x\+2y\-93=0$](https://math.stackexchange.com/questions/4380348) | [Cyh1368](https://math.stackexchange.com/users/812923) | 2 | True / none | CC BY\-SA 4.0 |
-| [Are there any known counterexamples or heuristics for a prime in $\(n^2, n^2 \+ \\lfloor\(n\+1\)/2\\rfloor\]$ for $n \\neq 5$?](https://math.stackexchange.com/questions/5154430) | [JASPAL GUPTA](https://math.stackexchange.com/users/1786098) | 0 | False / none | CC BY\-SA 4.0 |
+| [Are there any known counterexamples or heuristics for a prime in $\(n^2, n^2 \+ \\lfloor\(n\+1\)/2\\rfloor\]$ for $n \\neq 5$?](https://math.stackexchange.com/questions/5154430) | [JASPAL GUPTA](https://math.stackexchange.com/users/1786098) | 2 | False / none | CC BY\-SA 4.0 |
 | [Local extremes for quartic multivariable function](https://math.stackexchange.com/questions/680904) | [Georgiana](https://math.stackexchange.com/users/129726) | 2 | False / none | CC BY\-SA 4.0 |
 | [Prove if $A$ and $B$ are skew symmetric then $A\+B$ is skew symmetric](https://math.stackexchange.com/questions/1309087) | [Roneel Kumar](https://math.stackexchange.com/users/217612) | 3 | True / none | CC BY\-SA 4.0 |
 | [Variance of the sum of correlated variables](https://math.stackexchange.com/questions/1841414) | [Eren](https://math.stackexchange.com/users/321991) | 2 | True / 1841586 | CC BY\-SA 4.0 |
 | [Probability\-Playing Cards](https://math.stackexchange.com/questions/1237988) | [Raul](https://math.stackexchange.com/users/104193) | 2 | True / 1238052 | CC BY\-SA 4.0 |
 | [Proof: in any set of n rational numbers there is a no mean in between permutation](https://math.stackexchange.com/questions/3884647) | [Dojou](https://math.stackexchange.com/users/837846) | 0 | True / none | CC BY\-SA 4.0 |
 | [Algorithms for approximating $\\sqrt\{2\}$](https://math.stackexchange.com/questions/291168) | [Albert Renshaw](https://math.stackexchange.com/users/56935) | 22 | True / 291170 | CC BY\-SA 4.0 |
-| [Optimal control problem in Mayer form: issues replicating solution to exercise 2.8 in Sethi &amp; Thompson](https://math.stackexchange.com/questions/5154408) | [Ettore S](https://math.stackexchange.com/users/1234572) | 1 | False / none | CC BY\-SA 4.0 |
-| [Family of integrals that possibly can be represented using only values of $\\zeta\(n\)$](https://mathoverflow.net/questions/516908) | [user602503](https://mathoverflow.net/users/602503) | 3 | True / none | CC BY\-SA 4.0 |
-| [Verbal subgroups of free groups and the corresponding automorphisms](https://mathoverflow.net/questions/90052) | [Taff](https://mathoverflow.net/users/21849) | 9 | True / none | CC BY\-SA 4.0 |
-| [Advanced Calculus Resource for Multivariate and Complex Calculus](https://math.stackexchange.com/questions/608523) | [Vesnog](https://math.stackexchange.com/users/101585) | 2 | False / none | CC BY\-SA 3.0 |
-| [Showing that a certain series diverges](https://math.stackexchange.com/questions/4858344) | [pleasantpheasant](https://math.stackexchange.com/users/436929) | 0 | True / none | CC BY\-SA 4.0 |
-| [Intuition for construction for Fermat's Last Theorem for $n=4$](https://math.stackexchange.com/questions/5152840) | [Dmitry](https://math.stackexchange.com/users/743044) | 4 | True / none | CC BY\-SA 4.0 |
-| [Proving that the solutions of $a^2x^2\+b^2=0$ have the form $x = \\pm\\frac\{b\}\{a\}i$, step by step](https://math.stackexchange.com/questions/5154233) | [AP Study](https://math.stackexchange.com/users/1786547) | 1 | True / none | CC BY\-SA 4.0 |
-| [Could Fermat have used the difference of cubes to prove his theorem for n=3?](https://math.stackexchange.com/questions/5154338) | [user541145](https://math.stackexchange.com/users/1730237) | -2 | False / none | CC BY\-SA 4.0 |
-| [How can we mathematically prove that a physical object we identify as a circle is actually a perfect circle?](https://math.stackexchange.com/questions/5154422) | [Samriddh Sharma](https://math.stackexchange.com/users/1783954) | -4 | False / none | CC BY\-SA 4.0 |
-| [How many elements \(mod n\) of order r dividing phi\(n\)](https://mathoverflow.net/questions/516924) | [Len Schrieber](https://mathoverflow.net/users/15132) | 0 | False / none | CC BY\-SA 4.0 |
-| ["for some x in A" &lt;\-&gt; "and \(x in A\)" ? \(axiomatic set theory\)](https://math.stackexchange.com/questions/5154423) | [Penelope](https://math.stackexchange.com/users/319008) | -1 | False / none | CC BY\-SA 4.0 |
-| [Is set of focal points of a submanifold on a normal geodesic discrete?](https://math.stackexchange.com/questions/575663) | [TMÜ](https://math.stackexchange.com/users/110397) | 2 | False / none | CC BY\-SA 3.0 |
-| [A likely counterexample to Theorem 5.3.15 in Emerton and Gee’s “Scheme\-theoretic images of morphisms of stacks"](https://mathoverflow.net/questions/516923) | [Raziel Tzedek](https://mathoverflow.net/users/601802) | 1 | False / none | CC BY\-SA 4.0 |
-| [Show $\\int\_\{C\} \\omega = \\int\_\{0\}^\{1\} \\left\( F\(x\_\{0\}t,y\_\{0\},z\_\{0\}\)\+G\(x\_\{0\},y\_\{0\}t,z\_\{0\}\)\+H\(x\_\{0\},y\_\{0\},z\_\{0\}t\)\\right\)dt$ with $C$ a straight line](https://math.stackexchange.com/questions/5154421) | [scipio](https://math.stackexchange.com/users/808884) | 0 | False / none | CC BY\-SA 4.0 |
 
 ## Primary research blog feeds
 
