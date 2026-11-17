@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-16T22:27:47\+00:00**
+**Public metadata capture · 2026\-11\-17T04:43:49\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 497 | 115 | 80 | 16 | 12 | 10 |
+| 497 | 110 | 80 | 16 | 14 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [Automorphism groups of solvable groups of finite abelian ranks](https://arxiv.org/abs/2506.07991v3) — reported open candidate; review required.
-- [Color Refinement Distinguishes Connected Rooted Outerplanar Graphs](https://arxiv.org/abs/2611.18391v1) — reported open candidate; review required.
-- [Quadratic APN Functions of $\\mathbb\{F\}\_2^\{10\}$ with a Self\-Equivalence of Prime Order](https://arxiv.org/abs/2611.18358v1) — reported open candidate; review required.
+- [The Ferrers bound for spanning trees in bipartite graphs](https://arxiv.org/abs/2603.17997v2) — reported open candidate; review required.
+- [Curves in $\\PP^\{3\}$ are Complete Intersections or Golod](https://arxiv.org/abs/2611.20186v1) — reported open candidate; review required.
+- [Non\-Stationary Difference Equation and Affine Laumon Space III: Generalization to $\\widehat\{\\mathfrak\{gl\}\}\_N$](https://arxiv.org/abs/2510.27142v3) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
