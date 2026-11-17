@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-12T18:54:21.127419+00:00",
+  "captured_at_utc": "2026-11-17T03:51:42.984706+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -83,7 +83,7 @@
       "clone_url": "https://github.com/quantumlib/OpenFermion-FQE.git",
       "path": "quantumlib/OpenFermion-FQE",
       "default_branch": "main",
-      "commit": "37d451e0611b954b329021a0e8779fe4918e6eb6",
+      "commit": "6a54c70c544decefe6982a5400042c48a8ba456d",
       "archived": false,
       "description": "The Fermionic Quantum Emulator (FQE) is a fermionic simulation research tool specializing in quantum circuits emulating fermion dynamics.",
       "license_spdx": "Apache-2.0"
@@ -95,7 +95,7 @@
       "clone_url": "https://github.com/quantumlib/OpenFermion-Psi4.git",
       "path": "quantumlib/OpenFermion-Psi4",
       "default_branch": "main",
-      "commit": "36bd888b1b38371a16159bd1bafb51ca008abd9a",
+      "commit": "eb037657d2dbc25985bded00a80030d80e7ce56b",
       "archived": false,
       "description": "OpenFermion plugin to interface with the electronic structure package Psi4.",
       "license_spdx": "LGPL-3.0"
@@ -107,7 +107,7 @@
       "clone_url": "https://github.com/quantumlib/OpenFermion-PySCF.git",
       "path": "quantumlib/OpenFermion-PySCF",
       "default_branch": "main",
-      "commit": "4a8675107544cf5017e4d177ff74203c3c51c852",
+      "commit": "2b18c66ec048473f17c581e6300e2f9eb0cb41ec",
       "archived": false,
       "description": "OpenFermion plugin to interface with the electronic structure package PySCF.",
       "license_spdx": "Apache-2.0"
@@ -179,7 +179,7 @@
       "clone_url": "https://github.com/quantumlib/tesseract-decoder.git",
       "path": "quantumlib/tesseract-decoder",
       "default_branch": "main",
-      "commit": "54569b4af741423708922a1c033feb483fc034c1",
+      "commit": "e93559ae8cd6d1679acc9812805ab4f8ed564a9b",
       "archived": false,
       "description": "Search-based decoder for quantum error correction (QEC) written in C++ and Python.",
       "license_spdx": "Apache-2.0"
@@ -191,7 +191,7 @@
       "clone_url": "https://github.com/quantumlib/TypedUnits.git",
       "path": "quantumlib/TypedUnits",
       "default_branch": "main",
-      "commit": "efc0bb4efd1efc2d81bb9f038c209416be36f8e5",
+      "commit": "2f948bd451e390c33cf1bad3d25d67d8b60c4e41",
       "archived": false,
       "description": "A fast units and dimensions library with support for static dimensionality checking and protobuffer serialization.",
       "license_spdx": "Apache-2.0"
