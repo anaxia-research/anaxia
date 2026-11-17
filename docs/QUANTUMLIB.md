@@ -24,14 +24,14 @@ On Windows, enabling `git config --global core.longpaths true` may help with lon
 | [.allstar](https://github.com/quantumlib/.allstar) | `quantumlib/.allstar` | `7208ff64daa1` | Yes |  |
 | [.github](https://github.com/quantumlib/.github) | `quantumlib/.github` | `b6845829c0c6` | No |  |
 | [chromobius](https://github.com/quantumlib/chromobius) | `quantumlib/chromobius` | `c407dd3c8cba` | No | Open-source implementation of a Möbius decoder for color codes used in quantum error correction (QEC) |
-| [Cirq](https://github.com/quantumlib/Cirq) | `quantumlib/Cirq` | `7769af942669` | No | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
+| [Cirq](https://github.com/quantumlib/Cirq) | `quantumlib/Cirq` | `e12c651db50a` | No | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
 | [OpenFermion](https://github.com/quantumlib/OpenFermion) | `quantumlib/OpenFermion` | `34adf3196cd5` | No | Python package for compiling and analyzing quantum algorithms to simulate electronic structures. |
 | [OpenFermion-Cirq](https://github.com/quantumlib/OpenFermion-Cirq) | `quantumlib/OpenFermion-Cirq` | `655b00fee21c` | Yes | Quantum circuits for simulations of quantum chemistry and materials. |
 | [OpenFermion-FQE](https://github.com/quantumlib/OpenFermion-FQE) | `quantumlib/OpenFermion-FQE` | `6a54c70c544d` | No | The Fermionic Quantum Emulator (FQE) is a fermionic simulation research tool specializing in quantum circuits emulating fermion dynamics. |
 | [OpenFermion-Psi4](https://github.com/quantumlib/OpenFermion-Psi4) | `quantumlib/OpenFermion-Psi4` | `eb037657d2db` | No | OpenFermion plugin to interface with the electronic structure package Psi4. |
 | [OpenFermion-PySCF](https://github.com/quantumlib/OpenFermion-PySCF) | `quantumlib/OpenFermion-PySCF` | `2b18c66ec048` | No | OpenFermion plugin to interface with the electronic structure package PySCF. |
 | [qchack-2021-challenge](https://github.com/quantumlib/qchack-2021-challenge) | `quantumlib/qchack-2021-challenge` | `80c227033c1a` | Yes | The <G\|oogl\|e> challenge for Quantum Coalition Hackathon 2021 |
-| [qsim](https://github.com/quantumlib/qsim) | `quantumlib/qsim` | `50cac4b3fa33` | No | Fast C++ and Python library for state-vector simulation of quantum circuits. |
+| [qsim](https://github.com/quantumlib/qsim) | `quantumlib/qsim` | `2292aebd6b7d` | No | Fast C++ and Python library for state-vector simulation of quantum circuits. |
 | [Qualtran](https://github.com/quantumlib/Qualtran) | `quantumlib/Qualtran` | `f559b12af459` | No | Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms. |
 | [ReCirq](https://github.com/quantumlib/ReCirq) | `quantumlib/ReCirq` | `c081606256e0` | No | Python modules for quantum computing applications and experiments using Cirq. Research using Cirq! |
 | [Stim](https://github.com/quantumlib/Stim) | `quantumlib/Stim` | `ffe0d043598e` | No | A fast stabilizer circuit library. |

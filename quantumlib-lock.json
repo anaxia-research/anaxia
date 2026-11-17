@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-17T03:51:42.984706+00:00",
+  "captured_at_utc": "2026-11-17T22:21:41.722912+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -47,7 +47,7 @@
       "clone_url": "https://github.com/quantumlib/Cirq.git",
       "path": "quantumlib/Cirq",
       "default_branch": "main",
-      "commit": "7769af942669e85586c9660a607999d1a7387302",
+      "commit": "e12c651db50a1da82f83d9ea210103c1b451260b",
       "archived": false,
       "description": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
       "license_spdx": "Apache-2.0"
@@ -131,7 +131,7 @@
       "clone_url": "https://github.com/quantumlib/qsim.git",
       "path": "quantumlib/qsim",
       "default_branch": "main",
-      "commit": "50cac4b3fa331450b70387735479a00e223b8d25",
+      "commit": "2292aebd6b7d6a361a856a13fbee8bd8b60071c6",
       "archived": false,
       "description": "Fast C++ and Python library for state-vector simulation of quantum circuits.",
       "license_spdx": "Apache-2.0"
