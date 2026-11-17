@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-17T04:43:49\+00:00**
+**Public metadata capture · 2026\-11\-17T14:50:13\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 497 | 110 | 80 | 16 | 14 | 10 |
+| 500 | 112 | 80 | 16 | 10 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [The Ferrers bound for spanning trees in bipartite graphs](https://arxiv.org/abs/2603.17997v2) — reported open candidate; review required.
-- [Curves in $\\PP^\{3\}$ are Complete Intersections or Golod](https://arxiv.org/abs/2611.20186v1) — reported open candidate; review required.
-- [Non\-Stationary Difference Equation and Affine Laumon Space III: Generalization to $\\widehat\{\\mathfrak\{gl\}\}\_N$](https://arxiv.org/abs/2510.27142v3) — reported open candidate; review required.
+- [On elliptic curves with prescribed analytic rank at least $2$](https://arxiv.org/abs/2611.21447v1) — reported open candidate; review required.
+- [Polynomial bounds for quasiplanar graphs](https://arxiv.org/abs/2611.21416v1) — reported open candidate; review required.
+- [An iterated\-logarithm price of anytime validity for log\-optimal e\-processes](https://arxiv.org/abs/2611.11874v2) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
