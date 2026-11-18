@@ -53,3 +53,36 @@ If the seed is zero, these bounds hold with $u_0=0$, and for the following conti
 Run `python scripts/check_yang_mills_one_scale.py` for an exact replay of the mesh factor, seed conversions, exponential majorants, contraction constants, and percentage comparisons.
 
 The conditional argument requires a smaller range of boxes and allows a larger initial pressure coefficient. Constructing the Wightman limit and verifying the pressure estimate along a continuum weak-coupling sequence remain open obligations.
+
+## Two spatial cuts and a stronger conditional gap
+
+The same third-row seed gives a continuum lower bound of \(\log(12)/t_0\) if the source's matching hypothesis (W) holds. The refined comparison applies to cubes of side at least \(18T_0\). Along the continuum family, this simply restricts consideration to \(L_p\ge18t_0\). [Spatial-cut estimates, §§7.10–7.11 and Theorem F](https://doi.org/10.20944/preprints202611.1282.v1)
+
+For integer \(c>1\), use minimum comparison side \(cT\) and a mesh \(P\ge cT\). At a single spatial cut with cross-section \(B\times C\), Lemmas 7.31(ii) and 7.44(ii) bound its vacuum-energy defect by \(2\delta(T;B,C)\), where \(\delta\) is the tube energy correction in the source. Proposition 7.45(ii) gives
+\[
+\delta(T;B,C)\le\frac{\log Z_{(B,C,cT)}(T)}{(c-1)T}
+\le \frac{c}{c-1}BC\,f_S.
+\]
+Here \(f_S\) is the maximum pressure per spatial volume on sides in \([cT,S]\), with \(S\ge2P\). The comparison box belongs to this range, including after earlier cuts. Partition each side that needs cutting into integer pieces in \([P,2P)\). Summing cut cross-sections in each of the three directions costs at most \(V/P\) per direction. The normalized log trace is bounded by the sum of piece log traces plus \(T\) times the total vacuum-energy defect. Therefore if the pressure per volume on \([cT,2P)\) is at most \(g\), taking the maximum over \([cT,S]\) gives
+\[
+f_S\le g+\frac{6cT}{(c-1)P}f_S.
+\]
+When the coefficient is below one, this gives the pressure bound for all spatial sides at least \(cT\) by taking arbitrary \(S\). This is the generalized cut described after Proposition 7.52.
+
+At \(T_0\), take \(c=18\) and \(P=20T_0\). The seed applies on \([18T_0,40T_0)\), so the cut gives \(F_0=(85/58)\gamma\) on all sides at least \(18T_0\). For \(T_{i+1}=2T_i\), take \(c=9\) and \(P=9T_{i+1}\); the cut factor is now \(4\). The comparison boxes at step \(i+1\) lie in \([18T_i,36T_i)\), within the previous bound's range even at \(i=0\). Their volumes are below \((36T_i)^3\). Use \(D(2T)\le D(T)^2\) and monotonicity of \((e^{F_i v}-1)^2/v\). With \(y_i=(36T_i)^3F_i\) this gives
+\[
+y_{i+1}\le32(e^{y_i}-1)^2,\qquad
+y_0\le Y=\frac{4131}{1624000}.
+\]
+For \(y\le Y\), the exponential majorant above gives \(e^y-1\le By\) with \(B=3249377/3245246\). Set \(C_*=32B^2\) and \(U=C_*Y\). The exact rational computation gives
+\[
+U=\frac{43616960618860899}{534479796226187000}<\frac1{12}.
+\]
+Induction shows \(C_* y_i\le U^{2^i}\).
+
+For a cube of side \(n\ge18T_0\), choose the largest \(i\) with \(9T_i\le n\). Then \(i\ge1\) and \(n<18T_i\). The pressure bound gives \(D_n(T_i)\le (B/C_*)U^{T_i/T_0}\). If \(r_1\) is the first excited eigenvalue ratio, \(r_1^{T_i}\le D_n(T_i)\), so \(r_1\le U^{1/T_0}\). Positivity also yields
+\[
+D_n(n)\le r_1^{n-T_i}D_n(T_i)
+\le (B/C_*) U^{n/T_0}.
+\]
+At \(n=NL_p\) and \(T_0\le Nt_0\), the latter bound gives (Z) and the former gives \(r_1\le\exp(-\Delta/N)\) with \(\Delta=-\log U/t_0>\log(12)/t_0\). These are the finite-volume inputs to the argument following Theorem 7.56 in the proof of Theorem F. Under (W), the continuum Hamiltonian has simple vacuum and no positive spectrum below \(\Delta\). The replica-seam bound \(V/(13{,}510{,}000T_0^3)\) supplies this pressure seed if established uniformly at the tuned couplings. [Defect-to-pressure conversion](ANN-YANG-MILLS-DEFECT.md)

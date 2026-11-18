@@ -18,7 +18,7 @@ field theory), 81T27 (continuum limits), 81T28 (thermal quantum field theory).}
 
 \begin{document}
 \begin{abstract}
-Two replica seams express the Wilson thermal defect as an exact connected covariance. We prove a sharp finite-volume contraction and quantify the uniform response estimate needed for a weak-coupling mass gap.
+Two replica seams express the Wilson thermal defect as a covariance. A revised spatial cut yields an explicit continuum gap bound conditional on one uniform weak-coupling estimate.
 \end{abstract}
 \maketitle
 
@@ -222,9 +222,23 @@ because \(E\le (e^\Psi-1)^2\) and \(e^\Psi-1\le\Psi/(1-\Psi)\).
 The coefficient on \(V/T^3\) is therefore at most \(1/26{,}880{,}000\),
 the smaller-window pressure seed in the one-scale refinement \cite{Ann}.
 The exact ratio of the obtained coefficient to the required one is
-\(2906552896/2907784899\). With the matching continuum hypothesis (W) of
-\cite{OneScale}, the third row of \cite{Ann} then gives
-\(\Delta\ge t_0^{-1}\log(80724/80645)\).
+\(2906552896/2907784899\).
+
+Apply the spatial-cut refinement of \cite{Ann}, using comparison sides
+\([18T,40T)\) at the initial time and \([9T_i,18T_i)\) at later
+doublings \(T_i=2^iT\). The cut multipliers are \(85/58\) and \(4\),
+respectively. If the normalized log trace per spatial volume is bounded
+by \(F_i\), then \(y_i=(36T_i)^3F_i\) satisfies
+\(y_{i+1}\le32(e^{y_i}-1)^2\) with \(y_0\le4131/1624000\).
+The rational majorant in \cite{Ann} gives the contraction constant
+\[
+U=\frac{43616960618860899}{534479796226187000}<\frac1{12}.
+\]
+On cubes of side at least \(18T\), the excited transfer eigenvalue
+ratios are at most \(U^{1/T}\), and the vacuum-normalized excited
+trace at time equal to the cube side decays exponentially. With the
+matching continuum hypothesis (W) from \cite{OneScale}, the resulting
+physical lower bound is \(\Delta\ge -t_0^{-1}\log U>\log(12)/t_0\).
 
 In the quantifiers of \cite[Theorem F]{OneScale}, a sufficient input is the
 following. For some \(t_0>0\) and all sufficiently large \(p\), for every
@@ -250,6 +264,38 @@ Indeed each periodic spatial coordinate contributes at most
 This suffices if the required large ratio \(T/b\) is reached within the
 available physical time window. The estimate must control the amplitude
 as well as the range of correlations.
+
+\section{Passing the gap to a continuum phase}
+
+The November assessment verifies reconstruction of Wightman theories
+in selected phases of subsequential Wilson limits \cite[Theorem 6.1]{Assessment}.
+To transfer the bound above to a particular phase, the cutoff
+vacuum-centered matrix elements must converge to that phase's
+vacuum-centered matrix elements. This is the matching needed for the
+spectral step.
+
+Indeed let \(v\) range over a dense vacuum-orthogonal reconstruction core.
+Suppose cutoff vectors \(v_N\) have squared norms converging to
+\(\|v\|^2\), and their Euclidean time matrix elements converge to
+\(\langle v,e^{-tH}v\rangle\) when \(k_N/N\to t>0\).
+The uniform cutoff eigenvalue bound \(r_1\le e^{-\Delta/N}\) gives
+\[
+0\le \langle v,e^{-tH}v\rangle\le e^{-t\Delta}\|v\|^2.
+\]
+Continuity gives the same inequality throughout the orthogonal complement
+of the vacuum. The spectral theorem then excludes energies below
+\(\Delta\) there, including any additional zero-energy vector.
+
+For the exact mass, let \(\mu_v\) be the spectral measure of \(H\) in
+\(v\). For each nonzero centered vector, the exponential decay rate of
+\(\int e^{-tE}\,d\mu_v(E)\) equals \(\inf\operatorname{supp}\mu_v\):
+the support gives one inequality, and positive measure arbitrarily
+close to its lower edge gives the other. Taking the infimum of those
+rates over the dense core yields the spectral threshold, since any
+nonzero spectral projection is detected by some core vector. Thus an
+exact value requires a matching upper estimate for the lowest positive
+energy in a specified theory and scale. Equation (3) itself remains an
+unproved estimate along the weak-coupling family.
 
 \section{A Gaussian check}
 

@@ -35,7 +35,19 @@ def main():
         assert majorant / quadratic_factor < 1
         assert seed / original_seed - 1 == improvement
 
-    print('Checked all three conditional seed bounds and exact contraction constants.')
+    initial_cut = 1 / (1 - Fraction(6 * 18, 17 * 20))
+    doubling_cut = 1 / (1 - Fraction(6 * 9, 8 * 9))
+    assert initial_cut == Fraction(85, 58)
+    assert doubling_cut == 4
+    y = 36 ** 3 * initial_cut / 26_880_000
+    b = 1 + y / (2 * (1 - y / 3))
+    u = 8 * doubling_cut * b * b * y
+    assert y == Fraction(4131, 1624000)
+    assert b == Fraction(3249377, 3245246)
+    assert u == Fraction(43616960618860899, 534479796226187000)
+    assert u < Fraction(1, 12)
+
+    print('Checked the conditional seed bounds and the two-mesh contraction constants.')
 
 
 if __name__ == '__main__':
