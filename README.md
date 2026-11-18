@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-17T23:06:20\+00:00**
+**Public metadata capture · 2026\-11\-18T04:40:09\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 500 | 112 | 80 | 16 | 10 | 10 |
+| 500 | 111 | 80 | 16 | 13 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [On elliptic curves with prescribed analytic rank at least $2$](https://arxiv.org/abs/2611.21447v1) — reported open candidate; review required.
-- [Polynomial bounds for quasiplanar graphs](https://arxiv.org/abs/2611.21416v1) — reported open candidate; review required.
-- [An iterated\-logarithm price of anytime validity for log\-optimal e\-processes](https://arxiv.org/abs/2611.11874v2) — reported open candidate; review required.
+- [Complexity Framework For Forbidden Subgraphs V: Beyond Simple Graphs](https://arxiv.org/abs/2502.07769v3) — reported open candidate; review required.
+- [Link Spectra of Lorenz\-like Templates and the Horseshoe](https://arxiv.org/abs/2611.19467v2) — reported open candidate; review required.
+- [Maximality of the Došen\-Petrić Boolean Category](https://arxiv.org/abs/2611.19496v2) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
