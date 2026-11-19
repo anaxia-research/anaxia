@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-19T03:48:06\+00:00**
+**Public metadata capture · 2026\-11\-19T13:47:58\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 499 | 114 | 80 | 16 | 9 | 10 |
+| 498 | 108 | 80 | 16 | 8 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [Martingale Transforms and Subsequence Estimates in Noncommutative \\\(L\_p\\\)\-Spaces](https://arxiv.org/abs/2610.18008v2) — reported open candidate; review required.
-- [A Well\-Separated Pair Decomposition of Linear Size for Unit\-Disk Graphs](https://arxiv.org/abs/2611.24295v1) — reported open candidate; review required.
-- [Circuit spectra for binary matroids](https://arxiv.org/abs/2611.23730v1) — reported open candidate; review required.
+- [Random Sequential Adsorption versus the Uniform Ensemble of Jammed Configurations: Stochastic Dominance on Graphs](https://arxiv.org/abs/2611.14718v2) — reported open candidate; review required.
+- [Balanced Simplicial Complexes for the $γ$\-Vectors of Zig\-Zag Eulerian Polynomials](https://arxiv.org/abs/2611.24720v1) — reported open candidate; review required.
+- [Positivity and uniform log\-concavity for rank\-two Chern coefficients](https://arxiv.org/abs/2611.24563v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
