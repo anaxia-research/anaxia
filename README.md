@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-18T22:15:12\+00:00**
+**Public metadata capture · 2026\-11\-19T03:48:06\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 499 | 111 | 80 | 16 | 13 | 10 |
+| 499 | 114 | 80 | 16 | 9 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [Complexity Framework For Forbidden Subgraphs V: Beyond Simple Graphs](https://arxiv.org/abs/2502.07769v3) — reported open candidate; review required.
-- [Link Spectra of Lorenz\-like Templates and the Horseshoe](https://arxiv.org/abs/2611.19467v2) — reported open candidate; review required.
-- [Maximality of the Došen\-Petrić Boolean Category](https://arxiv.org/abs/2611.19496v2) — reported open candidate; review required.
+- [Martingale Transforms and Subsequence Estimates in Noncommutative \\\(L\_p\\\)\-Spaces](https://arxiv.org/abs/2610.18008v2) — reported open candidate; review required.
+- [A Well\-Separated Pair Decomposition of Linear Size for Unit\-Disk Graphs](https://arxiv.org/abs/2611.24295v1) — reported open candidate; review required.
+- [Circuit spectra for binary matroids](https://arxiv.org/abs/2611.23730v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
