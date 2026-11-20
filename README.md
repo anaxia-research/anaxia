@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-20T03:41:07\+00:00**
+**Public metadata capture · 2026\-11\-20T13:30:00\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 497 | 112 | 80 | 16 | 16 | 10 |
+| 496 | 111 | 80 | 16 | 13 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
+- [Computer\-Assisted Results for $n$\-Sided Non\-Transitive Dice Taking Face Values in $\[n\]$](https://arxiv.org/abs/2610.40321v2) — reported open candidate; review required.
+- [Between proper and strong edge\-colorings of graphs with maximum degree at most four](https://arxiv.org/abs/2611.22254v2) — reported open candidate; review required.
 - [Agnostic Smoothed Online Regression with Adversarial Responses](https://arxiv.org/abs/2609.32478v2) — reported open candidate; review required.
-- [Oort's conjecture on automorphisms of generic supersingular abelian varieties](https://arxiv.org/abs/2603.06033v3) — reported open candidate; review required.
-- [The Scott sobriety on countable Frechet\-Urysohn dcpos and locally compact meet\-continuous dcpos](https://arxiv.org/abs/2611.25901v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
