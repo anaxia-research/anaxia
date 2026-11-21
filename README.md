@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-21T02:44:58\+00:00**
+**Public metadata capture · 2026\-11\-21T11:40:10\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 498 | 111 | 80 | 16 | 13 | 10 |
+| 501 | 111 | 80 | 16 | 13 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
