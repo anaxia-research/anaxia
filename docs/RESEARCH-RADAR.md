@@ -1,6 +1,6 @@
 # Anaxia research radar
 
-**Public metadata capture · 2026\-11\-21T11:40:10\+00:00**
+**Public metadata capture · 2026\-11\-21T19:42:26\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -22,16 +22,16 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 | Source | State | Last successful capture | Records | Limited |
 | --- | --- | --- | ---: | --- |
-| github: anaxia\-research | ok | 2026\-11\-21T11:40:10\+00:00 | 217 | False |
-| github: topic:theorem\-proving archived:false | ok | 2026\-11\-21T11:40:10\+00:00 | 100 | True |
-| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-21T11:40:10\+00:00 | 100 | True |
-| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-21T11:40:10\+00:00 | 100 | True |
-| arxiv: cat:math.\* | ok | 2026\-11\-21T11:40:10\+00:00 | 60 | True |
-| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-21T11:40:10\+00:00 | 60 | True |
-| stackexchange: mathoverflow | ok | 2026\-11\-21T11:40:10\+00:00 | 40 | True |
-| stackexchange: math | ok | 2026\-11\-21T11:40:10\+00:00 | 40 | True |
-| blogs: https://terrytao.wordpress.com/feed/ | ok | 2026\-11\-21T11:40:10\+00:00 | 8 | True |
-| blogs: https://gowers.wordpress.com/feed/ | ok | 2026\-11\-21T11:40:10\+00:00 | 8 | True |
+| github: anaxia\-research | ok | 2026\-11\-21T19:42:26\+00:00 | 217 | False |
+| github: topic:theorem\-proving archived:false | ok | 2026\-11\-21T19:42:26\+00:00 | 100 | True |
+| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-21T19:42:26\+00:00 | 100 | True |
+| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-21T19:42:26\+00:00 | 100 | True |
+| arxiv: cat:math.\* | ok | 2026\-11\-21T19:42:26\+00:00 | 60 | True |
+| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-21T19:42:26\+00:00 | 60 | True |
+| stackexchange: mathoverflow | ok | 2026\-11\-21T19:42:26\+00:00 | 40 | True |
+| stackexchange: math | ok | 2026\-11\-21T19:42:26\+00:00 | 40 | True |
+| blogs: https://terrytao.wordpress.com/feed/ | ok | 2026\-11\-21T19:42:26\+00:00 | 8 | True |
+| blogs: https://gowers.wordpress.com/feed/ | ok | 2026\-11\-21T19:42:26\+00:00 | 8 | True |
 
 ## Conjecture review queue
 
@@ -119,22 +119,34 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 
 | Repository | Last update reported by GitHub | License reported by GitHub |
 | --- | --- | --- |
-| [tamnd/riemann\-lean](https://github.com/tamnd/riemann-lean) | 2026\-11\-21T11:10:49Z | unspecified |
-| [aravpanwar/dsmai](https://github.com/aravpanwar/dsmai) | 2026\-11\-21T10:43:49Z | MIT |
+| [leanprover\-community/physlib](https://github.com/leanprover-community/physlib) | 2026\-11\-21T19:26:03Z | Apache\-2.0 |
+| [tamnd/riemann\-lean](https://github.com/tamnd/riemann-lean) | 2026\-11\-21T19:04:41Z | unspecified |
+| [hyperpolymath/choreographic\-types](https://github.com/hyperpolymath/choreographic-types) | 2026\-11\-21T19:00:18Z | MPL\-2.0 |
+| [hyperpolymath/echidna](https://github.com/hyperpolymath/echidna) | 2026\-11\-21T19:00:13Z | MPL\-2.0 |
+| [1337isnot1337/solved\-conjectures](https://github.com/1337isnot1337/solved-conjectures) | 2026\-11\-21T18:11:31Z | MIT |
+| [lean\-dojo/TorchLean](https://github.com/lean-dojo/TorchLean) | 2026\-11\-21T17:06:32Z | MIT |
+| [aravpanwar/dsmai](https://github.com/aravpanwar/dsmai) | 2026\-11\-21T16:57:18Z | MIT |
+| [sylenthai/project\-genesis](https://github.com/sylenthai/project-genesis) | 2026\-11\-21T16:55:56Z | Apache\-2.0 |
+| [F1uctus/kalman.v](https://github.com/F1uctus/kalman.v) | 2026\-11\-21T16:38:07Z | GPL\-3.0 |
+| [YiweiIvy/riemann\-hypothesis\-atlas](https://github.com/YiweiIvy/riemann-hypothesis-atlas) | 2026\-11\-21T16:23:44Z | MIT |
+| [Abhishekjha18/lean\-refactor\-arena](https://github.com/Abhishekjha18/lean-refactor-arena) | 2026\-11\-21T16:06:12Z | unspecified |
+| [JGalego/riemann](https://github.com/JGalego/riemann) | 2026\-11\-21T16:00:41Z | unspecified |
+| [3y3y3y\-huaiji/lean\-init\-ide](https://github.com/3y3y3y-huaiji/lean-init-ide) | 2026\-11\-21T15:52:38Z | Apache\-2.0 |
+| [CakeML/cakeml](https://github.com/CakeML/cakeml) | 2026\-11\-21T15:48:56Z | BSD\-3\-Clause |
+| [kmehltretter82/ten\-challenges\-proofs](https://github.com/kmehltretter82/ten-challenges-proofs) | 2026\-11\-21T15:45:25Z | unspecified |
+| [HenryNdubuaku/maths\-cs\-ai\-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | 2026\-11\-21T15:41:14Z | Apache\-2.0 |
+| [kmehltretter82/lean2zfc](https://github.com/kmehltretter82/lean2zfc) | 2026\-11\-21T15:39:41Z | Apache\-2.0 |
+| [the\-omega\-institute/trureturing](https://github.com/the-omega-institute/trureturing) | 2026\-11\-21T13:17:14Z | Apache\-2.0 |
 | [Robertboy18/SymLean](https://github.com/Robertboy18/SymLean) | 2026\-11\-21T10:30:25Z | Apache\-2.0 |
 | [0thernes/hoggar\-bound\-lab](https://github.com/0thernes/hoggar-bound-lab) | 2026\-11\-21T10:11:38Z | NOASSERTION |
-| [HenryNdubuaku/maths\-cs\-ai\-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | 2026\-11\-21T09:49:00Z | Apache\-2.0 |
-| [3y3y3y\-huaiji/lean\-init\-ide](https://github.com/3y3y3y-huaiji/lean-init-ide) | 2026\-11\-21T09:45:50Z | Apache\-2.0 |
-| [leanprover\-community/physlib](https://github.com/leanprover-community/physlib) | 2026\-11\-21T09:36:46Z | Apache\-2.0 |
 | [aisathome/aisathome](https://github.com/aisathome/aisathome) | 2026\-11\-21T09:12:05Z | Apache\-2.0 |
 | [anaxia\-research/Openproblemsforfieldsmedal1](https://github.com/anaxia-research/Openproblemsforfieldsmedal1) | 2026\-11\-21T08:49:07Z | MIT |
 | [lean\-ja/lean\-by\-example](https://github.com/lean-ja/lean-by-example) | 2026\-11\-21T08:03:21Z | NOASSERTION |
-| [fabio\-rovai/open\-ontologies](https://github.com/fabio-rovai/open-ontologies) | 2026\-11\-21T06:01:41Z | MIT |
 | [0thernes/0thernes\-research\-archive](https://github.com/0thernes/0thernes-research-archive) | 2026\-11\-21T03:56:20Z | NOASSERTION |
 | [adamrsophie/OddPerfectNumber](https://github.com/adamrsophie/OddPerfectNumber) | 2026\-11\-21T03:00:19Z | GPL\-3.0 |
 | [tzu\-chen/slim](https://github.com/tzu-chen/slim) | 2026\-11\-21T02:59:11Z | Apache\-2.0 |
-| [machinefabric/lungo\-rs](https://github.com/machinefabric/lungo-rs) | 2026\-11\-21T02:57:15Z | Apache\-2.0 |
 | [jcreinhold/lean\-host\-mcp](https://github.com/jcreinhold/lean-host-mcp) | 2026\-11\-21T02:55:35Z | Apache\-2.0 |
+| [yamafaktory/formal](https://github.com/yamafaktory/formal) | 2026\-11\-21T02:53:26Z | MIT |
 | [jcreinhold/lean\-rs](https://github.com/jcreinhold/lean-rs) | 2026\-11\-21T02:53:14Z | Apache\-2.0 |
 | [Takeo140/DescentCore](https://github.com/Takeo140/DescentCore) | 2026\-11\-21T02:51:13Z | Apache\-2.0 |
 | [Pi\-Mathematical\-Reasoning/pi](https://github.com/Pi-Mathematical-Reasoning/pi) | 2026\-11\-21T02:07:17Z | MIT |
@@ -147,18 +159,6 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 | [lisresearchgroup/math\-rsi](https://github.com/lisresearchgroup/math-rsi) | 2026\-11\-20T15:55:01Z | MIT |
 | [djalilchafai/cutoff\-fastdiff](https://github.com/djalilchafai/cutoff-fastdiff) | 2026\-11\-20T15:32:46Z | Apache\-2.0 |
 | [DarthCeltic/MathCase](https://github.com/DarthCeltic/MathCase) | 2026\-11\-20T15:27:35Z | Apache\-2.0 |
-| [wcook04/proof\-reader](https://github.com/wcook04/proof-reader) | 2026\-11\-20T15:27:26Z | Apache\-2.0 |
-| [competemath/tengai](https://github.com/competemath/tengai) | 2026\-11\-20T15:18:44Z | Apache\-2.0 |
-| [rtynbirf/polymath\-stckg\-core](https://github.com/rtynbirf/polymath-stckg-core) | 2026\-11\-20T14:55:58Z | MIT |
-| [hyperpolymath/echidna](https://github.com/hyperpolymath/echidna) | 2026\-11\-20T13:24:43Z | MPL\-2.0 |
-| [rocq\-prover/rocq](https://github.com/rocq-prover/rocq) | 2026\-11\-20T12:19:46Z | LGPL\-2.1 |
-| [d0r1h/ML\-University](https://github.com/d0r1h/ML-University) | 2026\-11\-20T10:19:37Z | unspecified |
-| [jdhart81/viridis\-canon](https://github.com/jdhart81/viridis-canon) | 2026\-11\-20T09:09:59Z | Apache\-2.0 |
-| [acl2/acl2](https://github.com/acl2/acl2) | 2026\-11\-20T08:30:58Z | NOASSERTION |
-| [HOL\-Theorem\-Prover/HOL](https://github.com/HOL-Theorem-Prover/HOL) | 2026\-11\-20T08:29:20Z | NOASSERTION |
-| [Kdevos12/seshat](https://github.com/Kdevos12/seshat) | 2026\-11\-20T07:31:50Z | Apache\-2.0 |
-| [zslucky/awesome\-AI\-books](https://github.com/zslucky/awesome-AI-books) | 2026\-11\-20T07:28:26Z | MIT |
-| [ziwaa\-se/kappa](https://github.com/ziwaa-se/kappa) | 2026\-11\-20T07:20:35Z | MIT |
 
 ## Mathematics community questions
 
@@ -166,46 +166,46 @@ Answer flags describe discussion on MathOverflow or Mathematics Stack Exchange. 
 
 | Question | Author | Score | Answered / accepted | Content license |
 | --- | --- | ---: | --- | --- |
-| [Prove $\\frac\{1\}\{\\sqrt\{\\left\(a\+1\\right\)\\left\(ab\+ac\\right\)\}\}\\ge \\sqrt\{\\frac\{\\frac\{1\}\{a\}\+\\frac\{1\}\{b\}\+\\frac\{1\}\{c\}\+1\}\{a\+b\+c\+1\}\}$ for $abc=9$](https://math.stackexchange.com/questions/5155838) | [Anonymous](https://math.stackexchange.com/users/1597897) | 0 | False / none | CC BY\-SA 4.0 |
-| [Two sets with special intersection properties](https://mathoverflow.net/questions/516995) | [rimu](https://mathoverflow.net/users/175280) | 3 | False / none | CC BY\-SA 4.0 |
-| [Prove the strict inequality $\(x^6 \- x^2 \+3\)\(y^6\-y^2 \+ 3\) &gt; 2\(x^2 \+ y^2\)^2$](https://math.stackexchange.com/questions/5155826) | [Math poodigy](https://math.stackexchange.com/users/1758635) | 3 | True / none | CC BY\-SA 4.0 |
-| [Let $a,b,c \\in \\mathbb\{R\}$ with $abc=1$. Show that $a^4\+b^4\+c^4 \\geq a\+b\+c$](https://math.stackexchange.com/questions/5012485) | user1353144 | 4 | True / none | CC BY\-SA 4.0 |
-| [Should AI\-assisted landmark results be awarded and recognized in the traditional way?](https://mathoverflow.net/questions/518048) | [GreatNorth1765](https://mathoverflow.net/users/599287) | 0 | True / none | CC BY\-SA 4.0 |
-| [Question on averages](https://math.stackexchange.com/questions/2622271) | [Soumee](https://math.stackexchange.com/users/394202) | -1 | False / none | CC BY\-SA 4.0 |
-| [Is every finitely accessible category well\-copowered?](https://mathoverflow.net/questions/515681) | [Martin Brandenburg](https://mathoverflow.net/users/2841) | 7 | True / 518051 | CC BY\-SA 4.0 |
-| [The second conjecture about the degrees of special polynomials](https://mathoverflow.net/questions/270474) | [Danil Krotkov](https://mathoverflow.net/users/98047) | 3 | False / none | CC BY\-SA 3.0 |
-| [A conjecture about the degrees of special polynomials](https://mathoverflow.net/questions/265227) | [Danil Krotkov](https://mathoverflow.net/users/98047) | 5 | False / none | CC BY\-SA 3.0 |
-| [How to solve for $\\boldsymbol\{\\theta\}$ in $\[A\]^\{\\theta\}x = b$ if $\\boldsymbol\{\[A\]\}$, $\\boldsymbol\{x\}$, and $\\boldsymbol\{b\}$ are known?](https://math.stackexchange.com/questions/4444232) | [Afnan Makhdoom](https://math.stackexchange.com/users/1054996) | 2 | False / none | CC BY\-SA 4.0 |
-| [When is the series $\\sum\_\{n=1\}^\\infty \\frac1\{a n^2 \+ b n \+ c\}$ rational?](https://mathoverflow.net/questions/498167) | [Frank](https://mathoverflow.net/users/569097) | 21 | False / none | CC BY\-SA 4.0 |
-| [Motivation for modifying the inference rule of resolution](https://math.stackexchange.com/questions/5154717) | [Stanis LaRochelle](https://math.stackexchange.com/users/1686376) | 3 | False / none | CC BY\-SA 4.0 |
-| [How to "human verify" enormous AI math output?](https://mathoverflow.net/questions/518033) | [Sam Hopkins](https://mathoverflow.net/users/25028) | 79 | True / none | CC BY\-SA 4.0 |
-| [How much of the Riemann Hypothesis has been solved?](https://math.stackexchange.com/questions/2680093) | [Franklin Pezzuti Dyer](https://math.stackexchange.com/users/438055) | 23 | True / none | CC BY\-SA 4.0 |
-| [Circle Inscribing and Circumscribing a regular polygon](https://math.stackexchange.com/questions/2450153) | [Samar Imam Zaidi](https://math.stackexchange.com/users/464054) | 1 | True / 2450217 | CC BY\-SA 4.0 |
-| [Reference request: infinitary languages in the choiceless context](https://mathoverflow.net/questions/518045) | [Beau Madison Mount](https://mathoverflow.net/users/91635) | 4 | True / none | CC BY\-SA 4.0 |
-| [Are regular hereditarily separable spaces Lindelöf?](https://math.stackexchange.com/questions/4984215) | [Almanzoris](https://math.stackexchange.com/users/1192153) | 2 | True / 4984322 | CC BY\-SA 4.0 |
-| [Mean and standard derivation](https://math.stackexchange.com/questions/1302204) | [Mathxx](https://math.stackexchange.com/users/221836) | 1 | True / none | CC BY\-SA 3.0 |
-| [How can one solve for this nonlinear recurrence parameter?](https://math.stackexchange.com/questions/5155816) | [NotQuiteHuman](https://math.stackexchange.com/users/1362063) | -1 | False / none | CC BY\-SA 4.0 |
-| [Is the function $f\(x\)=\\frac1\{1\+x^4\\sin^2\(\\pi x\)\}$ improperly integrable on $\[0,\+\\infty\)\\;?$](https://math.stackexchange.com/questions/5155803) | [Angelo](https://math.stackexchange.com/users/771461) | 2 | True / none | CC BY\-SA 4.0 |
-| [Solve equation $ \\cos x\+\\sin x=0$](https://math.stackexchange.com/questions/643835) | [xxx](https://math.stackexchange.com/users/68171) | 9 | True / 643845 | CC BY\-SA 4.0 |
-| [How to determine if two graphs are Isomorphic ? Finding a one to one and onto function.](https://math.stackexchange.com/questions/4754333) | [user2899944](https://math.stackexchange.com/users/348041) | 0 | False / none | CC BY\-SA 4.0 |
-| [Conjecture: The cumulative sums of consecutive primes contain no four\-term arithmetic progression.](https://math.stackexchange.com/questions/5154164) | [Nilotpal Kanti Sinha](https://math.stackexchange.com/users/60930) | 10 | True / none | CC BY\-SA 4.0 |
-| [Related Forms for the Riemann Hypothesis over Finite Fields](https://math.stackexchange.com/questions/1665778) | [Ofir](https://math.stackexchange.com/users/10312) | 23 | False / none | CC BY\-SA 4.0 |
-| [Algebraic Geometry for physicist](https://mathoverflow.net/questions/518046) | [Alireza Pahlavan](https://mathoverflow.net/users/603889) | -1 | False / none | CC BY\-SA 4.0 |
-| [A question in proof of Theorem $3.3.3$ of the textbook Geometric Group Theory by Clara Loh](https://math.stackexchange.com/questions/5155832) | [Martin](https://math.stackexchange.com/users/1638354) | -2 | False / none | CC BY\-SA 4.0 |
-| [Questions in the proof of Theorem $3.3.1$ on Page $65$ of the textbook Geometric Group Theory by Clara Loh](https://math.stackexchange.com/questions/5155828) | [Martin](https://math.stackexchange.com/users/1638354) | 0 | True / none | CC BY\-SA 4.0 |
-| [If the series $\\sum p^\{a\(w\)\}x^\{\|w\|\}$ is rational, is $\\sum a\(w\) x^\{\|w\|\}$ also rational \(summation over words w in a regular language\)?](https://mathoverflow.net/questions/42387) | [Łukasz Grabowski](https://mathoverflow.net/users/2631) | 7 | True / none | CC BY\-SA 4.0 |
-| [Norm of a tensor product of operators](https://math.stackexchange.com/questions/349585) | [Max](https://math.stackexchange.com/users/16717) | 20 | True / 349669 | CC BY\-SA 4.0 |
-| [Is there a quick proof as to why the vector space of $\\mathbb\{R\}$ over $\\mathbb\{Q\}$ is infinite\-dimensional?](https://math.stackexchange.com/questions/6244) | [Elchanan Solomon](https://math.stackexchange.com/users/647) | 191 | True / 6247 | CC BY\-SA 4.0 |
-| [Natural proof of $M\_t\\stackrel\{d\}\{=\}\|W\_t\|$ for Brownian motion](https://math.stackexchange.com/questions/5141272) | [Stephen Cornelius](https://math.stackexchange.com/users/1719623) | 1 | False / none | CC BY\-SA 4.0 |
-| [How to calculate volume of a right circular cone's hyperbola segment given position of slice?](https://math.stackexchange.com/questions/3109675) | [Travis Bouchard](https://math.stackexchange.com/users/643934) | 0 | False / none | CC BY\-SA 4.0 |
-| [probability of center of sphere being in a figure made out of n points lying on the surface of the sphere](https://math.stackexchange.com/questions/5155824) | [Math poodigy](https://math.stackexchange.com/users/1758635) | 0 | False / none | CC BY\-SA 4.0 |
-| ['Obvious' theorems that are actually false](https://math.stackexchange.com/questions/820686) | [beep\-boop](https://math.stackexchange.com/users/127192) | 397 | True / 820703 | CC BY\-SA 3.0 |
-| [Is there a parametrization for this equation: $a^2\+b^4\+c^8\+d^\{16\}=e^\{32\}$?](https://math.stackexchange.com/questions/5154498) | [Hsi\-yung](https://math.stackexchange.com/users/1784910) | 6 | True / none | CC BY\-SA 4.0 |
-| [Counting elliptic curves over finite fields with a prescribed number of points](https://mathoverflow.net/questions/413617) | [Tristan Phillips](https://mathoverflow.net/users/92433) | 9 | False / none | CC BY\-SA 4.0 |
-| [Examples for the use of AI and especially LLMs in major mathematical developments](https://mathoverflow.net/questions/502120) | [Gil Kalai](https://mathoverflow.net/users/1532) | 148 | True / none | CC BY\-SA 4.0 |
-| [Prove $\\left\(1\+\\frac\{1\}\{1\+2\}\\right\)\\left\(1\+\\frac\{1\}\{1\+2\+3\}\\right\) \\cdots\\left\(1\+\\frac\{1\}\{1\+2\+\\cdots\+n\}\\right\)&lt;3 $](https://math.stackexchange.com/questions/5154594) | [Umesh shankar](https://math.stackexchange.com/users/80910) | 9 | True / 5154598 | CC BY\-SA 4.0 |
-| [Human proof of GRH. Post by Ravi Vakil including current state of the long manuscript](https://mathoverflow.net/questions/518043) | [Will Jagy](https://mathoverflow.net/users/3324) | 0 | False / none | CC BY\-SA 4.0 |
+| [Mondrian Art Problem Upper Bound for defect](https://math.stackexchange.com/questions/2041189) | [Ed Pegg](https://math.stackexchange.com/users/11955) | 154 | True / 5152562 | CC BY\-SA 4.0 |
+| [Olympiad Combinatorics Question On Coloring And Sums of Numbers](https://math.stackexchange.com/questions/5154032) | [igr2020](https://math.stackexchange.com/users/1786281) | 6 | True / 5154033 | CC BY\-SA 4.0 |
+| [Does there exist a metric on $\(\\sqrt\{3\},\\sqrt\{5\}\)\\cap\\mathbb\{Q\}$ under which it is compact?](https://math.stackexchange.com/questions/5155853) | [Dhruv Tiwari](https://math.stackexchange.com/users/1785973) | 1 | True / 5155856 | CC BY\-SA 4.0 |
+| [In a sequence of consecutive natural numbers \(say $k$\) occurs $k$ times, various ways for determining $2026^\{th\}$ term of the sequence](https://math.stackexchange.com/questions/5154730) | [Zafar Ahmed](https://math.stackexchange.com/users/671540) | 2 | False / none | CC BY\-SA 4.0 |
+| [If every infinite cardinal is divisible by $2$, must every infinite cardinal $\\kappa$ satisfy $2\\kappa=\\kappa$?](https://mathoverflow.net/questions/516973) | [jiahui](https://mathoverflow.net/users/602752) | 15 | True / none | CC BY\-SA 4.0 |
+| [Matrix Polynomial Question](https://math.stackexchange.com/questions/372675) | [user25004](https://math.stackexchange.com/users/25004) | 0 | False / none | CC BY\-SA 4.0 |
+| [How to evaluate $\\displaystyle \\int\_\{0\}^\{2\\pi\} e^\{\\cos\\theta\}\\cos\(\\sin\\theta\)\\,d\\theta$?](https://math.stackexchange.com/questions/5155858) | [Karthik Gupta](https://math.stackexchange.com/users/1694031) | -1 | False / none | CC BY\-SA 4.0 |
+| [Riemann Hypothesis proved?](https://math.stackexchange.com/questions/5155857) | [Max](https://math.stackexchange.com/users/1150993) | -2 | False / none | CC BY\-SA 4.0 |
 | [Reference request: residues never attained by the distance from $\\frac\{\(ap\+b\)\}3$ to the next lesser twin prime](https://math.stackexchange.com/questions/5155811) | [FRANCISCO TORRES GONZALEZ](https://math.stackexchange.com/users/1789371) | 1 | False / none | CC BY\-SA 4.0 |
+| [How to evaluate $\\int\_\{0\}^\{2\\pi\}e^\{\\cos \\theta\}\\cos\( \\sin \\theta\) d\\theta$?](https://math.stackexchange.com/questions/409171) | [user4167](https://math.stackexchange.com/users/63560) | 34 | True / 411124 | CC BY\-SA 3.0 |
+| [Optimal control problem in Mayer form: issues replicating solution to exercise 2.8 in Sethi &amp; Thompson](https://math.stackexchange.com/questions/5154408) | [Ettore S](https://math.stackexchange.com/users/1234572) | 1 | False / none | CC BY\-SA 4.0 |
+| [Parametric representation $1=a^2\+b^3\+c^5$](https://mathoverflow.net/questions/516881) | [Aleksandr](https://mathoverflow.net/users/515364) | 5 | False / none | CC BY\-SA 4.0 |
+| [Is the function $f\(x\)=\\frac1\{1\+x^4\\sin^2\(\\pi x\)\}$ improperly integrable on $\[0,\+\\infty\)\\;?$](https://math.stackexchange.com/questions/5155803) | [Angelo](https://math.stackexchange.com/users/771461) | 2 | True / none | CC BY\-SA 4.0 |
+| [Geodesic radius of curvature](https://math.stackexchange.com/questions/846831) | [Manu](https://math.stackexchange.com/users/160024) | 0 | True / none | CC BY\-SA 3.0 |
+| [Integral encountered during Green's functions](https://math.stackexchange.com/questions/5155842) | [neutrino\_cuber](https://math.stackexchange.com/users/634947) | 4 | True / 5155846 | CC BY\-SA 4.0 |
+| [probability of center of sphere being in a figure made out of n points lying on the surface of the sphere](https://math.stackexchange.com/questions/5155824) | [Math poodigy](https://math.stackexchange.com/users/1758635) | 1 | False / none | CC BY\-SA 4.0 |
+| [Krasil'shchik, Vinogradov, Lychagin "Geometry of Jet Spaces and Nonlinear Partial Differential Equations" not available anymore?](https://mathoverflow.net/questions/513281) | [psl2Z](https://mathoverflow.net/users/507291) | 3 | True / 518058 | CC BY\-SA 4.0 |
+| [What is the rigorous definition of $dy$ and $dx$?](https://math.stackexchange.com/questions/2865808) | [feynhat](https://math.stackexchange.com/users/359886) | 52 | True / 2865869 | CC BY\-SA 4.0 |
+| [Does knowing that you drew at least $1$ ace increase the probability that you drew at least $2$ aces \($5$ card hand\)?](https://math.stackexchange.com/questions/4109544) | [Satan Lucifer](https://math.stackexchange.com/users/841384) | 2 | True / 4109769 | CC BY\-SA 4.0 |
+| [How to "human verify" enormous AI math output?](https://mathoverflow.net/questions/518033) | [Sam Hopkins](https://mathoverflow.net/users/25028) | 90 | True / none | CC BY\-SA 4.0 |
+| [Category Theory Zoo](https://math.stackexchange.com/questions/1639034) | [Tim](https://math.stackexchange.com/users/71510) | 25 | True / none | CC BY\-SA 4.0 |
+| [Determine the value of the following limit: $\\lim\_\{x \\to 0\} \\left\( \\frac\{\\sin\(x\) \- x\}\{x \\cos\(x\) \- x\} \\right\)$](https://math.stackexchange.com/questions/5154499) | [fernando vargas](https://math.stackexchange.com/users/1784526) | 3 | True / none | CC BY\-SA 4.0 |
+| [Can collinear sums be avoided in every $n \\times n$ grid?](https://math.stackexchange.com/questions/5154655) | [AlephSquirrel](https://math.stackexchange.com/users/1356767) | 11 | False / none | CC BY\-SA 4.0 |
+| [Proof of Sylvester Gallai theorem using induction](https://math.stackexchange.com/questions/2608906) | [Mathejunior](https://math.stackexchange.com/users/322461) | 1 | False / none | CC BY\-SA 3.0 |
+| [Solve equation $ \\cos x\+\\sin x=0$](https://math.stackexchange.com/questions/643835) | [xxx](https://math.stackexchange.com/users/68171) | 10 | True / 643845 | CC BY\-SA 4.0 |
+| [Prove the strict inequality $\(x^6 \- x^2 \+3\)\(y^6\-y^2 \+ 3\) &gt; 2\(x^2 \+ y^2\)^2$](https://math.stackexchange.com/questions/5155826) | [Math poodigy](https://math.stackexchange.com/users/1758635) | 2 | True / none | CC BY\-SA 4.0 |
+| [Reference request for monoidal structure on reflective subcategory](https://math.stackexchange.com/questions/4762445) | [Jonas Linssen](https://math.stackexchange.com/users/598157) | 5 | False / none | CC BY\-SA 4.0 |
+| [Monoidal structure preserving order](https://math.stackexchange.com/questions/3659538) | [CTN](https://math.stackexchange.com/users/784021) | 7 | False / none | CC BY\-SA 4.0 |
+| [How can one solve for this nonlinear recurrence parameter?](https://math.stackexchange.com/questions/5155816) | [NotQuiteHuman](https://math.stackexchange.com/users/1362063) | 2 | True / none | CC BY\-SA 4.0 |
+| [Definite integral of infinite product](https://math.stackexchange.com/questions/4721987) | [Sick Nutmeg](https://math.stackexchange.com/users/1106790) | 26 | True / 4721997 | CC BY\-SA 4.0 |
+| [Prove $\\frac\{1\}\{\\sqrt\{\\left\(a\+1\\right\)\\left\(ab\+ac\\right\)\}\}\\ge \\sqrt\{\\frac\{\\frac\{1\}\{a\}\+\\frac\{1\}\{b\}\+\\frac\{1\}\{c\}\+1\}\{a\+b\+c\+1\}\}$ for $abc=9$](https://math.stackexchange.com/questions/5155838) | [Anonymous](https://math.stackexchange.com/users/1597897) | 2 | True / none | CC BY\-SA 4.0 |
+| [Visual difference between limits and derivatives?](https://math.stackexchange.com/questions/1359114) | [stumped](https://math.stackexchange.com/users/82753) | 0 | False / none | CC BY\-SA 3.0 |
+| [Strong convergence of differential quotient in $L^2\(0,T;V^\*\)$](https://mathoverflow.net/questions/261794) | [malwin](https://mathoverflow.net/users/100894) | 2 | False / none | CC BY\-SA 3.0 |
+| [In ZF, does the failure of a maximal\-anchor condition on $O = \\\{0,1,2,3, ...\\\} $preclude defining the von Neumann ordinal ω?](https://math.stackexchange.com/questions/5154769) | [Beethoven Morales](https://math.stackexchange.com/users/1787296) | -4 | False / none | CC BY\-SA 4.0 |
+| [generalization for $I\_n = \\int\_\{0\}^\{\\infty\} J\_0\(x\)^n \\ln x \\, dx$](https://math.stackexchange.com/questions/5132597) | [Shreyash Pachore](https://math.stackexchange.com/users/1642314) | 4 | False / none | CC BY\-SA 4.0 |
+| [generalization for $I\_n = \\int\_\{0\}^\{\\infty\} J\_0\(x\)^n \\ln x \\, dx$](https://mathoverflow.net/questions/511344) | [Shreyash Pachore](https://mathoverflow.net/users/586384) | 7 | True / none | CC BY\-SA 4.0 |
+| [In what generality may we characterise flatness of infinitesimal families by triviality of the deformation to the normal cone?](https://mathoverflow.net/questions/517015) | [FShrike](https://mathoverflow.net/users/320040) | 4 | False / none | CC BY\-SA 4.0 |
+| [Can $\\sin\{x\}$ and $\\cos\{x\}$ be defined without "nontrivial" results?](https://math.stackexchange.com/questions/5154740) | [user1787014](https://math.stackexchange.com/users/1787014) | 2 | True / none | CC BY\-SA 4.0 |
+| [On Sidon Sets of Primes](https://mathoverflow.net/questions/518055) | [yilun\_ye](https://mathoverflow.net/users/600188) | 1 | False / none | CC BY\-SA 4.0 |
+| [Relationship between parabolas and hyperbolas](https://math.stackexchange.com/questions/2365421) | [Leonidas Lanier](https://math.stackexchange.com/users/262519) | 3 | False / none | CC BY\-SA 3.0 |
 
 ## Primary research blog feeds
 
