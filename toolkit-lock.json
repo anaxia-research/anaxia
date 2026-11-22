@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-22T03:12:02.791907+00:00",
+  "captured_at_utc": "2026-11-22T11:21:07.654946+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
@@ -12,7 +12,7 @@
       "upstream": "sympy/sympy",
       "path": "mathematics/sympy",
       "role": "symbolic algebra",
-      "commit": "410277478e711376b2f25a9e161be9e1cecc6c4c",
+      "commit": "bde09f8434500f4534bd8ba006345864c78640e3",
       "default_branch": "master"
     },
     {
