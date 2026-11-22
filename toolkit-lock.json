@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-21T23:14:18.439236+00:00",
+  "captured_at_utc": "2026-11-22T03:12:02.791907+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
@@ -33,7 +33,7 @@
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "52e865044387999b242d48ba5f55d06c26d6c8e1",
+      "commit": "5dfd67d50c584846f63fdcd65ecc04fc4a387368",
       "default_branch": "main"
     },
     {
