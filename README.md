@@ -87,21 +87,21 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-23T03:55:53\+00:00**
+**Public metadata capture · 2026\-11\-23T15:14:20\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 522 | 111 | 80 | 16 | 13 | 8 |
+| 523 | 111 | 80 | 16 | 12 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
-Coverage: 2 source(s) stale/unavailable; 9 source(s) reached a limit or reported incomplete results.
+Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported incomplete results.
 
 **Latest review candidates**
 
-- [Computer\-Assisted Results for $n$\-Sided Non\-Transitive Dice Taking Face Values in $\[n\]$](https://arxiv.org/abs/2610.40321v2) — reported open candidate; review required.
-- [Between proper and strong edge\-colorings of graphs with maximum degree at most four](https://arxiv.org/abs/2611.22254v2) — reported open candidate; review required.
-- [Agnostic Smoothed Online Regression with Adversarial Responses](https://arxiv.org/abs/2609.32478v2) — reported open candidate; review required.
+- [Recognizing $k$\-inducible Digraphs is NP\-complete](https://arxiv.org/abs/2611.27965v1) — reported open candidate; review required.
+- [Super Guarding and Dark Rays in Art Galleries](https://arxiv.org/abs/2404.04613v4) — reported open candidate; review required.
+- [The $H^\{2\|2\}$\-model and the Anderson model with Cauchy potential: similarities and a conjectured relation](https://arxiv.org/abs/2611.27863v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
