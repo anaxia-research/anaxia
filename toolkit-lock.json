@@ -1,18 +1,18 @@
 {
-  "captured_at_utc": "2026-11-22T19:37:05.912790+00:00",
+  "captured_at_utc": "2026-11-23T00:51:29.241429+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "6ebcce37335bcb6bca64596e5d57bb3035648030",
+      "commit": "7dde1da6462d490beca415534c082b4f0435c9a9",
       "default_branch": "master"
     },
     {
       "upstream": "sympy/sympy",
       "path": "mathematics/sympy",
       "role": "symbolic algebra",
-      "commit": "24a6e0aed337c7262189f68edbe0bac0810d6e06",
+      "commit": "89cdf22cb75679616196c053aadbd6071443ee31",
       "default_branch": "master"
     },
     {
@@ -33,7 +33,7 @@
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "ec8906af34d4aa6305f932b6a9958b15c1c5f82a",
+      "commit": "0ef0709ab4f5bd778bded29d5a7d06d03c1f8190",
       "default_branch": "main"
     },
     {
