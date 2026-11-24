@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-23T15:14:20\+00:00**
+**Public metadata capture · 2026\-11\-24T02:31:45\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 523 | 111 | 80 | 16 | 12 | 10 |
+| 520 | 111 | 80 | 16 | 16 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [Recognizing $k$\-inducible Digraphs is NP\-complete](https://arxiv.org/abs/2611.27965v1) — reported open candidate; review required.
-- [Super Guarding and Dark Rays in Art Galleries](https://arxiv.org/abs/2404.04613v4) — reported open candidate; review required.
-- [The $H^\{2\|2\}$\-model and the Anderson model with Cauchy potential: similarities and a conjectured relation](https://arxiv.org/abs/2611.27863v1) — reported open candidate; review required.
+- [Deterministic regularisation of the nonsymmetric eigenproblem](https://arxiv.org/abs/2611.28614v1) — reported open candidate; review required.
+- [An Elementary Proof of the Binary Goldbach Conjecture](https://arxiv.org/abs/2611.09007v2) — reported open candidate; review required.
+- [Boolean threshold functions, neuron capacity, and memory retrieval](https://arxiv.org/abs/2609.29756v2) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
