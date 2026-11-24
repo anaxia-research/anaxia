@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-23T09:01:47.915729+00:00",
+  "captured_at_utc": "2026-11-24T06:00:14.507221+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -47,7 +47,7 @@
       "clone_url": "https://github.com/quantumlib/Cirq.git",
       "path": "quantumlib/Cirq",
       "default_branch": "main",
-      "commit": "059661194c6c0f65e5c3d7903a11e879d9e9011d",
+      "commit": "00a7e6c8dd7b5610fc10d3e4a82e2f5444e59c43",
       "archived": false,
       "description": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
       "license_spdx": "Apache-2.0"
@@ -83,7 +83,7 @@
       "clone_url": "https://github.com/quantumlib/OpenFermion-FQE.git",
       "path": "quantumlib/OpenFermion-FQE",
       "default_branch": "main",
-      "commit": "6a54c70c544decefe6982a5400042c48a8ba456d",
+      "commit": "1312727eb7cb0d7202323a42dcde83bb65a2aa61",
       "archived": false,
       "description": "The Fermionic Quantum Emulator (FQE) is a fermionic simulation research tool specializing in quantum circuits emulating fermion dynamics.",
       "license_spdx": "Apache-2.0"
@@ -155,7 +155,7 @@
       "clone_url": "https://github.com/quantumlib/ReCirq.git",
       "path": "quantumlib/ReCirq",
       "default_branch": "main",
-      "commit": "c081606256e0b7eead2dda92c0250ca2a4f57722",
+      "commit": "7063270c508c405804eaabae39415a43db5b80cb",
       "archived": false,
       "description": "Python modules for quantum computing applications and experiments using Cirq. Research using Cirq!",
       "license_spdx": "Apache-2.0"
