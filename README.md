@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-24T23:13:41\+00:00**
+**Public metadata capture · 2026\-11\-25T05:38:27\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 523 | 112 | 80 | 16 | 9 | 10 |
+| 523 | 109 | 80 | 16 | 13 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [A Quantum Model from the Riemann\-Siegel Formula](https://arxiv.org/abs/2611.31116v1) — reported open candidate; review required.
-- [$k$\-ary Legendre pairs](https://arxiv.org/abs/2611.31067v1) — reported open candidate; review required.
-- [A note on 4\-forms in 8\-dimensions](https://arxiv.org/abs/2608.20200v3) — reported open candidate; review required.
+- [Polynomial bounds for quasiplanar graphs](https://arxiv.org/abs/2611.21416v2) — reported open candidate; review required.
+- [Hölder continuity of Green functions for Markov sets](https://arxiv.org/abs/2611.33131v1) — reported open candidate; review required.
+- [Winning and losing NoGo is PSPACE\-complete](https://arxiv.org/abs/2611.33127v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
