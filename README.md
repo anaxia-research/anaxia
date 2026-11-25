@@ -87,7 +87,7 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-25T05:38:27\+00:00**
+**Public metadata capture · 2026\-11\-25T17:33:26\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
