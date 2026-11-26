@@ -87,11 +87,11 @@ The GitHub workflow checks public repositories, arXiv, MathOverflow, Mathematics
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-26T01:07:45\+00:00**
+**Public metadata capture · 2026\-11\-26T09:59:02\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 520 | 109 | 80 | 16 | 13 | 10 |
+| 523 | 110 | 80 | 16 | 13 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -99,9 +99,9 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 **Latest review candidates**
 
-- [Polynomial bounds for quasiplanar graphs](https://arxiv.org/abs/2611.21416v2) — reported open candidate; review required.
-- [Hölder continuity of Green functions for Markov sets](https://arxiv.org/abs/2611.33131v1) — reported open candidate; review required.
-- [Winning and losing NoGo is PSPACE\-complete](https://arxiv.org/abs/2611.33127v1) — reported open candidate; review required.
+- [Cycles and Symmetries of Non\-Transitive Dice with Minimal and Uniform Winning Advantages](https://arxiv.org/abs/2610.40321v3) — reported open candidate; review required.
+- [Pietsch's favourite problem on singular traces](https://arxiv.org/abs/2611.34559v1) — reported open candidate; review required.
+- [On infinite torsion of abelian varieties over large algebraic fields of positive characteristic](https://arxiv.org/abs/2611.34528v1) — reported open candidate; review required.
 
 [Full research radar](docs/RESEARCH-RADAR.md) · [Machine-readable snapshot](data/research-radar.json)
 
