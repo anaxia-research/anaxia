@@ -1,10 +1,10 @@
 # Anaxia research radar
 
-**Public metadata capture · 2026\-11\-26T09:59:02\+00:00**
+**Public metadata capture · 2026\-11\-26T19:46:19\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 523 | 110 | 80 | 16 | 13 | 10 |
+| 524 | 110 | 80 | 16 | 13 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
@@ -22,16 +22,16 @@ Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported
 
 | Source | State | Last successful capture | Records | Limited |
 | --- | --- | --- | ---: | --- |
-| github: anaxia\-research | ok | 2026\-11\-26T09:59:02\+00:00 | 244 | False |
-| github: topic:theorem\-proving archived:false | ok | 2026\-11\-26T09:59:02\+00:00 | 100 | True |
-| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-26T09:59:02\+00:00 | 100 | True |
-| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-26T09:59:02\+00:00 | 100 | True |
-| arxiv: cat:math.\* | ok | 2026\-11\-26T09:59:02\+00:00 | 60 | True |
-| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-26T09:59:02\+00:00 | 60 | True |
-| stackexchange: mathoverflow | ok | 2026\-11\-26T09:59:02\+00:00 | 40 | True |
-| stackexchange: math | ok | 2026\-11\-26T09:59:02\+00:00 | 40 | True |
-| blogs: https://terrytao.wordpress.com/feed/ | ok | 2026\-11\-26T09:59:02\+00:00 | 8 | True |
-| blogs: https://gowers.wordpress.com/feed/ | ok | 2026\-11\-26T09:59:02\+00:00 | 8 | True |
+| github: anaxia\-research | ok | 2026\-11\-26T19:46:19\+00:00 | 244 | False |
+| github: topic:theorem\-proving archived:false | ok | 2026\-11\-26T19:46:19\+00:00 | 100 | True |
+| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-26T19:46:19\+00:00 | 100 | True |
+| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-26T19:46:19\+00:00 | 100 | True |
+| arxiv: cat:math.\* | ok | 2026\-11\-26T19:46:19\+00:00 | 60 | True |
+| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-26T19:46:19\+00:00 | 60 | True |
+| stackexchange: mathoverflow | ok | 2026\-11\-26T19:46:19\+00:00 | 40 | True |
+| stackexchange: math | ok | 2026\-11\-26T19:46:19\+00:00 | 40 | True |
+| blogs: https://terrytao.wordpress.com/feed/ | ok | 2026\-11\-26T19:46:19\+00:00 | 8 | True |
+| blogs: https://gowers.wordpress.com/feed/ | ok | 2026\-11\-26T19:46:19\+00:00 | 8 | True |
 
 ## Conjecture review queue
 
@@ -119,46 +119,46 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 
 | Repository | Last update reported by GitHub | License reported by GitHub |
 | --- | --- | --- |
-| [NousVolition/sparkle\-sand\-playground](https://github.com/NousVolition/sparkle-sand-playground) | 2026\-11\-26T09:45:28Z | NOASSERTION |
-| [leanprover\-community/physlib](https://github.com/leanprover-community/physlib) | 2026\-11\-26T09:44:19Z | Apache\-2.0 |
-| [lluiseriksson/nevo\-peeva\-gapfree\-regularity\-certificates](https://github.com/lluiseriksson/nevo-peeva-gapfree-regularity-certificates) | 2026\-11\-26T09:43:55Z | NOASSERTION |
-| [lluiseriksson/equiangular\-lines\-dim18\-20\-certificates](https://github.com/lluiseriksson/equiangular-lines-dim18-20-certificates) | 2026\-11\-26T09:43:38Z | MIT |
-| [1337isnot1337/solved\-conjectures](https://github.com/1337isnot1337/solved-conjectures) | 2026\-11\-26T09:34:10Z | MIT |
-| [mif4x4/math\-openai\-audit](https://github.com/mif4x4/math-openai-audit) | 2026\-11\-26T09:14:32Z | Apache\-2.0 |
-| [FStarLang/FStar](https://github.com/FStarLang/FStar) | 2026\-11\-26T09:09:12Z | Apache\-2.0 |
-| [rocq\-prover/rocq](https://github.com/rocq-prover/rocq) | 2026\-11\-26T09:09:08Z | LGPL\-2.1 |
-| [lluiseriksson/triangles\-without\-pentagons\-certificates](https://github.com/lluiseriksson/triangles-without-pentagons-certificates) | 2026\-11\-26T08:54:14Z | MIT |
-| [lluiseriksson/extension\-complexity\-nonadditivity\-certificates](https://github.com/lluiseriksson/extension-complexity-nonadditivity-certificates) | 2026\-11\-26T08:53:33Z | MIT |
-| [h5i\-dev/h5i](https://github.com/h5i-dev/h5i) | 2026\-11\-26T08:41:33Z | Apache\-2.0 |
-| [gustavobernardo1/conjectura](https://github.com/gustavobernardo1/conjectura) | 2026\-11\-26T07:18:52Z | Apache\-2.0 |
-| [lluiseriksson/vinogradov\-two\-source\-extractors\-certificates](https://github.com/lluiseriksson/vinogradov-two-source-extractors-certificates) | 2026\-11\-26T07:14:25Z | unspecified |
-| [Cetirzine/Cogentic\-In\-agy](https://github.com/Cetirzine/Cogentic-In-agy) | 2026\-11\-26T06:34:19Z | MIT |
-| [coopersimpson101\-debug/proofstack](https://github.com/coopersimpson101-debug/proofstack) | 2026\-11\-26T06:34:18Z | MIT |
-| [aravpanwar/dsmai](https://github.com/aravpanwar/dsmai) | 2026\-11\-26T06:27:47Z | MIT |
-| [lluiseriksson/airr\-formal\-verification\-catalog](https://github.com/lluiseriksson/airr-formal-verification-catalog) | 2026\-11\-26T06:07:03Z | unspecified |
-| [lluiseriksson/valiant\-hierarchy\-certificates](https://github.com/lluiseriksson/valiant-hierarchy-certificates) | 2026\-11\-26T05:57:08Z | MIT |
-| [lluiseriksson/torus\-acc0\-approximation\-certificates](https://github.com/lluiseriksson/torus-acc0-approximation-certificates) | 2026\-11\-26T05:57:06Z | MIT |
-| [lluiseriksson/ternary\-cap\-set\-growth\-certificates](https://github.com/lluiseriksson/ternary-cap-set-growth-certificates) | 2026\-11\-26T05:57:04Z | MIT |
-| [lluiseriksson/revenue\-query\-sample\-certificates](https://github.com/lluiseriksson/revenue-query-sample-certificates) | 2026\-11\-26T05:57:00Z | MIT |
-| [lluiseriksson/reconfiguration\-poly\-decomp\-certificates](https://github.com/lluiseriksson/reconfiguration-poly-decomp-certificates) | 2026\-11\-26T05:56:59Z | MIT |
-| [lluiseriksson/real\-equiangular\-lines\-18\-20\-certificates](https://github.com/lluiseriksson/real-equiangular-lines-18-20-certificates) | 2026\-11\-26T05:56:57Z | MIT |
-| [lluiseriksson/quantum\-polytime\-space\-lower\-bounds\-certificates](https://github.com/lluiseriksson/quantum-polytime-space-lower-bounds-certificates) | 2026\-11\-26T05:56:56Z | MIT |
-| [lluiseriksson/primal\-dual\-2ecss\-certificates](https://github.com/lluiseriksson/primal-dual-2ecss-certificates) | 2026\-11\-26T05:56:52Z | MIT |
-| [lluiseriksson/positive\-curvature\-clique\-exclusion\-certificates](https://github.com/lluiseriksson/positive-curvature-clique-exclusion-certificates) | 2026\-11\-26T05:56:50Z | MIT |
-| [lluiseriksson/polynomial\-master\-equations\-certificates](https://github.com/lluiseriksson/polynomial-master-equations-certificates) | 2026\-11\-26T05:56:48Z | MIT |
-| [lluiseriksson/polynomial\-decomposition\-reconfig\-certificates](https://github.com/lluiseriksson/polynomial-decomposition-reconfig-certificates) | 2026\-11\-26T05:56:46Z | MIT |
-| [lluiseriksson/openai\-vp\-vnp\-separation\-certificates](https://github.com/lluiseriksson/openai-vp-vnp-separation-certificates) | 2026\-11\-26T05:56:45Z | MIT |
-| [lluiseriksson/openai\-tensor\-asymptotic\-spectrum\-certificates](https://github.com/lluiseriksson/openai-tensor-asymptotic-spectrum-certificates) | 2026\-11\-26T05:56:42Z | MIT |
-| [lluiseriksson/openai\-strongly\-polynomial\-lp\-certificates](https://github.com/lluiseriksson/openai-strongly-polynomial-lp-certificates) | 2026\-11\-26T05:56:39Z | MIT |
-| [lluiseriksson/openai\-strassen\-nine\-fourths\-certificates](https://github.com/lluiseriksson/openai-strassen-nine-fourths-certificates) | 2026\-11\-26T05:56:37Z | MIT |
-| [lluiseriksson/openai\-simple\-polytope\-diameter\-certificates](https://github.com/lluiseriksson/openai-simple-polytope-diameter-certificates) | 2026\-11\-26T05:56:36Z | MIT |
-| [lluiseriksson/openai\-omega\-nine\-fourths\-lower\-bound\-certificates](https://github.com/lluiseriksson/openai-omega-nine-fourths-lower-bound-certificates) | 2026\-11\-26T05:56:33Z | MIT |
-| [lluiseriksson/openai\-erdos\-rado\-sunflower\-certificates](https://github.com/lluiseriksson/openai-erdos-rado-sunflower-certificates) | 2026\-11\-26T05:56:29Z | MIT |
-| [lluiseriksson/oblivious\-unambiguous\-hierarchy\-certificates](https://github.com/lluiseriksson/oblivious-unambiguous-hierarchy-certificates) | 2026\-11\-26T05:56:27Z | MIT |
-| [lluiseriksson/oblivious\-unambiguous\-hierarchies\-certificates](https://github.com/lluiseriksson/oblivious-unambiguous-hierarchies-certificates) | 2026\-11\-26T05:56:25Z | MIT |
-| [lluiseriksson/nogo\-pspace\-certificates](https://github.com/lluiseriksson/nogo-pspace-certificates) | 2026\-11\-26T05:56:22Z | MIT |
-| [lluiseriksson/nine\-fourths\-phase\-certificates](https://github.com/lluiseriksson/nine-fourths-phase-certificates) | 2026\-11\-26T05:56:20Z | MIT |
-| [lluiseriksson/mpnn\-degbsat\-nexptime\-certificates](https://github.com/lluiseriksson/mpnn-degbsat-nexptime-certificates) | 2026\-11\-26T05:56:17Z | MIT |
+| [tsarihan/newmath\-rgh](https://github.com/tsarihan/newmath-rgh) | 2026\-11\-26T19:39:59Z | MIT |
+| [1337isnot1337/solved\-conjectures](https://github.com/1337isnot1337/solved-conjectures) | 2026\-11\-26T19:36:49Z | MIT |
+| [SimonSaysGiveMeSmile/opendesk\-proofs](https://github.com/SimonSaysGiveMeSmile/opendesk-proofs) | 2026\-11\-26T19:18:12Z | Apache\-2.0 |
+| [aravpanwar/dsmai](https://github.com/aravpanwar/dsmai) | 2026\-11\-26T19:11:20Z | MIT |
+| [lluiseriksson/null\-cone\-gravity\-sharp\-resummation\-tauberian](https://github.com/lluiseriksson/null-cone-gravity-sharp-resummation-tauberian) | 2026\-11\-26T19:08:36Z | MIT |
+| [lluiseriksson/npt\-bound\-entanglement\-sharp\-dimension\-family](https://github.com/lluiseriksson/npt-bound-entanglement-sharp-dimension-family) | 2026\-11\-26T19:08:35Z | MIT |
+| [lluiseriksson/extensive\-form\-nfce\-sharp\-gap\-and\-hardness](https://github.com/lluiseriksson/extensive-form-nfce-sharp-gap-and-hardness) | 2026\-11\-26T19:08:14Z | MIT |
+| [TuriMath/theorems](https://github.com/TuriMath/theorems) | 2026\-11\-26T18:48:03Z | unspecified |
+| [conao3/lean\-leanfran](https://github.com/conao3/lean-leanfran) | 2026\-11\-26T18:28:34Z | Apache\-2.0 |
+| [open\-challenges/shortest\-riemann\-hypothesis\-proof](https://github.com/open-challenges/shortest-riemann-hypothesis-proof) | 2026\-11\-26T17:26:22Z | Apache\-2.0 |
+| [lluiseriksson/unary\-tracker\-t\-count\-lower\-bounds](https://github.com/lluiseriksson/unary-tracker-t-count-lower-bounds) | 2026\-11\-26T17:21:15Z | NOASSERTION |
+| [lluiseriksson/pascal\-repeated\-entries\-sharp\-density](https://github.com/lluiseriksson/pascal-repeated-entries-sharp-density) | 2026\-11\-26T17:20:50Z | MIT |
+| [lluiseriksson/grh\-lean\-linear\-window\-sharp\-bounds](https://github.com/lluiseriksson/grh-lean-linear-window-sharp-bounds) | 2026\-11\-26T17:20:11Z | NOASSERTION |
+| [esnow100/torah\-lean](https://github.com/esnow100/torah-lean) | 2026\-11\-26T17:15:52Z | Apache\-2.0 |
+| [V1jey04/remoteness\-conjecture\-disproof](https://github.com/V1jey04/remoteness-conjecture-disproof) | 2026\-11\-26T17:01:20Z | NOASSERTION |
+| [idyllic47/square\-boundary\-covering\-lean4](https://github.com/idyllic47/square-boundary-covering-lean4) | 2026\-11\-26T17:00:15Z | MIT |
+| [0thernes/0thernes\-research\-archive](https://github.com/0thernes/0thernes-research-archive) | 2026\-11\-26T16:46:41Z | NOASSERTION |
+| [leanprover\-community/physlib](https://github.com/leanprover-community/physlib) | 2026\-11\-26T16:22:39Z | Apache\-2.0 |
+| [0thernes/cayley\-dickson\-terrace\-frontier](https://github.com/0thernes/cayley-dickson-terrace-frontier) | 2026\-11\-26T16:06:47Z | NOASSERTION |
+| [josusanmartin/riemann](https://github.com/josusanmartin/riemann) | 2026\-11\-26T16:00:01Z | MIT |
+| [DarthCeltic/MathCase](https://github.com/DarthCeltic/MathCase) | 2026\-11\-26T15:57:41Z | Apache\-2.0 |
+| [anaxia\-research/prime\-counting\-rh](https://github.com/anaxia-research/prime-counting-rh) | 2026\-11\-26T15:52:16Z | MIT |
+| [anaxia\-research/liouville\-energy\-rh](https://github.com/anaxia-research/liouville-energy-rh) | 2026\-11\-26T15:52:00Z | MIT |
+| [anaxia\-research/chawla\-rh](https://github.com/anaxia-research/chawla-rh) | 2026\-11\-26T15:51:11Z | MIT |
+| [anaxia\-research/Polya\-rh](https://github.com/anaxia-research/Polya-rh) | 2026\-11\-26T15:51:09Z | MIT |
+| [anaxia\-research/lindelof\-rh](https://github.com/anaxia-research/lindelof-rh) | 2026\-11\-26T15:50:55Z | MIT |
+| [h5i\-dev/h5i](https://github.com/h5i-dev/h5i) | 2026\-11\-26T15:29:55Z | Apache\-2.0 |
+| [roiban1344/tetrahedral\-plus\-one\-squares](https://github.com/roiban1344/tetrahedral-plus-one-squares) | 2026\-11\-26T15:07:46Z | Apache\-2.0 |
+| [tamnd/mathlib](https://github.com/tamnd/mathlib) | 2026\-11\-26T14:32:14Z | unspecified |
+| [tamnd/mathlib\-lean](https://github.com/tamnd/mathlib-lean) | 2026\-11\-26T14:32:06Z | Apache\-2.0 |
+| [0thernes/unsolved\-problems\-mega\-atlas](https://github.com/0thernes/unsolved-problems-mega-atlas) | 2026\-11\-26T13:53:00Z | NOASSERTION |
+| [tiwe0/GeoChat](https://github.com/tiwe0/GeoChat) | 2026\-11\-26T13:46:52Z | Apache\-2.0 |
+| [huqingzhen8\-lgtm/erdos\-708\-g7](https://github.com/huqingzhen8-lgtm/erdos-708-g7) | 2026\-11\-26T13:35:06Z | MIT |
+| [0thernes/unsolved\-mathematics](https://github.com/0thernes/unsolved-mathematics) | 2026\-11\-26T13:31:24Z | NOASSERTION |
+| [jameswfoote/erk\-conjecture\-4.6](https://github.com/jameswfoote/erk-conjecture-4.6) | 2026\-11\-26T13:17:31Z | CC\-BY\-4.0 |
+| [erfano1991/token\-auction\-counterexample](https://github.com/erfano1991/token-auction-counterexample) | 2026\-11\-26T12:59:34Z | unspecified |
+| [erfano1991/math\-physics\-preprints](https://github.com/erfano1991/math-physics-preprints) | 2026\-11\-26T12:44:22Z | unspecified |
+| [Foxfire1st/ar\-rh\-proof\-skeleton](https://github.com/Foxfire1st/ar-rh-proof-skeleton) | 2026\-11\-26T12:43:40Z | unspecified |
+| [lluiseriksson/knodel\-matbg\-obstruction\-repair](https://github.com/lluiseriksson/knodel-matbg-obstruction-repair) | 2026\-11\-26T12:41:13Z | MIT |
+| [1gexiaoxuesheng/between\-theorems](https://github.com/1gexiaoxuesheng/between-theorems) | 2026\-11\-26T12:19:07Z | NOASSERTION |
 
 ## Mathematics community questions
 
@@ -166,46 +166,46 @@ Answer flags describe discussion on MathOverflow or Mathematics Stack Exchange. 
 
 | Question | Author | Score | Answered / accepted | Content license |
 | --- | --- | ---: | --- | --- |
-| [Equivalent norms on $\\left\\\{ f\\in \\mathcal\{C\}^1\(\[0,1\],\\mathbb\{R\}\), f\(0\)=0\\right\\\}$](https://math.stackexchange.com/questions/5156215) | [user37238](https://math.stackexchange.com/users/87392) | 1 | False / none | CC BY\-SA 4.0 |
-| [Pullback of the multiplication in Lie groups](https://math.stackexchange.com/questions/5156214) | [khashayar](https://math.stackexchange.com/users/1011445) | 0 | False / none | CC BY\-SA 4.0 |
-| [Unoriented simplicial sets](https://mathoverflow.net/questions/518201) | [Andy Sukowski\-Bang](https://mathoverflow.net/users/584752) | 1 | True / none | CC BY\-SA 4.0 |
-| [Is every finitely accessible category well\-copowered?](https://mathoverflow.net/questions/515681) | [Martin Brandenburg](https://mathoverflow.net/users/2841) | 7 | True / 518051 | CC BY\-SA 4.0 |
-| [Reducibility of chromatic polynomials of prism and antiprism graphs](https://math.stackexchange.com/questions/5111778) | [ZCos666](https://math.stackexchange.com/users/1329924) | 1 | False / none | CC BY\-SA 4.0 |
-| [How to Solve Problem Similar to IMO\(1995\) Problem](https://math.stackexchange.com/questions/1004248) | [math110](https://math.stackexchange.com/users/58742) | 2 | True / none | CC BY\-SA 4.0 |
-| [Signed\-domain representation of commutative $4D$ algebras \(tessarines\) and coherent addition](https://math.stackexchange.com/questions/5156213) | [Aleksandr](https://math.stackexchange.com/users/1565133) | 0 | False / none | CC BY\-SA 4.0 |
-| [Is every permutation the product of two involutions?](https://math.stackexchange.com/questions/497637) | [Avijit](https://math.stackexchange.com/users/60890) | 11 | True / 497674 | CC BY\-SA 4.0 |
-| [How do derivative of basis vector becomes cross product?](https://math.stackexchange.com/questions/5156211) | [Kanokpon Arm](https://math.stackexchange.com/users/715050) | 0 | False / none | CC BY\-SA 4.0 |
-| [If $x\_1, x\_2, \\dots, x\_\{n\}$ are the roots of $P\(x\) = x^\{n\} \+ nx \- 1$, determine the value of $\\sum\_\{i=1\}^\{n\} \\frac\{x\_i\}\{x\_i \- 1\}$.](https://math.stackexchange.com/questions/5155953) | [Fernando Meira](https://math.stackexchange.com/users/1784526) | 4 | True / none | CC BY\-SA 4.0 |
-| [Conceptual question about applying the uncertainty principle to a solution of finite duration](https://math.stackexchange.com/questions/5151959) | [Joako](https://math.stackexchange.com/users/909869) | 8 | True / none | CC BY\-SA 4.0 |
-| [Intermediate models $V\[x\]$ in a Mathias extension](https://mathoverflow.net/questions/518160) | [Goldstern](https://mathoverflow.net/users/14915) | 6 | False / none | CC BY\-SA 4.0 |
-| [Can Adrianov’s two dessin passports be matched by small moves?](https://mathoverflow.net/questions/518219) | [Sergiu Alexandru Bîsceanu](https://mathoverflow.net/users/470548) | 2 | False / none | CC BY\-SA 4.0 |
-| [Probability in a game of bridge](https://math.stackexchange.com/questions/235206) | [Belgi](https://math.stackexchange.com/users/21335) | 0 | True / 235211 | CC BY\-SA 3.0 |
-| [Upper bounds on the index of the Bhargava factorial](https://mathoverflow.net/questions/488879) | [Brian](https://mathoverflow.net/users/70508) | 3 | False / none | CC BY\-SA 4.0 |
-| [Show that the function $f\(x\) = \(x − a\) ^2 \\cot\(\(x − b\) ^2 \) \+ x$ takes on the value $\\frac\{a\+b\}2$ for some value of $x$.](https://math.stackexchange.com/questions/5156206) | [ribbit13](https://math.stackexchange.com/users/1789957) | -5 | False / none | CC BY\-SA 4.0 |
-| [Which of the following cannot be the class equation of a group $G$ of order $10$?](https://math.stackexchange.com/questions/2307834) | [Styles](https://math.stackexchange.com/users/329752) | 4 | True / none | CC BY\-SA 4.0 |
-| [Arithmetization of PA.](https://math.stackexchange.com/questions/5156209) | [Speltzu](https://math.stackexchange.com/users/1149919) | 0 | False / none | CC BY\-SA 4.0 |
-| [How to prove this trigonometric formula giving an angle of $81.00868\\dots^\\circ$ in a square?](https://math.stackexchange.com/questions/5156108) | [Jamil Sanjakdar](https://math.stackexchange.com/users/1662645) | 6 | True / 5156123 | CC BY\-SA 4.0 |
-| [arbitry value for $\\epsilon$](https://math.stackexchange.com/questions/5153097) | [Fernando Meira](https://math.stackexchange.com/users/1784526) | -3 | True / none | CC BY\-SA 4.0 |
-| [Does $\(\\operatorname\{Sq\}^2\)^\{\\smile2\}$ yield a order $4$ element of $H^\{13\}\(K\(\\mathbb Z,4\);\\mathbb Z\)$?](https://mathoverflow.net/questions/496928) | [truber the fighter](https://mathoverflow.net/users/543541) | 16 | True / 496993 | CC BY\-SA 4.0 |
-| [Calculating distance function from a piecewise velocity function \(pre\-calculus\)](https://math.stackexchange.com/questions/4203260) | [serenityp](https://math.stackexchange.com/users/951689) | 1 | False / none | CC BY\-SA 4.0 |
-| [Are these Ramanujan\-like formulas for $1/\\pi^2$ new?](https://mathoverflow.net/questions/514194) | [Timothy Chow](https://mathoverflow.net/users/3106) | 11 | True / none | CC BY\-SA 4.0 |
-| [Is it possible to find the center point of a sphere given 3 points on its surface?](https://math.stackexchange.com/questions/5154754) | [Dragon Nuggets](https://math.stackexchange.com/users/1787278) | 4 | True / 5155785 | CC BY\-SA 4.0 |
-| [Change of variable in functional integral](https://math.stackexchange.com/questions/4964463) | [Lê Dũng](https://math.stackexchange.com/users/539054) | 1 | False / none | CC BY\-SA 4.0 |
-| [Prove $\\frac\{x\(4x\-y\-z\)\}\{4x^2\+\(y\+z\)^2\}\+\\frac\{y\(4y\-z\-x\)\}\{4y^2\+\(z\+x\)^2\}\+\\frac\{z\(4z\-x\-y\)\}\{4z^2\+\(x\+y\)^2\}\\ge \\frac\{3\}\{4\}$](https://math.stackexchange.com/questions/5156200) | [Anonymous](https://math.stackexchange.com/users/1597897) | 0 | True / none | CC BY\-SA 4.0 |
-| [Steps to solve this system of equations: $\\sqrt\{x\}\+y=7$, $\\sqrt\{y\}\+x=11$](https://math.stackexchange.com/questions/108962) | user23205 | 7 | True / 108976 | CC BY\-SA 3.0 |
-| [Consequences of the Riemann hypothesis](https://mathoverflow.net/questions/17209) | [Andrea Ferretti](https://mathoverflow.net/users/828) | 187 | True / 17232 | CC BY\-SA 3.0 |
-| [On cutting a cube into mutually congruent solids \- other than by parallel planes](https://mathoverflow.net/questions/518167) | [Nandakumar R](https://mathoverflow.net/users/142600) | 0 | False / none | CC BY\-SA 4.0 |
+| [Cuboid for which the volume, the surface area and the perimeter are numerically equal](https://math.stackexchange.com/questions/803707) | user123733 | 3 | True / none | CC BY\-SA 3.0 |
+| [How can we derive the Rodrigues’ formula for $j\_n\(z\)$ from its integral representation?](https://math.stackexchange.com/questions/4358309) | [Solidification](https://math.stackexchange.com/users/470941) | 0 | True / none | CC BY\-SA 4.0 |
+| [Is the difference set of the Mian–Chowla sequence expected to have density zero?](https://mathoverflow.net/questions/518238) | [Najieb Tarhouni](https://mathoverflow.net/users/604234) | 1 | False / none | CC BY\-SA 4.0 |
+| [Another recursive function that always leads to 1?](https://math.stackexchange.com/questions/5156007) | [Julian Beauchamp](https://math.stackexchange.com/users/519725) | -1 | True / none | CC BY\-SA 4.0 |
+| [Analyticity of the Fractional Green Function](https://mathoverflow.net/questions/515625) | [Martinmath](https://mathoverflow.net/users/566100) | 1 | False / none | CC BY\-SA 4.0 |
+| [Mean and Variance of $\{S ^ 2\}$ when $\\frac\{\(n\-p\)\}\{ \\sigma ^ \{2\} \} \\cdot \{S ^ 2\} \\longrightarrow \{\\chi ^ 2 \}\{\(n\-p\)\}$](https://math.stackexchange.com/questions/2987831) | [Johnny Lod](https://math.stackexchange.com/users/613020) | 0 | False / none | CC BY\-SA 4.0 |
+| [Has this $n$\-tuple implementation been defined and used before?](https://mathoverflow.net/questions/518204) | [Zuhair Al\-Johar](https://mathoverflow.net/users/95347) | 1 | False / none | CC BY\-SA 4.0 |
+| [Schreier generators](https://math.stackexchange.com/questions/475590) | [Kumar](https://math.stackexchange.com/users/56813) | 1 | False / none | CC BY\-SA 4.0 |
 | [How to deduce that the same matrix $P$ diagonalizes both $A$ and $B$?](https://math.stackexchange.com/questions/5156140) | [Martin](https://math.stackexchange.com/users/1638354) | 1 | False / none | CC BY\-SA 4.0 |
-| [Existence of an $\\alpha$\-regular measure with positive measure on a binary digits do not have a limiting frequency](https://mathoverflow.net/questions/453132) | [Simple Conjugate](https://mathoverflow.net/users/510806) | 3 | False / none | CC BY\-SA 4.0 |
-| [Total Change vs Average Total Change](https://math.stackexchange.com/questions/3472123) | [Sight](https://math.stackexchange.com/users/733920) | 2 | True / none | CC BY\-SA 4.0 |
-| [Divide the vertex set of a graph into $k$ partitions, can the longest path of connected parts in induced subgraphs be bounded?](https://math.stackexchange.com/questions/4170080) | [iRoy33](https://math.stackexchange.com/users/939981) | 2 | False / none | CC BY\-SA 4.0 |
-| [Light condensed objects in D\(Ab\)](https://mathoverflow.net/questions/506847) | [Yutaro Mikami](https://mathoverflow.net/users/496060) | 7 | True / 511987 | CC BY\-SA 4.0 |
-| [Compact notational/numeral\-system\-like representations for polynomials, series, simple programs and iterating terms?](https://math.stackexchange.com/questions/5156199) | [rutabulum](https://math.stackexchange.com/users/1568295) | -1 | False / none | CC BY\-SA 4.0 |
-| [How far can we go with $n$ in the integral $\\int\_0^\{\\frac\{\\pi\}\{2\}\} \\frac\{x^n\}\{1\+\\sin x\+\\cos x\} d x?$](https://math.stackexchange.com/questions/5156131) | [Lai](https://math.stackexchange.com/users/732917) | 7 | True / none | CC BY\-SA 4.0 |
-| [Is a set\-like well\-founded relation isomorphic to a subclass of well\-founded sets?](https://math.stackexchange.com/questions/5156197) | [Jakobian](https://math.stackexchange.com/users/476484) | 2 | False / none | CC BY\-SA 4.0 |
-| [Factoring $a^\{10\}\+a^5\+1$](https://math.stackexchange.com/questions/24529) | [tom](https://math.stackexchange.com/users/3128) | 5 | True / none | CC BY\-SA 4.0 |
-| [Is every $f\(k\)$\-vertex\-connected graph the edge\-disjoint union of two $k$\-vertex\-connected graphs?](https://math.stackexchange.com/questions/3099687) | [David Hackenger](https://math.stackexchange.com/users/200680) | 4 | True / none | CC BY\-SA 4.0 |
-| [A function that is open but neither closed not continuous \(in 2D\).](https://math.stackexchange.com/questions/1863560) | [Michael Maliszesky](https://math.stackexchange.com/users/262457) | 6 | True / none | CC BY\-SA 4.0 |
+| [The minimal Goldbach basis](https://mathoverflow.net/questions/54710) | [Unknown](https://mathoverflow.net/users/5627) | 3 | True / 54719 | CC BY\-SA 2.5 |
+| [Reference request: infinitary languages in the choiceless context](https://mathoverflow.net/questions/518045) | [Beau Madison Mount](https://mathoverflow.net/users/91635) | 9 | True / none | CC BY\-SA 4.0 |
+| [Is a set\-like well\-founded relation isomorphic to a subclass of well\-founded sets?](https://math.stackexchange.com/questions/5156197) | [Jakobian](https://math.stackexchange.com/users/476484) | 4 | True / none | CC BY\-SA 4.0 |
+| [Pushforward of the multiplication in Lie groups](https://math.stackexchange.com/questions/5156214) | [khashayar](https://math.stackexchange.com/users/1011445) | 0 | False / none | CC BY\-SA 4.0 |
+| [Which of the following cannot be the class equation of a group $G$ of order $10$?](https://math.stackexchange.com/questions/2307834) | [Styles](https://math.stackexchange.com/users/329752) | 4 | True / none | CC BY\-SA 4.0 |
+| [On tiling the surface of a sphere with congruent convex regions that are not lunes](https://mathoverflow.net/questions/518030) | [Nandakumar R](https://mathoverflow.net/users/142600) | 5 | True / none | CC BY\-SA 4.0 |
+| [What are the implications of a proof that $VP \\neq VNP$?](https://mathoverflow.net/questions/518197) | [David White](https://mathoverflow.net/users/11540) | 24 | True / none | CC BY\-SA 4.0 |
+| [How does one apply induction to an index set not consisting of consecutive integers?](https://math.stackexchange.com/questions/5156242) | [MickeLil](https://math.stackexchange.com/users/1690473) | 4 | True / 5156243 | CC BY\-SA 4.0 |
+| [Is it known whether the composition of two PPT channels is always antidegradable?](https://mathoverflow.net/questions/512916) | [Mario](https://mathoverflow.net/users/594705) | 2 | False / none | CC BY\-SA 4.0 |
+| [A geometric proof of the sum of the roots of a monic quadratic equation.](https://math.stackexchange.com/questions/5154741) | [Héctor Joshua Carrillo Llanes](https://math.stackexchange.com/users/1787257) | 1 | False / none | CC BY\-SA 4.0 |
+| [Prove $\\sum\\limits\_\{\\mathrm\{cyc\}\} \\frac\{1\}\{\\sqrt\{\(a\+1\)\(ab\+ac\)\}\}\\ge \\sqrt\{\\frac\{\\frac\{1\}\{a\}\+\\frac\{1\}\{b\}\+\\frac\{1\}\{c\}\+1\}\{a\+b\+c\+1\}\}$ for positives $abc=9$](https://math.stackexchange.com/questions/5155838) | [Anonymous](https://math.stackexchange.com/users/1597897) | 3 | True / none | CC BY\-SA 4.0 |
+| [Has the frequency of local maxima among consecutive values of max\|zeta\| between zeros been studied?](https://mathoverflow.net/questions/518185) | [CharlieCharlesChuck](https://mathoverflow.net/users/604140) | -1 | False / none | CC BY\-SA 4.0 |
+| [If $X$ is connected, reduced proper over $k$ then every morphism $X \\to \\operatorname\{Spec\} A$ is constant](https://math.stackexchange.com/questions/5156244) | [Henrique de Cristo da Fonseca](https://math.stackexchange.com/users/1746837) | 1 | False / none | CC BY\-SA 4.0 |
+| [Fractional ideals of maximal orders in quaternion algebras](https://mathoverflow.net/questions/301225) | [jgerrit](https://mathoverflow.net/users/124923) | 3 | False / none | CC BY\-SA 4.0 |
+| [How to plot the phase portrait \(in a nice way\) of the autonomous system?](https://math.stackexchange.com/questions/5155999) | [Learner](https://math.stackexchange.com/users/1355837) | 5 | True / none | CC BY\-SA 4.0 |
+| [Zeros of a symmetrized divisor sum: an arithmetic Fourier quasicrystal. How do its Riesz bounds behave?](https://mathoverflow.net/questions/518234) | [Pedro Caceres](https://mathoverflow.net/users/601958) | 0 | False / none | CC BY\-SA 4.0 |
+| [How to Solve Problem Similar to IMO\(1995\) Problem](https://math.stackexchange.com/questions/1004248) | [math110](https://math.stackexchange.com/users/58742) | 2 | True / none | CC BY\-SA 4.0 |
+| [Is it possible to work out the widths of each segment in the piecewise functions defined by these constraints?](https://math.stackexchange.com/questions/5151862) | [Lawton](https://math.stackexchange.com/users/530932) | 0 | False / none | CC BY\-SA 4.0 |
+| [Probability of two partners having 3 spades each \(Bridge game\)](https://math.stackexchange.com/questions/4555793) | [utobi](https://math.stackexchange.com/users/220145) | 0 | False / none | CC BY\-SA 4.0 |
+| [Steps to solve this system of equations: $\\sqrt\{x\}\+y=7$, $\\sqrt\{y\}\+x=11$](https://math.stackexchange.com/questions/108962) | user23205 | 7 | True / 108976 | CC BY\-SA 3.0 |
+| [Is there a parametrization for this equation: $a^2\+b^4\+c^8\+d^\{16\}=e^\{32\}$?](https://math.stackexchange.com/questions/5154498) | [Hsi\-yung](https://math.stackexchange.com/users/1784910) | 6 | True / none | CC BY\-SA 4.0 |
+| [Is there a closed form for $b\_\{n,m\}\(x\)=\\sum\_\{i=1\}^m \\frac\{b\_\{n\-1,i\}\(1\)\}\{4i^2\-1\}x^i$?](https://math.stackexchange.com/questions/4789423) | [tzk](https://math.stackexchange.com/users/1134161) | 7 | True / 4789512 | CC BY\-SA 4.0 |
+| [Bounding elementary symmetric polynomials away from zero](https://mathoverflow.net/questions/476077) | [Nathaniel Johnston](https://mathoverflow.net/users/11236) | 6 | False / none | CC BY\-SA 4.0 |
+| [Smallest Number of Strings to Distinguish $n$ Pairwise $L$\-distinguishable Strings](https://math.stackexchange.com/questions/545835) | [A.E](https://math.stackexchange.com/users/82485) | 5 | False / none | CC BY\-SA 4.0 |
+| [Reference request: Every quasitopos is an Artin gluing of a solid quasitopos and a Heyting algebra](https://mathoverflow.net/questions/518232) | [Daniel Schepler](https://mathoverflow.net/users/129963) | 3 | False / none | CC BY\-SA 4.0 |
+| [Problems that become easier in a more general form](https://math.stackexchange.com/questions/899109) | [MGA](https://math.stackexchange.com/users/60273) | 108 | True / none | CC BY\-SA 4.0 |
+| [Depth of commutators in arithmetic groups](https://mathoverflow.net/questions/518231) | [Jean Raimbault](https://mathoverflow.net/users/32210) | 4 | False / none | CC BY\-SA 4.0 |
+| [Does the quadratic formula always work for a quadratic?](https://math.stackexchange.com/questions/1098611) | [Alex](https://math.stackexchange.com/users/206876) | 2 | True / none | CC BY\-SA 3.0 |
+| [Is every powerful number the sum of a powerful number and a prime?](https://mathoverflow.net/questions/269080) | [Pietro Paparella](https://mathoverflow.net/users/104633) | 14 | False / none | CC BY\-SA 4.0 |
+| [Intersection with Vitali Set not measurable](https://math.stackexchange.com/questions/4193485) | [Flo](https://math.stackexchange.com/users/831892) | 2 | True / none | CC BY\-SA 4.0 |
+| [Can Hilbert's hotel handle online arrivals of any countable well\-ordered sequence?](https://math.stackexchange.com/questions/5156124) | [Eric](https://math.stackexchange.com/users/909833) | 11 | True / 5156145 | CC BY\-SA 4.0 |
 
 ## Primary research blog feeds
 
