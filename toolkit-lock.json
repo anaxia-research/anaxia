@@ -1,11 +1,11 @@
 {
-  "captured_at_utc": "2026-11-26T23:51:11.516347+00:00",
+  "captured_at_utc": "2026-11-27T08:27:56.650762+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "2a7a1fb7323dcb7f2c1bcc87b675c8396a116112",
+      "commit": "bf427be4826ca21f7b4e8917b49927d5c339bf82",
       "default_branch": "master"
     },
     {
